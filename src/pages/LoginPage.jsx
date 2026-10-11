@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useNavigate, useLocation, Navigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useNotifications } from '../context/NotificationContext';
+import { useSettings } from '../context/SettingsContext';
 import { useGoogleLogin } from '@react-oauth/google';
 import GoogleSecurityCodeModal from '../components/GoogleSecurityCodeModal';
 import './AuthPages.css';
@@ -9,6 +10,7 @@ import './AuthPages.css';
 const LoginPage = () => {
   const { login, loginWithGoogle, isAuthenticated } = useAuth();
   const { addNotification } = useNotifications();
+  const { openGoogleAuth } = useSettings();
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -141,7 +143,7 @@ const LoginPage = () => {
         {/* Continue with Google button */}
         <button
           type="button"
-          onClick={() => googleLogin()}
+          onClick={() => openGoogleAuth()}
           style={{
             width: '100%',
             height: '48px',

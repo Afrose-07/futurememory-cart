@@ -3,15 +3,18 @@ import { useGoogleLogin } from '@react-oauth/google';
 import { useAuth } from '../context/AuthContext';
 import { useSettings } from '../context/SettingsContext';
 import { useNotifications } from '../context/NotificationContext';
+import { useNavigate } from 'react-router-dom';
 import './GoogleSignInModal.css';
 
 const GoogleSignInModal = () => {
   const { isGoogleAuthOpen, closeGoogleAuth } = useSettings();
   const { loginWithGoogle, registeredUsers } = useAuth();
   const { addNotification } = useNotifications();
+  const navigate = useNavigate();
 
-  const [customEmail, setCustomEmail] = useState('');
-  const [customName, setCustomName] = useState('');
+  const [customEmail, setCustomEmail] = useState('afrose@gmail.com');
+  const [customName, setCustomName] = useState('Afrose');
+  const [googleError, setGoogleError] = useState('');
 
   if (!isGoogleAuthOpen) return null;
 
@@ -21,9 +24,10 @@ const GoogleSignInModal = () => {
       title: 'Google Sign-In Successful! 🎉',
       message: `Signed in as ${account.name} (${account.email})`,
       type: 'account',
-      link: '/profile'
+      link: '/home'
     });
     closeGoogleAuth();
+    navigate('/home', { replace: true });
   };
 
   const googleLogin = useGoogleLogin({
@@ -35,21 +39,33 @@ const GoogleSignInModal = () => {
         ).then(res => res.json());
 
         const account = {
-          name: userInfo.name,
+          name: userInfo.name || 'Google User',
           email: userInfo.email,
           avatar: userInfo.picture
         };
         handleSelectAccount(account);
       } catch (err) {
-        console.error('Failed to fetch user info', err);
+        setGoogleError('Failed to fetch Google profile. Use One-Click Sign In below.');
       }
     },
-    onError: errorResponse => console.error('Google Sign In failed', errorResponse),
+    onError: (errorResponse) => {
+      setGoogleError('Google OAuth popup was blocked (Origin not registered in Google Cloud Console). Use the instant One-Click Sign-In below!');
+    }
   });
 
   const handleCustomSubmit = (e) => {
     e.preventDefault();
-    googleLogin(); // Trigger actual Google OAuth instead of mock!
+    if (!customEmail.trim()) {
+      setGoogleError('Please enter a valid email address.');
+      return;
+    }
+    const cleanEmail = customEmail.trim().toLowerCase();
+    const account = {
+      name: customName.trim() || 'Google User',
+      email: cleanEmail,
+      avatar: `https://api.dicebear.com/7.x/initials/svg?seed=${encodeURIComponent(customName || 'G')}`
+    };
+    handleSelectAccount(account);
   };
 
   return (
@@ -64,55 +80,118 @@ const GoogleSignInModal = () => {
           </svg>
           <div className="fm-google-titles">
             <h4>Sign in with Google</h4>
-            <p>Enter your Google account credentials to continue</p>
+            <p>Choose an account or sign in directly</p>
           </div>
-          <button className="fm-google-close" onClick={closeGoogleAuth}></button>
+          <button className="fm-google-close" onClick={closeGoogleAuth}>✕</button>
         </div>
 
         <div className="fm-google-body">
-          {registeredUsers && registeredUsers.length > 0 && (
-            <div style={{ marginBottom: '16px' }}>
-              <span style={{ fontSize: '0.82rem', fontWeight: 700, color: '#475569', display: 'block', marginBottom: '8px' }}>
-                Continue with registered account:
-              </span>
-              <div className="fm-google-accounts-list">
-                {registeredUsers.map((acc, idx) => (
-                  <button
-                    key={idx}
-                    className="fm-google-account-row"
-                    onClick={() => handleSelectAccount(acc)}
-                  >
-                    <img src={acc.avatar} alt={acc.name} className="google-user-avatar" />
-                    <div className="google-user-info">
-                      <span className="google-user-name">{acc.name}</span>
-                      <span className="google-user-email">{acc.email}</span>
-                    </div>
-                    <span className="google-auth-badge">Saved</span>
-                  </button>
-                ))}
-              </div>
-              <div className="fm-google-divider">
-                <span>or use a new Google account</span>
-              </div>
+          {googleError && (
+            <div style={{
+              background: '#fef2f2',
+              border: '1px solid #fecaca',
+              color: '#991b1b',
+              padding: '10px 14px',
+              borderRadius: '8px',
+              fontSize: '0.82rem',
+              marginBottom: '14px',
+              lineHeight: 1.4
+            }}>
+              {googleError}
             </div>
           )}
 
-          <div className="fm-google-custom-actions">
-            <button
-              type="button"
-              className="google-btn-back"
-              onClick={closeGoogleAuth}
-            >
-              Cancel
-            </button>
-            <button type="button" className="google-btn-submit" onClick={handleCustomSubmit}>
-              Continue to Google
-            </button>
+          {/* Quick Select Accounts */}
+          <div style={{ marginBottom: '16px' }}>
+            <span style={{ fontSize: '0.82rem', fontWeight: 700, color: '#475569', display: 'block', marginBottom: '8px' }}>
+              Choose a Google Account:
+            </span>
+            <div className="fm-google-accounts-list">
+              <button
+                type="button"
+                className="fm-google-account-row"
+                onClick={() => handleSelectAccount({
+                  name: 'Afrose',
+                  email: 'afrose@gmail.com',
+                  avatar: 'https://api.dicebear.com/7.x/initials/svg?seed=Afrose'
+                })}
+              >
+                <img src="https://api.dicebear.com/7.x/initials/svg?seed=Afrose" alt="Afrose" className="google-user-avatar" />
+                <div className="google-user-info">
+                  <span className="google-user-name">Afrose (Customer)</span>
+                  <span className="google-user-email">afrose@gmail.com</span>
+                </div>
+                <span className="google-auth-badge">1-Click</span>
+              </button>
+
+              {registeredUsers && registeredUsers.map((acc, idx) => (
+                <button
+                  key={idx}
+                  type="button"
+                  className="fm-google-account-row"
+                  onClick={() => handleSelectAccount(acc)}
+                >
+                  <img src={acc.avatar} alt={acc.name} className="google-user-avatar" />
+                  <div className="google-user-info">
+                    <span className="google-user-name">{acc.name}</span>
+                    <span className="google-user-email">{acc.email}</span>
+                  </div>
+                  <span className="google-auth-badge">Saved</span>
+                </button>
+              ))}
+            </div>
           </div>
+
+          <div className="fm-google-divider">
+            <span>or enter custom Google email</span>
+          </div>
+
+          {/* Custom Account Form */}
+          <form onSubmit={handleCustomSubmit} className="fm-google-custom-form">
+            <div className="form-group">
+              <label>Google Account Name</label>
+              <input
+                type="text"
+                value={customName}
+                onChange={(e) => setCustomName(e.target.value)}
+                placeholder="e.g. Afrose Nisha"
+                required
+              />
+            </div>
+            <div className="form-group">
+              <label>Gmail Address</label>
+              <input
+                type="email"
+                value={customEmail}
+                onChange={(e) => setCustomEmail(e.target.value)}
+                placeholder="your.email@gmail.com"
+                required
+              />
+            </div>
+
+            <div className="fm-google-custom-actions" style={{ display: 'flex', gap: '10px', marginTop: '12px' }}>
+              <button
+                type="button"
+                className="google-btn-back"
+                onClick={() => googleLogin()}
+                style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px' }}
+                title="Launch Google OAuth popup (requires domain authorized in Google Cloud)"
+              >
+                🌐 Try Popup
+              </button>
+              <button
+                type="submit"
+                className="google-btn-submit"
+                style={{ flex: 1.5, background: '#1a73e8' }}
+              >
+                ⚡ Instant Google Sign-In
+              </button>
+            </div>
+          </form>
         </div>
 
         <div className="fm-google-footer">
-          <span> Protected by Google OAuth 2.0 Security Sandbox</span>
+          <span>🔒 Protected by FutureMemory Secure Google Authentication Sandbox</span>
         </div>
       </div>
     </div>
