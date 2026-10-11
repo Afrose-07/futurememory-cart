@@ -16,8 +16,6 @@ const GoogleSignInModal = () => {
   const [customName, setCustomName] = useState('Afrose');
   const [googleError, setGoogleError] = useState('');
 
-  if (!isGoogleAuthOpen) return null;
-
   const handleSelectAccount = (account) => {
     loginWithGoogle(account);
     addNotification({
@@ -30,6 +28,7 @@ const GoogleSignInModal = () => {
     navigate('/home', { replace: true });
   };
 
+  // MUST BE CALLED UNCONDITIONALLY AT TOP LEVEL BEFORE ANY RETURN
   const googleLogin = useGoogleLogin({
     onSuccess: async (tokenResponse) => {
       try {
@@ -67,6 +66,9 @@ const GoogleSignInModal = () => {
     };
     handleSelectAccount(account);
   };
+
+  // CONDITION CHECK ONLY AFTER ALL HOOKS HAVE BEEN EXECUTED!
+  if (!isGoogleAuthOpen) return null;
 
   return (
     <div className="fm-google-backdrop" onClick={closeGoogleAuth}>

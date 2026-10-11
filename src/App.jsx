@@ -126,7 +126,9 @@ function AppContent() {
 
       {/* Global Features: Settings, Google Auth, 7-days Return Wizard & Tanglish Chatbot */}
       <SettingsModal />
-      <GoogleSignInModal />
+      <ErrorBoundary>
+        <GoogleSignInModal />
+      </ErrorBoundary>
       <ReturnRequestModal />
       <Chatbot />
     </div>
