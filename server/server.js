@@ -201,3 +201,6 @@ app.listen(PORT, async () => {
     console.warn('⚠️ [WhatsApp Bot Init Notice]:', waErr.message);
   }
 });
+
+export default app;
+
