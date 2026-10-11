@@ -1,0 +1,213 @@
+.fm-cart-page {
+  padding-bottom: 60px;
+}
+
+.fm-cart-layout {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 36px;
+  align-items: flex-start;
+}
+
+.fm-cart-items-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fm-cart-memory-callout {
+  background: #f0f9ff;
+  border: 1.5px solid #bae6fd;
+  border-radius: 16px;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.callout-icon {
+  font-size: 2rem;
+}
+
+.callout-text {
+  flex: 1;
+  min-width: 240px;
+}
+
+.callout-text h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #0369a1;
+  margin-bottom: 4px;
+}
+
+.callout-text p {
+  font-size: 0.85rem;
+  color: var(--memory-color);
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Summary Card */
+.fm-cart-summary-col {
+  position: sticky;
+  top: 90px;
+}
+
+.fm-summary-card {
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #e2e8f0;
+  padding: 28px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+}
+
+.fm-summary-title {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 20px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.fm-summary-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.fm-summary-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.925rem;
+  color: #475569;
+}
+
+.discount-row {
+  color: #dc2626;
+}
+
+.promo-row {
+  color: #16a34a;
+}
+
+.green-val {
+  color: #16a34a;
+  font-weight: 700;
+}
+
+.bold-val {
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.fm-free-shipping-hint {
+  background: #f0fdf4;
+  color: #15803d;
+  font-size: 0.78rem;
+  padding: 6px 10px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.fm-summary-divider {
+  border: none;
+  border-top: 1.5px dashed #cbd5e1;
+  margin: 8px 0;
+}
+
+.fm-summary-total-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.final-price {
+  font-size: 1.6rem;
+  color: var(--primary-color);
+}
+
+/* Promo Form */
+.fm-promo-form {
+  margin-bottom: 24px;
+}
+
+.fm-promo-input-group {
+  display: flex;
+  gap: 8px;
+}
+
+.fm-promo-input-group input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  outline: none;
+}
+.fm-promo-input-group input:focus {
+  border-color: var(--primary-color);
+}
+
+.fm-promo-input-group button {
+  background: #0f172a;
+  color: #ffffff;
+  padding: 0 16px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.fm-applied-promo-box {
+  background: #dcfce7;
+  color: #15803d;
+  padding: 10px 14px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.fm-applied-promo-box button {
+  background: none;
+  border: none;
+  color: #dc2626;
+  font-weight: 700;
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+
+.fm-coupon-feedback {
+  font-size: 0.8rem;
+  margin-top: 6px;
+}
+.fm-coupon-feedback.success { color: #16a34a; }
+.fm-coupon-feedback.error { color: #dc2626; }
+
+.fm-summary-trust {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 18px;
+  text-align: center;
+  font-size: 0.78rem;
+  color: #64748b;
+}
+
+@media (max-width: 992px) {
+  .fm-cart-layout {
+    grid-template-columns: 1fr;
+  }
+  .fm-cart-summary-col {
+    position: static;
+  }
+}

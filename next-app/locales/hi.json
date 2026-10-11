@@ -1,0 +1,28 @@
+{
+  "Header": {
+    "searchPlaceholder": "उत्पाद और ब्रांड खोजें...",
+    "login": "लॉग इन / साइन अप",
+    "cart": "कार्ट",
+    "wishlist": "विशलिस्ट"
+  },
+  "Navigation": {
+    "men": "पुरुष",
+    "women": "महिलाएं",
+    "kids": "बच्चे",
+    "footwear": "जूते",
+    "accessories": "सामान"
+  },
+  "Home": {
+    "trending": "अब ट्रेंडिंग",
+    "newArrivals": "नई आवक",
+    "offers": "विशेष ऑफर",
+    "shopNow": "अभी खरीदें"
+  },
+  "Footer": {
+    "about": "हमारे बारे में",
+    "contact": "संपर्क करें",
+    "privacy": "गोपनीयता नीति",
+    "terms": "सेवा की शर्तें",
+    "rights": "© 2024 FutureMemory Cart. सर्वाधिकार सुरक्षित।"
+  }
+}

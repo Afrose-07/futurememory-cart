@@ -1,0 +1,80 @@
+.fm-page-header {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  border-bottom: 1px solid #e2e8f0;
+  padding: 32px 0 28px 0;
+  margin-bottom: 32px;
+}
+
+.fm-breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.825rem;
+  color: #64748b;
+  margin-bottom: 12px;
+}
+
+.fm-breadcrumbs a {
+  color: #64748b;
+  transition: color 0.2s;
+}
+
+.fm-breadcrumbs a:hover {
+  color: var(--primary-color);
+}
+
+.fm-breadcrumb-separator {
+  color: #cbd5e1;
+}
+
+.fm-breadcrumb-current {
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.fm-page-header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.fm-page-title-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.fm-page-title {
+  font-size: 1.9rem;
+  font-weight: 800;
+  color: #0f172a;
+  letter-spacing: -0.5px;
+  margin: 0;
+}
+
+.fm-page-badge {
+  background: #eef2ff;
+  color: var(--primary-color);
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  border: 1px solid #c7d2fe;
+}
+
+.fm-page-subtitle {
+  font-size: 1rem;
+  color: #64748b;
+  margin-top: 6px;
+  max-width: 680px;
+  line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+  .fm-page-title {
+    font-size: 1.5rem;
+  }
+}

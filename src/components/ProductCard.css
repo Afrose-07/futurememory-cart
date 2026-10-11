@@ -1,0 +1,340 @@
+.fm-product-card {
+  background: #ffffff;
+  border-radius: 14px;
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.fm-product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -6px rgba(0, 0, 0, 0.08), 0 4px 8px -4px rgba(0, 0, 0, 0.03);
+  border-color: #cbd5e1;
+}
+
+.fm-card-toast {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(15, 23, 42, 0.9);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  z-index: 20;
+  pointer-events: none;
+  animation: fmFadeIn 0.2s ease;
+  white-space: nowrap;
+}
+
+.fm-card-image-wrap {
+  position: relative;
+  width: 100%;
+  height: 210px;
+  background: #f8fafc;
+  overflow: hidden;
+}
+
+.fm-card-img-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.fm-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.fm-product-card:hover .fm-card-img {
+  transform: scale(1.05);
+}
+
+.fm-card-top-badges {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none;
+}
+
+.fm-wishlist-toggle-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  pointer-events: auto;
+  background: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 5;
+}
+
+.fm-wishlist-toggle-btn:hover {
+  transform: scale(1.15);
+  background: #ffffff;
+  border-color: #fecdd3;
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.2);
+}
+
+.fm-wishlist-toggle-btn.active {
+  background: #fff1f2;
+  border-color: #fca5a5;
+}
+
+.fm-card-wish-btn {
+  pointer-events: auto;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+}
+
+.fm-card-wish-btn:hover {
+  transform: scale(1.15);
+}
+
+.fm-card-occasion-tags {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  display: flex;
+  gap: 4px;
+}
+
+.fm-tag-chip {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(4px);
+  color: #ffffff;
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+
+.fm-card-details {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.fm-card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.fm-card-category {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #6366f1;
+  letter-spacing: 0.04em;
+}
+
+.fm-card-rating {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 0.78rem;
+  color: #0f172a;
+}
+
+.fm-card-title-link {
+  text-decoration: none;
+}
+
+.fm-card-title {
+  font-size: 0.975rem;
+  font-weight: 700;
+  color: #0f172a;
+  line-height: 1.35;
+  margin-bottom: 6px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.fm-card-title:hover {
+  color: var(--primary-color);
+}
+
+.fm-card-desc {
+  font-size: 0.8rem;
+  color: #64748b;
+  line-height: 1.4;
+  margin-bottom: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.fm-card-price-row {
+  margin-top: auto;
+  margin-bottom: 14px;
+}
+
+.fm-card-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.fm-card-special-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+.fm-special-btn {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 6px 4px;
+  border-radius: 8px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fm-special-btn.memory-btn {
+  color: var(--memory-color);
+  border-color: #bae6fd;
+}
+.fm-special-btn.memory-btn:hover {
+  background: #e0f2fe;
+}
+.fm-special-btn.memory-btn.is-active {
+  background: var(--memory-color);
+  color: #ffffff;
+}
+
+.fm-special-btn.future-btn {
+  color: var(--future-color);
+  border-color: #ddd6fe;
+}
+.fm-special-btn.future-btn:hover {
+  background: #f3e8ff;
+}
+.fm-special-btn.future-btn.is-active {
+  background: var(--future-color);
+  color: #ffffff;
+}
+
+/* Memory Modal Inner Elements */
+.memory-modal-product-summary {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e2e8f0;
+  margin-bottom: 16px;
+}
+
+.memory-modal-product-summary img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.memory-modal-explanation {
+  background: #f0f9ff;
+  border-left: 4px solid var(--memory-color);
+  padding: 12px 14px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: #0369a1;
+  margin-bottom: 20px;
+}
+
+.memory-modal-selector label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  color: #1e293b;
+}
+
+.memory-options-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.memory-opt-btn {
+  background: #ffffff;
+  border: 1.5px solid #cbd5e1;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #334155;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+.memory-opt-btn:hover {
+  border-color: var(--memory-color);
+  background: #f0f9ff;
+}
+
+.memory-opt-btn.selected {
+  border-color: var(--memory-color);
+  background: var(--memory-color);
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(2, 132, 199, 0.3);
+}
+
+.fm-card-guarantee-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(22, 163, 74, 0.08);
+  border: 1px solid rgba(22, 163, 74, 0.2);
+  color: #16a34a;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.fm-card-guarantee-badge .guarantee-icon {
+  font-size: 0.85rem;
+}

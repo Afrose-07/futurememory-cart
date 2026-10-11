@@ -1,0 +1,213 @@
+.fm-memory-card {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1.5px solid #e2e8f0;
+  padding: 16px;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.fm-memory-card:hover {
+  border-color: #38bdf8;
+  box-shadow: 0 8px 24px rgba(14, 165, 233, 0.08);
+}
+
+.fm-memory-card.is-due {
+  border-color: #f59e0b;
+  background: #fffdf5;
+  box-shadow: 0 8px 24px rgba(245, 158, 11, 0.12);
+}
+
+.fm-memory-toast {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--memory-color);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  z-index: 10;
+}
+
+.fm-memory-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.badge-due {
+  background: #fef3c7;
+  color: #b45309;
+  font-weight: 700;
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  border: 1px solid #fde68a;
+}
+
+.badge-upcoming {
+  background: #e0f2fe;
+  color: #0369a1;
+  font-weight: 600;
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  border: 1px solid #bae6fd;
+}
+
+.fm-memory-remove {
+  background: none;
+  border: none;
+  color: #94a3b8;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.fm-memory-remove:hover {
+  color: #ef4444;
+}
+
+.fm-memory-body {
+  display: flex;
+  gap: 16px;
+}
+
+.fm-memory-img-link {
+  width: 110px;
+  height: 110px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #f8fafc;
+}
+
+.fm-memory-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fm-memory-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.fm-memory-cat {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--memory-color);
+  text-transform: uppercase;
+}
+
+.fm-memory-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #0f172a;
+  text-decoration: none;
+  margin: 2px 0 6px 0;
+}
+.fm-memory-title:hover {
+  color: var(--memory-color);
+}
+
+.fm-memory-pricing-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.fm-memory-price-drop-pill {
+  background: #dcfce7;
+  color: #15803d;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.fm-memory-schedule-box {
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 8px 12px;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.fm-schedule-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule-label {
+  font-size: 0.68rem;
+  color: #64748b;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.schedule-val {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.fm-memory-edit-panel {
+  background: #f0f9ff;
+  border: 1px solid #bae6fd;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.fm-memory-edit-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.fm-memory-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.fm-memory-subactions {
+  display: flex;
+  gap: 8px;
+}
+
+.fm-subaction-btn {
+  background: none;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #475569;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.fm-subaction-btn:hover {
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
+@media (max-width: 500px) {
+  .fm-memory-body {
+    flex-direction: column;
+  }
+  .fm-memory-img-link {
+    width: 100%;
+    height: 140px;
+  }
+}

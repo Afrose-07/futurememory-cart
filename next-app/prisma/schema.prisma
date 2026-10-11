@@ -1,0 +1,266 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                  String         @id @default(uuid())
+  email               String         @unique
+  phone               String?        @unique // E.164 format +91...
+  passwordHash        String
+  name                String
+  isPhoneVerified     Boolean        @default(false)
+  notificationChannel Channel        @default(WHATSAPP)
+  promoOptIn          Boolean        @default(false)
+  language            Language       @default(EN)
+  role                Role           @default(USER)
+  createdAt           DateTime       @default(now())
+  updatedAt           DateTime       @updatedAt
+
+  orders              Order[]
+  addresses           Address[]
+  wishlist            Wishlist?
+  sessions            Session[]
+  notifications       Notification[]
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum Channel {
+  WHATSAPP
+  EMAIL
+}
+
+enum Language {
+  EN
+  TA
+  HI
+}
+
+model Otp {
+  id        String   @id @default(uuid())
+  phone     String?
+  userId    String?
+  hash      String
+  purpose   String   // SIGNUP, PASSWORD_RESET
+  expiresAt DateTime
+  attempts  Int      @default(0)
+  used      Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
+
+model Session {
+  id               String   @id @default(uuid())
+  userId           String
+  user             User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  refreshTokenHash String
+  device           String?
+  ip               String?
+  expiresAt        DateTime
+  createdAt        DateTime @default(now())
+}
+
+model Notification {
+  id                String   @id @default(uuid())
+  userId            String
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  event             String
+  channel           Channel
+  template          String
+  language          Language
+  status            String   // QUEUED, SENT, DELIVERED, FAILED
+  providerMessageId String?
+  error             String?
+  createdAt         DateTime @default(now())
+}
+
+// ==========================================
+// Catalog Models (From Previous Spec)
+// ==========================================
+
+model Category {
+  id          String        @id @default(uuid())
+  slug        String        @unique
+  sizeType    SizeType      @default(CLOTHING)
+  nameEn      String
+  nameTa      String
+  nameHi      String
+  
+  subcategories Subcategory[]
+  products    Product[]
+  
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+}
+
+model Subcategory {
+  id          String        @id @default(uuid())
+  slug        String        @unique
+  categoryId  String
+  category    Category      @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  
+  nameEn      String
+  nameTa      String
+  nameHi      String
+  
+  products    Product[]
+  
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+}
+
+enum SizeType {
+  CLOTHING
+  FOOTWEAR
+  KIDS
+  ACCESSORIES
+}
+
+model Product {
+  id              String        @id @default(uuid())
+  slug            String        @unique
+  sku             String        @unique
+  
+  categoryId      String
+  category        Category      @relation(fields: [categoryId], references: [id])
+  
+  subcategoryId   String
+  subcategory     Subcategory   @relation(fields: [subcategoryId], references: [id])
+  
+  brand           String?
+  price           Float
+  mrp             Float
+  discountPercent Int           @default(0)
+  rating          Float         @default(0)
+  reviewsCount    Int           @default(0)
+
+  nameEn          String
+  nameTa          String
+  nameHi          String
+  descEn          String
+  descTa          String
+  descHi          String
+  fabricEn        String?
+  fabricTa        String?
+  fabricHi        String?
+  careEn          String?
+  careTa          String?
+  careHi          String?
+  
+  variants        ProductVariant[]
+  images          ProductImage[]
+  
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+}
+
+model ProductVariant {
+  id            String    @id @default(uuid())
+  productId     String
+  product       Product   @relation(fields: [productId], references: [id], onDelete: Cascade)
+  colorId       String
+  color         Color     @relation(fields: [colorId], references: [id])
+  size          String
+  sku           String    @unique
+  stock         Int       @default(0)
+  priceOverride Float?
+  
+  @@unique([productId, colorId, size])
+}
+
+model Color {
+  id          String    @id @default(uuid())
+  hexCode     String
+  nameEn      String
+  nameTa      String
+  nameHi      String
+  variants    ProductVariant[]
+  images      ProductImage[]
+}
+
+model ProductImage {
+  id          String    @id @default(uuid())
+  productId   String
+  product     Product   @relation(fields: [productId], references: [id], onDelete: Cascade)
+  colorId     String?
+  color       Color?    @relation(fields: [colorId], references: [id])
+  url         String
+  alt         String?
+  position    Int       @default(0)
+  createdAt   DateTime  @default(now())
+}
+
+// ==========================================
+// Order Models
+// ==========================================
+
+model Order {
+  id            String      @id @default(uuid())
+  userId        String
+  user          User        @relation(fields: [userId], references: [id])
+  status        OrderStatus @default(PENDING)
+  totalAmount   Float
+  paymentMethod String
+  paymentStatus String
+  
+  cancelReason   String?
+  cancelledAt    DateTime?
+  returnDeadline DateTime?
+
+  items         OrderItem[]
+  address       Address     @relation(fields: [addressId], references: [id])
+  addressId     String
+  
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+}
+
+enum OrderStatus {
+  PENDING
+  CONFIRMED
+  SHIPPED
+  DELIVERED
+  CANCELLED
+  RETURNED
+}
+
+model OrderItem {
+  id          String    @id @default(uuid())
+  orderId     String
+  order       Order     @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  productId   String
+  productName String
+  colorId     String
+  colorName   String
+  size        String
+  quantity    Int
+  price       Float
+}
+
+model Address {
+  id          String    @id @default(uuid())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  fullName    String
+  phone       String
+  street      String
+  city        String
+  state       String
+  pincode     String
+  isDefault   Boolean   @default(false)
+  orders      Order[]
+}
+
+model Wishlist {
+  id          String    @id @default(uuid())
+  userId      String    @unique
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  productIds  String[]
+}

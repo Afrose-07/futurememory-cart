@@ -1,0 +1,901 @@
+/* =========================================================
+   FUTUREMEMORY CART - ORDER CONFIRMATION & TAX INVOICE
+   Luxury Customer-Facing Enterprise Design (Balanced & Centered)
+   ========================================================= */
+
+.fm-order-confirmed-page {
+  width: 100%;
+  min-height: 100vh;
+  background: #f8fafc;
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* =========================================================
+   TOP HERO BANNER - CENTERED, GLOWING, LUXURY
+   ========================================================= */
+.fm-confirmed-hero {
+  width: 100%;
+  background: linear-gradient(135deg, #070a13 0%, #0f172a 45%, #1e1b4b 100%);
+  color: #ffffff;
+  padding: 56px 20px 52px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.fm-confirmed-hero::before {
+  content: '';
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 250px;
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.18) 0%, rgba(99, 102, 241, 0) 70%);
+  pointer-events: none;
+}
+
+.fm-confirmed-hero-inner {
+  max-width: 920px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+  position: relative;
+  z-index: 2;
+}
+
+.fm-confirmed-status-icon-box {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #16a34a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 10px rgba(22, 163, 74, 0.22), 0 0 35px rgba(22, 163, 74, 0.45);
+  margin-bottom: 4px;
+  animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes popIn {
+  0% { transform: scale(0.6); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.fm-confirmed-badge-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.fm-order-status-chip {
+  font-size: 0.82rem;
+  font-weight: 800;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+}
+
+.fm-order-status-chip.prepaid {
+  background: rgba(34, 197, 94, 0.2);
+  color: #86efac;
+  border: 1px solid rgba(34, 197, 94, 0.4);
+}
+
+.fm-order-status-chip.cod {
+  background: rgba(56, 189, 248, 0.2);
+  color: #7dd3fc;
+  border: 1px solid rgba(56, 189, 248, 0.4);
+}
+
+.fm-order-number-chip {
+  font-size: 0.84rem;
+  font-weight: 750;
+  background: rgba(255, 255, 255, 0.12);
+  color: #f8fafc;
+  padding: 6px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.2s ease;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.fm-order-number-chip:hover {
+  background: rgba(255, 255, 255, 0.22);
+  border-color: rgba(255, 255, 255, 0.35);
+  transform: translateY(-1px);
+}
+
+.fm-confirmed-heading {
+  font-size: 2.35rem;
+  font-weight: 850;
+  margin: 0;
+  letter-spacing: -0.025em;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.fm-confirmed-subheading {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #cbd5e1;
+  max-width: 640px;
+  line-height: 1.55;
+}
+
+.fm-confirmed-subheading strong {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* =========================================================
+   MAIN CONTAINER - BALANCED, CENTERED, 1080px
+   ========================================================= */
+.fm-confirmed-main-container {
+  max-width: 1080px;
+  width: 92%;
+  margin: 32px auto 0 auto;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* =========================================================
+   DUAL NOTIFICATION HUB (WHATSAPP + EMAIL)
+   ========================================================= */
+.fm-notif-hub-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: stretch;
+}
+
+@media (max-width: 860px) {
+  .fm-notif-hub-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.fm-notif-action-card {
+  border-radius: 18px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 18px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.fm-notif-action-card.whatsapp-card {
+  background: linear-gradient(145deg, #f0fdf4 0%, #ffffff 100%);
+  border: 1.5px solid #86efac;
+  box-shadow: 0 4px 18px rgba(22, 163, 74, 0.06);
+}
+
+.fm-notif-action-card.whatsapp-card:hover {
+  box-shadow: 0 8px 26px rgba(22, 163, 74, 0.12);
+  transform: translateY(-2px);
+}
+
+.fm-notif-action-card.email-card {
+  background: linear-gradient(145deg, #eff6ff 0%, #ffffff 100%);
+  border: 1.5px solid #93c5fd;
+  box-shadow: 0 4px 18px rgba(37, 99, 235, 0.06);
+}
+
+.fm-notif-action-card.email-card:hover {
+  box-shadow: 0 8px 26px rgba(37, 99, 235, 0.12);
+  transform: translateY(-2px);
+}
+
+.notif-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.notif-badge-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.notif-badge-icon.whatsapp-icon {
+  background: #dcfce7;
+}
+
+.notif-badge-icon.email-icon {
+  background: #dbeafe;
+}
+
+.notif-badge-meta {
+  flex: 1;
+}
+
+.notif-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 4px;
+  flex-wrap: wrap;
+}
+
+.notif-card-title {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 850;
+  color: #0f172a;
+}
+
+.notif-status-pill {
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 3px 10px;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.notif-status-pill.green {
+  background: #bbf7d0;
+  color: #166534;
+}
+
+.notif-status-pill.blue {
+  background: #bfdbfe;
+  color: #1e40af;
+}
+
+.notif-card-desc {
+  margin: 0;
+  font-size: 0.88rem;
+  color: #475569;
+  line-height: 1.45;
+}
+
+.notif-card-desc strong {
+  color: #0f172a;
+}
+
+/* WhatsApp 1-Click Action Button */
+.notif-card-action-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.fm-btn-live-whatsapp {
+  background: #16a34a;
+  color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-weight: 750;
+  font-size: 0.92rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(22, 163, 74, 0.28);
+  transition: all 0.2s ease;
+  flex: 1;
+  justify-content: center;
+}
+
+.fm-btn-live-whatsapp:hover {
+  background: #15803d;
+  box-shadow: 0 6px 20px rgba(22, 163, 74, 0.38);
+  transform: translateY(-1px);
+  color: #ffffff;
+}
+
+.wa-clicked-hint {
+  font-size: 0.82rem;
+  color: #166534;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Email Resend Form */
+.notif-email-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.notif-email-input-wrap {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 4px 6px 4px 14px;
+  transition: border-color 0.2s ease;
+}
+
+.notif-email-input-wrap:focus-within {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.email-input-icon {
+  color: #64748b;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.notif-email-input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex: 1;
+  font-size: 0.9rem;
+  color: #0f172a;
+  font-weight: 600;
+  min-width: 140px;
+}
+
+.fm-btn-resend-email {
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 9px;
+  padding: 9px 16px;
+  font-size: 0.86rem;
+  font-weight: 750;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.fm-btn-resend-email:hover:not(:disabled) {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+.fm-btn-resend-email:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.notif-feedback-msg {
+  padding: 7px 12px;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.notif-feedback-msg.success {
+  background: #dcfce7;
+  color: #166534;
+  border: 1px solid #bbf7d0;
+}
+
+.notif-feedback-msg.error {
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+}
+
+/* =========================================================
+   DELIVERY MILESTONE TRACKER CARD
+   ========================================================= */
+.fm-delivery-tracker-card {
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #e2e8f0;
+  padding: 26px 30px;
+  box-shadow: 0 4px 18px rgba(15, 23, 42, 0.04);
+}
+
+.tracker-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.tracker-header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  color: #334155;
+}
+
+.tracker-header-left strong {
+  color: #0f172a;
+  font-weight: 800;
+}
+
+.tracker-shipping-type {
+  font-size: 0.82rem;
+  font-weight: 800;
+  background: #eef2ff;
+  color: #4338ca;
+  padding: 4px 14px;
+  border-radius: 9999px;
+  border: 1px solid #c7d2fe;
+}
+
+.tracker-timeline-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 0 8px;
+}
+
+.timeline-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  z-index: 2;
+  min-width: 80px;
+  text-align: center;
+}
+
+.timeline-dot {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #f1f5f9;
+  border: 2px solid #cbd5e1;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease;
+}
+
+.timeline-step.completed .timeline-dot {
+  background: #16a34a;
+  border-color: #16a34a;
+  box-shadow: 0 0 0 5px rgba(22, 163, 74, 0.16);
+}
+
+.timeline-step.in-progress .timeline-dot {
+  background: #4f46e5;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 6px rgba(79, 70, 229, 0.2);
+}
+
+.dot-pulse-inner {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ffffff;
+  animation: pulseDot 1.4s infinite ease-in-out;
+}
+
+@keyframes pulseDot {
+  0%, 100% { transform: scale(0.8); opacity: 0.7; }
+  50% { transform: scale(1.3); opacity: 1; }
+}
+
+.timeline-label {
+  font-size: 0.84rem;
+  font-weight: 750;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+.timeline-time {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #94a3b8;
+}
+
+.timeline-step.completed .timeline-label {
+  color: #16a34a;
+}
+
+.timeline-step.in-progress .timeline-label {
+  color: #0f172a;
+}
+
+.timeline-connector {
+  flex: 1;
+  height: 3px;
+  background: #e2e8f0;
+  margin: -24px 8px 0 8px;
+}
+
+.timeline-connector.active {
+  background: #16a34a;
+}
+
+/* =========================================================
+   2-COLUMN ORDER DETAILS GRID
+   ========================================================= */
+.fm-confirmed-details-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+@media (max-width: 960px) {
+  .fm-confirmed-details-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.fm-confirmed-left-col,
+.fm-confirmed-right-col {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+/* Details Card */
+.fm-details-card {
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #e2e8f0;
+  padding: 26px;
+  box-shadow: 0 4px 18px rgba(15, 23, 42, 0.03);
+}
+
+.card-section-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #f1f5f9;
+  margin-bottom: 18px;
+}
+
+.card-section-header h3 {
+  font-size: 1.15rem;
+  font-weight: 850;
+  color: #0f172a;
+  margin: 0;
+}
+
+/* Purchased Items */
+.confirmed-items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.confirmed-item-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #f8fafc;
+}
+
+.confirmed-item-row:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.item-thumbnail {
+  width: 70px;
+  height: 70px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 1px solid #e2e8f0;
+  flex-shrink: 0;
+}
+
+.item-meta {
+  flex: 1;
+}
+
+.item-title {
+  margin: 0 0 4px 0;
+  font-size: 0.98rem;
+  font-weight: 750;
+  color: #0f172a;
+  line-height: 1.35;
+}
+
+.item-subinfo {
+  font-size: 0.82rem;
+  color: #64748b;
+  margin-bottom: 3px;
+}
+
+.item-unit-price {
+  font-size: 0.82rem;
+  color: #94a3b8;
+  font-weight: 600;
+}
+
+.item-total-col {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #0f172a;
+  text-align: right;
+}
+
+/* Delivery Address Content */
+.shipping-address-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.shipping-contact-name {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.shipping-lines {
+  margin: 0;
+  font-size: 0.92rem;
+  color: #475569;
+  line-height: 1.5;
+}
+
+.shipping-phone-line,
+.shipping-email-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.88rem;
+  margin-top: 4px;
+}
+
+.phone-label {
+  color: #64748b;
+  font-weight: 600;
+}
+
+.phone-val {
+  color: #0f172a;
+  font-weight: 750;
+}
+
+/* =========================================================
+   RIGHT COLUMN: PAYMENT & SUMMARY
+   ========================================================= */
+.confirmed-payment-method-box {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.payment-lbl {
+  font-size: 0.76rem;
+  font-weight: 750;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.payment-val {
+  font-size: 1.02rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.payment-status-tag {
+  align-self: flex-start;
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 3px 10px;
+  border-radius: 9999px;
+  margin-top: 4px;
+  text-transform: uppercase;
+}
+
+.payment-status-tag.settled {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.payment-status-tag.due {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+/* Price Breakdown */
+.confirmed-price-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.94rem;
+  color: #475569;
+}
+
+.price-row strong {
+  color: #0f172a;
+  font-weight: 750;
+}
+
+.price-row.green strong {
+  color: #16a34a;
+}
+
+.free-delivery-badge {
+  color: #16a34a !important;
+  font-weight: 800 !important;
+}
+
+.price-divider {
+  height: 1px;
+  background: #e2e8f0;
+  margin: 6px 0;
+}
+
+.price-row.total-highlight {
+  font-size: 1.15rem;
+  color: #0f172a;
+  font-weight: 850;
+  padding-top: 4px;
+}
+
+.total-amount-val {
+  font-size: 1.55rem;
+  font-weight: 900;
+  color: #4f46e5;
+}
+
+/* Action Buttons */
+.confirmed-action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.btn-confirmed-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 13px 18px;
+  border-radius: 12px;
+  font-size: 0.94rem;
+  font-weight: 750;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+  text-align: center;
+}
+
+.btn-confirmed-action.print-invoice {
+  background: #f1f5f9;
+  color: #1e293b;
+  border: 1px solid #cbd5e1;
+}
+
+.btn-confirmed-action.print-invoice:hover {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+.btn-confirmed-action.track-order {
+  background: #4f46e5;
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(79, 70, 229, 0.25);
+}
+
+.btn-confirmed-action.track-order:hover {
+  background: #4338ca;
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.btn-confirmed-action.continue-shopping {
+  background: transparent;
+  color: #64748b;
+  border: 1px solid transparent;
+}
+
+.btn-confirmed-action.continue-shopping:hover {
+  color: #0f172a;
+  background: #f8fafc;
+}
+
+/* Guarantee Box */
+.confirmed-guarantee-box {
+  background: #f8fafc;
+  border-radius: 14px;
+  padding: 14px 16px;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.guarantee-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.guarantee-item div {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.guarantee-item strong {
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.guarantee-item span {
+  font-size: 0.76rem;
+  color: #64748b;
+}
+
+/* =========================================================
+   PRINT STYLES (Clean PDF/Printer Layout)
+   ========================================================= */
+@media print {
+  body {
+    background: #ffffff !important;
+  }
+  .fm-confirmed-hero,
+  .fm-notif-hub-grid,
+  .confirmed-action-buttons,
+  .btn-confirmed-action,
+  .fm-delivery-tracker-card {
+    display: none !important;
+  }
+  .fm-confirmed-main-container {
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .fm-confirmed-details-grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}

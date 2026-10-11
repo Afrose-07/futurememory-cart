@@ -1,0 +1,80 @@
+.fm-searchbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 9999px;
+  padding: 4px 6px 4px 16px;
+  width: 100%;
+  max-width: 580px;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.fm-searchbar:focus-within {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 4px rgba(114, 47, 55, 0.12);
+}
+
+.fm-searchbar-icon {
+  font-size: 1rem;
+  color: #64748b;
+  margin-right: 8px;
+}
+
+.fm-searchbar-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 0.925rem;
+  color: #1e293b;
+  min-width: 50px;
+}
+
+.fm-searchbar-input::placeholder {
+  color: #94a3b8;
+}
+
+.fm-searchbar-clear {
+  background: #e2e8f0;
+  border: none;
+  color: #64748b;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.fm-searchbar-clear:hover {
+  background: #cbd5e1;
+  color: #1e293b;
+}
+
+.fm-searchbar-btn {
+  background: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.fm-searchbar-btn:hover {
+  background: var(--primary-hover);
+}
+
+@media (max-width: 640px) {
+  .fm-searchbar-btn {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,104 @@
+.fm-future-card {
+  background: #ffffff;
+  border-radius: 14px;
+  border: 1.5px solid #e9d5ff;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.2s;
+}
+
+.fm-future-card:hover {
+  border-color: #a855f7;
+  box-shadow: 0 6px 20px rgba(168, 85, 247, 0.1);
+}
+
+.fm-future-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.fm-future-priority {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+
+.priority-high {
+  background: #fee2e2;
+  color: #dc2626;
+}
+.priority-medium {
+  background: #fef3c7;
+  color: #d97706;
+}
+.priority-low {
+  background: #f1f5f9;
+  color: #64748b;
+}
+
+.fm-future-card-remove {
+  background: none;
+  border: none;
+  color: #94a3b8;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+.fm-future-card-remove:hover {
+  color: #ef4444;
+}
+
+.fm-future-card-body {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.fm-future-img-wrap {
+  width: 75px;
+  height: 75px;
+  border-radius: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: #f8fafc;
+}
+
+.fm-future-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fm-future-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.fm-future-cat {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--future-color);
+  text-transform: uppercase;
+}
+
+.fm-future-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #1e293b;
+  text-decoration: none;
+  line-height: 1.3;
+  margin: 2px 0 6px 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.fm-future-card-footer {
+  margin-top: auto;
+}

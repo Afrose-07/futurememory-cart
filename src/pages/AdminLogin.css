@@ -1,0 +1,303 @@
+.admin-login-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: #f8fafc;
+  position: relative;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: #0f172a;
+}
+
+.admin-login-bg-overlay {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    linear-gradient(rgba(114, 47, 55, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(114, 47, 55, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+}
+
+.admin-login-card {
+  width: 100%;
+  max-width: 580px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.05), 0 0 25px rgba(114, 47, 55, 0.05);
+  border-radius: 24px;
+  padding: 48px 48px;
+  position: relative;
+  z-index: 2;
+  transform: translateY(-8px);
+}
+
+.admin-login-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.admin-login-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(99, 102, 241, 0.18);
+  border: 1px solid rgba(129, 140, 248, 0.4);
+  color: #a5b4fc;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  padding: 5px 14px;
+  border-radius: 9999px;
+  margin-bottom: 14px;
+}
+
+.admin-login-title {
+  font-size: 2.15rem;
+  font-weight: 900;
+  color: #0f172a;
+  margin: 0 0 8px 0;
+  letter-spacing: -0.02em;
+}
+
+.admin-login-subtitle {
+  font-size: 0.95rem;
+  color: #64748b;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.admin-google-sso-btn {
+  width: 100%;
+  height: 52px;
+  background: #ffffff;
+  color: #1e293b;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  font-size: 0.98rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: 18px;
+}
+
+.admin-google-sso-btn:hover {
+  background: #f8fafc;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.admin-login-divider {
+  display: flex;
+  align-items: center;
+  margin: 16px 0 20px 0;
+  color: #64748b;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.admin-login-divider::before,
+.admin-login-divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+.admin-login-divider span {
+  padding: 0 10px;
+}
+
+.admin-login-alert {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(239, 68, 68, 0.12);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: #fca5a5;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  margin-bottom: 18px;
+}
+
+.admin-login-form .form-group {
+  margin-bottom: 18px;
+}
+
+.admin-login-form label {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #475569;
+  margin-bottom: 6px;
+}
+
+.admin-login-form .input-wrap {
+  display: flex;
+  align-items: center;
+  background: #f8fafc;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 0 16px;
+  height: 52px;
+  transition: all 0.2s ease;
+}
+
+.admin-login-form .input-wrap:focus-within {
+  border-color: #6366f1;
+  background: #ffffff;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.15);
+}
+
+.admin-login-form .input-icon {
+  font-size: 1.1rem;
+  margin-right: 12px;
+  color: #64748b;
+}
+
+.admin-login-form input[type="email"],
+.admin-login-form input[type="text"],
+.admin-login-form input[type="password"] {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: #0f172a;
+  font-size: 1rem;
+  padding: 12px 0;
+  outline: none;
+}
+
+.admin-login-form input::placeholder {
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+.pwd-toggle-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  font-size: 1.15rem;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.pwd-toggle-btn:hover {
+  opacity: 1;
+}
+
+.form-aux-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  font-size: 0.88rem;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #94a3b8;
+  cursor: pointer;
+}
+
+.quick-demo-link {
+  background: none;
+  border: none;
+  color: #818cf8;
+  font-weight: 700;
+  font-size: 0.88rem;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.quick-demo-link:hover {
+  color: #a5b4fc;
+}
+
+.btn-admin-submit {
+  width: 100%;
+  height: 54px;
+  background: linear-gradient(135deg, var(--primary-color) 0%, #3730a3 100%);
+  color: #ffffff;
+  border: 1px solid rgba(165, 180, 252, 0.3);
+  border-radius: 12px;
+  padding: 0 20px;
+  font-size: 1.05rem;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(114, 47, 55, 0.45);
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-admin-submit:hover:not(:disabled) {
+  background: linear-gradient(135deg, var(--primary-hover) 0%, #312e81 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(114, 47, 55, 0.55);
+}
+
+.btn-admin-submit:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.admin-login-footer {
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid #e2e8f0;
+  text-align: center;
+}
+
+.admin-credentials-hint {
+  font-size: 0.88rem;
+  color: #94a3b8;
+  background: rgba(30, 41, 59, 0.6);
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  border: 1px solid rgba(99, 102, 241, 0.2);
+}
+
+.admin-credentials-hint code {
+  color: #38bdf8;
+  background: rgba(15, 23, 42, 0.7);
+  padding: 2px 5px;
+  border-radius: 4px;
+  margin: 0 3px;
+}
+
+.back-store-link {
+  color: #64748b;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.back-store-link:hover {
+  color: #0f172a;
+  text-decoration: underline;
+}
+
+.admin-sec-features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 18px;
+  font-size: 0.72rem;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}

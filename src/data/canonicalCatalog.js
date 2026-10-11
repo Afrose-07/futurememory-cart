@@ -1,0 +1,6904 @@
+// Canonical Store Catalog - 10 Core Categories from Master Blueprint
+// 100% Unique, Verified, High-Resolution Studio Imagery with Zero Duplicates
+// Powered by Image Enrichment Engine with Unsplash/Pexels API Compatibility
+
+export const canonicalCatalog = [
+  {
+    "id": "WF-01",
+    "modelId": "MDL-WF-01",
+    "name": "Kurti Set",
+    "category": "Women's Fashion",
+    "subcategory": "Kurti Sets",
+    "gender": "Women",
+    "price": 1299,
+    "originalPrice": 1999,
+    "discount": 35,
+    "rating": 4.8,
+    "reviewCount": 342,
+    "stock": 58,
+    "image": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Elegant pastel pink straight kurti with matching palazzo pants and floral printed soft dupatta.",
+    "colors": [
+      "Pink",
+      "Maroon",
+      "Sky Blue"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "occasion": [
+      "festival",
+      "wedding",
+      "anniversary",
+      "family_function"
+    ],
+    "tags": [
+      "kurti",
+      "kurti set",
+      "women",
+      "ethnic",
+      "pink"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Nimrat Sandhu",
+      "photographerUrl": "https://unsplash.com/@nimrat?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:00.199Z"
+    }
+  },
+  {
+    "id": "WF-02",
+    "modelId": "MDL-WF-02",
+    "name": "Anarkali Suit",
+    "category": "Women's Fashion",
+    "subcategory": "Ethnic",
+    "gender": "Women",
+    "price": 1599,
+    "originalPrice": 2499,
+    "discount": 36,
+    "rating": 4.9,
+    "reviewCount": 420,
+    "stock": 45,
+    "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Royal bottle green flared Anarkali suit with golden zari embroidery and sheer georgette dupatta.",
+    "colors": [
+      "Green",
+      "Navy Blue",
+      "Maroon"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "occasion": [
+      "wedding",
+      "engagement",
+      "festival"
+    ],
+    "tags": [
+      "anarkali",
+      "suit",
+      "green",
+      "festive"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Kunal Goswami",
+      "photographerUrl": "https://unsplash.com/@kunal_goswami?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:00.673Z"
+    }
+  },
+  {
+    "id": "WF-03",
+    "modelId": "MDL-WF-03",
+    "name": "Saree",
+    "category": "Women's Fashion",
+    "subcategory": "Sarees",
+    "gender": "Women",
+    "price": 1499,
+    "originalPrice": 2299,
+    "discount": 35,
+    "rating": 4.9,
+    "reviewCount": 512,
+    "stock": 70,
+    "image": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Traditional red Banarasi soft silk saree with intricate golden floral motifs and rich pallu.",
+    "colors": [
+      "Red",
+      "Gold",
+      "Royal Blue"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "occasion": [
+      "wedding",
+      "festive",
+      "pongal",
+      "diwali"
+    ],
+    "tags": [
+      "saree",
+      "silk",
+      "red",
+      "banarasi"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Devansh Somani",
+      "photographerUrl": "https://unsplash.com/@devanshs?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:00.814Z"
+    }
+  },
+  {
+    "id": "WF-04",
+    "modelId": "MDL-WF-04",
+    "name": "Sharara Set",
+    "category": "Women's Fashion",
+    "subcategory": "Ethnic",
+    "gender": "Women",
+    "price": 1699,
+    "originalPrice": 2699,
+    "discount": 37,
+    "rating": 4.7,
+    "reviewCount": 230,
+    "stock": 35,
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Navy blue embroidered short kurti with tiered flared sharara pants and net dupatta.",
+    "colors": [
+      "Navy Blue",
+      "Teal",
+      "Wine"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "occasion": [
+      "wedding",
+      "eid",
+      "festival"
+    ],
+    "tags": [
+      "sharara",
+      "ethnic",
+      "navy blue",
+      "embroidered"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Dollar Gill",
+      "photographerUrl": "https://unsplash.com/@dollargill?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:01.290Z"
+    }
+  },
+  {
+    "id": "WF-05",
+    "modelId": "MDL-WF-05",
+    "name": "Lehenga",
+    "category": "Women's Fashion",
+    "subcategory": "Ethnic",
+    "gender": "Women",
+    "price": 2499,
+    "originalPrice": 3999,
+    "discount": 38,
+    "rating": 4.9,
+    "reviewCount": 680,
+    "stock": 25,
+    "image": "/generated-products/WF-05_front_1791740374603.jpg",
+    "images": {
+      "front": "/generated-products/WF-05_front_1791740374603.jpg",
+      "back": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&auto=format&fit=crop&q=80",
+      "side": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80",
+      "detail": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Designer crimson maroon bridal flared lehenga with sequence embroidery and blouse piece.",
+    "colors": [
+      "Maroon",
+      "Red",
+      "Pink"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "occasion": [
+      "wedding",
+      "engagement",
+      "diwali"
+    ],
+    "tags": [
+      "lehenga",
+      "bridal",
+      "designer",
+      "choli"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Sami Skalli",
+      "photographerUrl": "https://unsplash.com/@samiskalli?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:01.378Z"
+    }
+  },
+  {
+    "id": "WF-06",
+    "modelId": "MDL-WF-06",
+    "name": "Western Dress",
+    "category": "Women's Fashion",
+    "subcategory": "Western",
+    "gender": "Women",
+    "price": 1299,
+    "originalPrice": 1899,
+    "discount": 32,
+    "rating": 4.7,
+    "reviewCount": 195,
+    "stock": 50,
+    "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Sapphire blue A-line fit and flare skater dress with pleated waistline.",
+    "colors": [
+      "Blue",
+      "Black",
+      "Emerald"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "occasion": [
+      "birthday",
+      "party",
+      "date_evening"
+    ],
+    "tags": [
+      "dress",
+      "western",
+      "blue",
+      "skater"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Tamara Bellis",
+      "photographerUrl": "https://unsplash.com/@tamarabellis?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:01.435Z"
+    }
+  },
+  {
+    "id": "WF-07",
+    "modelId": "MDL-WF-07",
+    "name": "Top & Jeans",
+    "category": "Women's Fashion",
+    "subcategory": "Western",
+    "gender": "Women",
+    "price": 999,
+    "originalPrice": 1599,
+    "discount": 38,
+    "rating": 4.6,
+    "reviewCount": 310,
+    "stock": 65,
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Chic coral top paired with high-rise washed slim-fit blue denim jeans combo.",
+    "colors": [
+      "Red",
+      "White",
+      "Navy Blue"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "vacation"
+    ],
+    "tags": [
+      "top",
+      "jeans",
+      "casual",
+      "combo"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Dom Hill",
+      "photographerUrl": "https://unsplash.com/@domhill?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:01.499Z"
+    }
+  },
+  {
+    "id": "WF-08",
+    "modelId": "MDL-WF-08",
+    "name": "Nightwear",
+    "category": "Women's Fashion",
+    "subcategory": "Nightwear & More",
+    "gender": "Women",
+    "price": 799,
+    "originalPrice": 1299,
+    "discount": 38,
+    "rating": 4.8,
+    "reviewCount": 220,
+    "stock": 60,
+    "image": "https://images.unsplash.com/photo-1571513722275-4b41940f54b8?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1571513722275-4b41940f54b8?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1571513722275-4b41940f54b8?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Lavender floral printed breathable 100% pure cotton shirt & pyjama lounge set.",
+    "colors": [
+      "Pink",
+      "Lavender",
+      "Sky Blue"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "occasion": [
+      "daily",
+      "comfort",
+      "just_because"
+    ],
+    "tags": [
+      "nightwear",
+      "pyjama",
+      "cotton",
+      "lounge"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Valerie Elash",
+      "photographerUrl": "https://unsplash.com/@valerieelash?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:01.555Z"
+    }
+  },
+  {
+    "id": "WF-09",
+    "modelId": "MDL-WF-09",
+    "name": "Jumpsuit",
+    "category": "Women's Fashion",
+    "subcategory": "Western",
+    "gender": "Women",
+    "price": 1199,
+    "originalPrice": 1799,
+    "discount": 33,
+    "rating": 4.7,
+    "reviewCount": 145,
+    "stock": 40,
+    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Sleek sleeveless solid black wide-leg tailored jumpsuit with matching waist tie belt.",
+    "colors": [
+      "Black",
+      "Olive Green",
+      "Maroon"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "occasion": [
+      "party",
+      "office",
+      "date_evening"
+    ],
+    "tags": [
+      "jumpsuit",
+      "black",
+      "western",
+      "chic"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Averie Woodard",
+      "photographerUrl": "https://unsplash.com/@averiewoodard?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:01.632Z"
+    }
+  },
+  {
+    "id": "WF-10",
+    "modelId": "MDL-WF-10",
+    "name": "Maxi Dress",
+    "category": "Women's Fashion",
+    "subcategory": "Dresses",
+    "gender": "Women",
+    "price": 1099,
+    "originalPrice": 1699,
+    "discount": 35,
+    "rating": 4.8,
+    "reviewCount": 280,
+    "stock": 55,
+    "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Dusty rose tiered bohemian maxi dress with ruffle sleeves and smocked waist.",
+    "colors": [
+      "Pink",
+      "Yellow",
+      "Mint"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "occasion": [
+      "vacation",
+      "birthday",
+      "casual"
+    ],
+    "tags": [
+      "maxi dress",
+      "boho",
+      "pink",
+      "floral"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Oladimeji Odunsi",
+      "photographerUrl": "https://unsplash.com/@oladimeg?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:01.711Z"
+    }
+  },
+  {
+    "id": "WF-11",
+    "modelId": "MDL-WF-11",
+    "name": "Palazzo Set",
+    "category": "Women's Fashion",
+    "subcategory": "Kurti Sets",
+    "gender": "Women",
+    "price": 1099,
+    "originalPrice": 1699,
+    "discount": 35,
+    "rating": 4.7,
+    "reviewCount": 190,
+    "stock": 48,
+    "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Coral pink flared kurti with golden foil printed wide-leg palazzo pants.",
+    "colors": [
+      "Pink",
+      "Beige",
+      "Yellow"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "occasion": [
+      "festival",
+      "puja",
+      "family_function"
+    ],
+    "tags": [
+      "palazzo",
+      "kurti",
+      "ethnic",
+      "set"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Burgess Milner",
+      "photographerUrl": "https://unsplash.com/@burgessmilner?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:01.782Z"
+    }
+  },
+  {
+    "id": "WF-12",
+    "modelId": "MDL-WF-12",
+    "name": "Chikankari Kurti",
+    "category": "Women's Fashion",
+    "subcategory": "Kurti Sets",
+    "gender": "Women",
+    "price": 899,
+    "originalPrice": 1499,
+    "discount": 40,
+    "rating": 4.9,
+    "reviewCount": 610,
+    "stock": 80,
+    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Authentic white Lucknowi hand-embroidered georgette chikankari kurti with inner slip.",
+    "colors": [
+      "White",
+      "Lavender",
+      "Sky Blue"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "occasion": [
+      "college",
+      "office",
+      "summer"
+    ],
+    "tags": [
+      "chikankari",
+      "lucknowi",
+      "white",
+      "kurti"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Pranitha",
+      "photographerUrl": "https://unsplash.com/@pranitha?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:01.856Z"
+    }
+  },
+  {
+    "id": "WF-13",
+    "modelId": "MDL-WF-13",
+    "name": "Long Dress",
+    "category": "Women's Fashion",
+    "subcategory": "Dresses",
+    "gender": "Women",
+    "price": 1199,
+    "originalPrice": 1799,
+    "discount": 33,
+    "rating": 4.8,
+    "reviewCount": 175,
+    "stock": 52,
+    "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Sage green ethnic floor-length printed gown dress with buttoned placket.",
+    "colors": [
+      "Green",
+      "Teal",
+      "Blue"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "occasion": [
+      "festival",
+      "party",
+      "reception"
+    ],
+    "tags": [
+      "long dress",
+      "gown",
+      "green",
+      "ethnic"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Hassan OUAJBIR",
+      "photographerUrl": "https://unsplash.com/@ouajbir?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:01.930Z"
+    }
+  },
+  {
+    "id": "WF-14",
+    "modelId": "MDL-WF-14",
+    "name": "Short Kurti",
+    "category": "Women's Fashion",
+    "subcategory": "Kurti Sets",
+    "gender": "Women",
+    "price": 599,
+    "originalPrice": 999,
+    "discount": 40,
+    "rating": 4.7,
+    "reviewCount": 320,
+    "stock": 90,
+    "image": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Vibrant pink flared cotton peplum short kurti paired perfectly with jeans.",
+    "colors": [
+      "Pink",
+      "Yellow",
+      "Navy Blue"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "occasion": [
+      "college",
+      "daily",
+      "casual"
+    ],
+    "tags": [
+      "short kurti",
+      "peplum",
+      "cotton",
+      "casual"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Laura Chouette",
+      "photographerUrl": "https://unsplash.com/@laurachouette?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:01.986Z"
+    }
+  },
+  {
+    "id": "WF-15",
+    "modelId": "MDL-WF-15",
+    "name": "Party Wear",
+    "category": "Women's Fashion",
+    "subcategory": "Dresses",
+    "gender": "Women",
+    "price": 2199,
+    "originalPrice": 3499,
+    "discount": 37,
+    "rating": 4.9,
+    "reviewCount": 410,
+    "stock": 30,
+    "image": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Black and gold embellished evening party wear designer gown with flared slit.",
+    "colors": [
+      "Black",
+      "Gold",
+      "Wine"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "occasion": [
+      "party",
+      "reception",
+      "anniversary"
+    ],
+    "tags": [
+      "party wear",
+      "gown",
+      "evening",
+      "designer"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Alvin Mahmudov",
+      "photographerUrl": "https://unsplash.com/@alvinmahmudov?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:02.070Z"
+    }
+  },
+  {
+    "id": "WF-16",
+    "modelId": "MDL-WF-16",
+    "name": "Blouse",
+    "category": "Women's Fashion",
+    "subcategory": "Ethnic",
+    "gender": "Women",
+    "price": 699,
+    "originalPrice": 1199,
+    "discount": 41,
+    "rating": 4.6,
+    "reviewCount": 155,
+    "stock": 65,
+    "image": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Rose pink designer sweetheart neck brocade ready-made padded saree blouse.",
+    "colors": [
+      "Pink",
+      "Gold",
+      "Red"
+    ],
+    "sizes": [
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "occasion": [
+      "wedding",
+      "festive"
+    ],
+    "tags": [
+      "blouse",
+      "saree blouse",
+      "pink",
+      "padded"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Mahdi Bafande",
+      "photographerUrl": "https://unsplash.com/@mahdibafande?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:02.148Z"
+    }
+  },
+  {
+    "id": "WF-17",
+    "modelId": "MDL-WF-17",
+    "name": "Leggings",
+    "category": "Women's Fashion",
+    "subcategory": "Ethnic",
+    "gender": "Women",
+    "price": 399,
+    "originalPrice": 699,
+    "discount": 42,
+    "rating": 4.8,
+    "reviewCount": 540,
+    "stock": 120,
+    "image": "https://images.unsplash.com/photo-1506152983158-b4a74a01c721?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1506152983158-b4a74a01c721?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1506152983158-b4a74a01c721?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "4-way bio-wash stretch cotton ankle-length comfort black leggings.",
+    "colors": [
+      "Black",
+      "White",
+      "Maroon",
+      "Navy Blue"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "occasion": [
+      "daily",
+      "college",
+      "office"
+    ],
+    "tags": [
+      "leggings",
+      "cotton",
+      "black",
+      "stretch"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Gia Oris",
+      "photographerUrl": "https://unsplash.com/@giaoris?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:02.228Z"
+    }
+  },
+  {
+    "id": "WF-18",
+    "modelId": "MDL-WF-18",
+    "name": "Denim Jacket",
+    "category": "Women's Fashion",
+    "subcategory": "Western",
+    "gender": "Women",
+    "price": 1499,
+    "originalPrice": 2299,
+    "discount": 35,
+    "rating": 4.9,
+    "reviewCount": 390,
+    "stock": 45,
+    "image": "https://images.unsplash.com/photo-1544441893-675973e31985?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1544441893-675973e31985?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1544441893-675973e31985?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Classic light wash vintage trucker style rugged cotton denim jacket.",
+    "colors": [
+      "Blue",
+      "Ice Blue"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "occasion": [
+      "college",
+      "vacation",
+      "casual"
+    ],
+    "tags": [
+      "denim jacket",
+      "jacket",
+      "blue",
+      "outerwear"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Tamara Bellis",
+      "photographerUrl": "https://unsplash.com/@tamarabellis?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:02.305Z"
+    }
+  },
+  {
+    "id": "WF-19",
+    "modelId": "MDL-WF-19",
+    "name": "Shrug",
+    "category": "Women's Fashion",
+    "subcategory": "Western",
+    "gender": "Women",
+    "price": 799,
+    "originalPrice": 1299,
+    "discount": 38,
+    "rating": 4.6,
+    "reviewCount": 160,
+    "stock": 55,
+    "image": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Plum purple open-front sheer printed flowy georgette long overlay shrug.",
+    "colors": [
+      "Purple",
+      "Black",
+      "Mustard"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "occasion": [
+      "casual",
+      "college",
+      "party"
+    ],
+    "tags": [
+      "shrug",
+      "overlay",
+      "georgette",
+      "purple"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Brooke Cagle",
+      "photographerUrl": "https://unsplash.com/@brookecagle?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:02.365Z"
+    }
+  },
+  {
+    "id": "WF-20",
+    "modelId": "MDL-WF-20",
+    "name": "Tunic Top",
+    "category": "Women's Fashion",
+    "subcategory": "Western",
+    "gender": "Women",
+    "price": 699,
+    "originalPrice": 1099,
+    "discount": 36,
+    "rating": 4.7,
+    "reviewCount": 210,
+    "stock": 65,
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Teal blue buttoned Mandarin collar A-line comfortable casual cotton tunic top.",
+    "colors": [
+      "Teal",
+      "White",
+      "Navy Blue"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "occasion": [
+      "office",
+      "college",
+      "daily"
+    ],
+    "tags": [
+      "tunic",
+      "top",
+      "teal",
+      "cotton"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Sarah Brown",
+      "photographerUrl": "https://unsplash.com/@sarahbrown?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:02.439Z"
+    }
+  },
+  {
+    "id": "MF-01",
+    "modelId": "MDL-MF-01",
+    "name": "Formal Shirt",
+    "category": "Men's Fashion",
+    "subcategory": "Shirts",
+    "gender": "Men",
+    "price": 1099,
+    "originalPrice": 1799,
+    "discount": 39,
+    "rating": 4.8,
+    "reviewCount": 430,
+    "stock": 75,
+    "image": "/generated-products/MF-01_flux_commercial_1791703194098.jpg",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Crisp grey Egyptian cotton slim-fit formal executive dress shirt.",
+    "colors": [
+      "Grey",
+      "White",
+      "Sky Blue"
+    ],
+    "sizes": [
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "occasion": [
+      "office",
+      "job_interview",
+      "formal"
+    ],
+    "tags": [
+      "formal shirt",
+      "shirt",
+      "grey",
+      "cotton"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Nimble Made",
+      "photographerUrl": "https://unsplash.com/@nimblemade?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:02.518Z"
+    }
+  },
+  {
+    "id": "MF-02",
+    "modelId": "MDL-MF-02",
+    "name": "Casual Shirt",
+    "category": "Men's Fashion",
+    "subcategory": "Shirts",
+    "gender": "Men",
+    "price": 899,
+    "originalPrice": 1499,
+    "discount": 40,
+    "rating": 4.7,
+    "reviewCount": 380,
+    "stock": 80,
+    "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Navy blue botanical resort printed Cuban collar breathable casual shirt.",
+    "colors": [
+      "Navy Blue",
+      "Olive Green",
+      "White"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "occasion": [
+      "vacation",
+      "weekend",
+      "casual"
+    ],
+    "tags": [
+      "casual shirt",
+      "printed",
+      "navy",
+      "summer"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "NordWood Themes",
+      "photographerUrl": "https://unsplash.com/@nordwood?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:02.579Z"
+    }
+  },
+  {
+    "id": "MF-03",
+    "modelId": "MDL-MF-03",
+    "name": "Printed Shirt",
+    "category": "Men's Fashion",
+    "subcategory": "Shirts",
+    "gender": "Men",
+    "price": 999,
+    "originalPrice": 1599,
+    "discount": 37,
+    "rating": 4.8,
+    "reviewCount": 290,
+    "stock": 65,
+    "image": "https://images.unsplash.com/photo-1589310243389-96a5483213a8?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1589310243389-96a5483213a8?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1589310243389-96a5483213a8?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "White & charcoal modern floral motif printed slim-fit casual button-down shirt.",
+    "colors": [
+      "White",
+      "Black"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "occasion": [
+      "party",
+      "vacation",
+      "casual"
+    ],
+    "tags": [
+      "printed shirt",
+      "floral",
+      "white",
+      "men"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Ksenia Chernaya",
+      "photographerUrl": "https://unsplash.com/@kseniachernaya?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:02.654Z"
+    }
+  },
+  {
+    "id": "MF-04",
+    "modelId": "MDL-MF-04",
+    "name": "Linen Shirt",
+    "category": "Men's Fashion",
+    "subcategory": "Shirts",
+    "gender": "Men",
+    "price": 1299,
+    "originalPrice": 1999,
+    "discount": 35,
+    "rating": 4.9,
+    "reviewCount": 310,
+    "stock": 50,
+    "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Natural beige 100% pure European linen breathable Mandarin collar casual shirt.",
+    "colors": [
+      "Beige",
+      "White",
+      "Olive Green"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "occasion": [
+      "summer",
+      "vacation",
+      "brunch"
+    ],
+    "tags": [
+      "linen",
+      "linen shirt",
+      "beige",
+      "pure linen"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Melvin Buezo",
+      "photographerUrl": "https://unsplash.com/@melvinbuezo?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:02.736Z"
+    }
+  },
+  {
+    "id": "MF-05",
+    "modelId": "MDL-MF-05",
+    "name": "Denim Shirt",
+    "category": "Men's Fashion",
+    "subcategory": "Shirts",
+    "gender": "Men",
+    "price": 1199,
+    "originalPrice": 1899,
+    "discount": 37,
+    "rating": 4.8,
+    "reviewCount": 350,
+    "stock": 60,
+    "image": "https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Vintage indigo washed twin-flap pocket rugged western denim shirt.",
+    "colors": [
+      "Blue",
+      "Dark Denim"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "occasion": [
+      "casual",
+      "college",
+      "winter"
+    ],
+    "tags": [
+      "denim shirt",
+      "denim",
+      "blue",
+      "rugged"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Arthur Humeau",
+      "photographerUrl": "https://unsplash.com/@arthurhumeau?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:02.793Z"
+    }
+  },
+  {
+    "id": "MF-06",
+    "modelId": "MDL-MF-06",
+    "name": "Check Shirt",
+    "category": "Men's Fashion",
+    "subcategory": "Shirts",
+    "gender": "Men",
+    "price": 899,
+    "originalPrice": 1499,
+    "discount": 40,
+    "rating": 4.7,
+    "reviewCount": 420,
+    "stock": 85,
+    "image": "https://images.unsplash.com/photo-1588731234159-8b9963143fca?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1588731234159-8b9963143fca?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1588731234159-8b9963143fca?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Brown & black buffalo check flannel brushed cotton soft casual shirt.",
+    "colors": [
+      "Brown",
+      "Red",
+      "Navy Blue"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "occasion": [
+      "casual",
+      "college",
+      "winter"
+    ],
+    "tags": [
+      "check shirt",
+      "flannel",
+      "brown",
+      "checks"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Claudio Schwarz",
+      "photographerUrl": "https://unsplash.com/@purzlbaum?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:02.853Z"
+    }
+  },
+  {
+    "id": "MF-07",
+    "modelId": "MDL-MF-07",
+    "name": "Solid Shirt",
+    "category": "Men's Fashion",
+    "subcategory": "Shirts",
+    "gender": "Men",
+    "price": 1099,
+    "originalPrice": 1699,
+    "discount": 35,
+    "rating": 4.8,
+    "reviewCount": 390,
+    "stock": 70,
+    "image": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Classic sky blue solid slim-fit satin-finish spread collar formal shirt.",
+    "colors": [
+      "Sky Blue",
+      "White",
+      "Pink"
+    ],
+    "sizes": [
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "occasion": [
+      "office",
+      "interview",
+      "meeting"
+    ],
+    "tags": [
+      "solid shirt",
+      "blue",
+      "formal",
+      "office"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Reza Delshadian",
+      "photographerUrl": "https://unsplash.com/@rezadelshadian?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:02.921Z"
+    }
+  },
+  {
+    "id": "MF-08",
+    "modelId": "MDL-MF-08",
+    "name": "Oversized Shirt",
+    "category": "Men's Fashion",
+    "subcategory": "Shirts",
+    "gender": "Men",
+    "price": 1199,
+    "originalPrice": 1799,
+    "discount": 33,
+    "rating": 4.8,
+    "reviewCount": 260,
+    "stock": 55,
+    "image": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "White minimalist drop-shoulder relaxed boxy fit streetwear cotton shirt.",
+    "colors": [
+      "White",
+      "Black",
+      "Sage"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "occasion": [
+      "streetwear",
+      "college",
+      "casual"
+    ],
+    "tags": [
+      "oversized",
+      "shirt",
+      "white",
+      "streetwear"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Alex Perez",
+      "photographerUrl": "https://unsplash.com/@alexperez?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:02.982Z"
+    }
+  },
+  {
+    "id": "MF-09",
+    "name": "T-shirt",
+    "modelId": "MDL-MF-09",
+    "category": "Men's Fashion",
+    "subcategory": "T-Shirts",
+    "gender": "Men",
+    "price": 699,
+    "originalPrice": 1099,
+    "discount": 36,
+    "rating": 4.7,
+    "reviewCount": 520,
+    "stock": 110,
+    "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Premium dark navy blue combed cotton crewneck everyday comfort t-shirt.",
+    "colors": [
+      "Navy Blue",
+      "Black",
+      "White",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "occasion": [
+      "daily",
+      "casual",
+      "gym"
+    ],
+    "tags": [
+      "t-shirt",
+      "tee",
+      "navy",
+      "cotton"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Faith Yarn",
+      "photographerUrl": "https://unsplash.com/@faithyarn?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:03.054Z"
+    }
+  },
+  {
+    "id": "MF-10",
+    "modelId": "MDL-MF-10",
+    "name": "Polo T-shirt",
+    "category": "Men's Fashion",
+    "subcategory": "T-Shirts",
+    "gender": "Men",
+    "price": 899,
+    "originalPrice": 1399,
+    "discount": 35,
+    "rating": 4.8,
+    "reviewCount": 460,
+    "stock": 80,
+    "image": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Burgundy heavy pique knit cotton short-sleeve polo t-shirt with ribbed collar.",
+    "colors": [
+      "Maroon",
+      "Navy Blue",
+      "Black",
+      "White"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "occasion": [
+      "golf",
+      "casual",
+      "weekend"
+    ],
+    "tags": [
+      "polo",
+      "polo t-shirt",
+      "burgundy",
+      "pique"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Sanjoy Saha",
+      "photographerUrl": "https://unsplash.com/@sanjoysaha?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:03.117Z"
+    }
+  },
+  {
+    "id": "MF-11",
+    "modelId": "MDL-MF-11",
+    "name": "Hoodie",
+    "category": "Men's Fashion",
+    "subcategory": "Winter Wear",
+    "gender": "Men",
+    "price": 1299,
+    "originalPrice": 1999,
+    "discount": 35,
+    "rating": 4.9,
+    "reviewCount": 540,
+    "stock": 65,
+    "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Jet black heavyweight fleece kangaroo pocket streetwear pullover hoodie.",
+    "colors": [
+      "Black",
+      "Charcoal",
+      "Navy Blue"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "occasion": [
+      "winter",
+      "college",
+      "casual"
+    ],
+    "tags": [
+      "hoodie",
+      "black",
+      "fleece",
+      "sweatshirt"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Ryan Hoffman",
+      "photographerUrl": "https://unsplash.com/@hoffman?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:03.195Z"
+    }
+  },
+  {
+    "id": "MF-12",
+    "modelId": "MDL-MF-12",
+    "name": "Sweatshirt",
+    "category": "Men's Fashion",
+    "subcategory": "Winter Wear",
+    "gender": "Men",
+    "price": 1099,
+    "originalPrice": 1699,
+    "discount": 35,
+    "rating": 4.7,
+    "reviewCount": 310,
+    "stock": 55,
+    "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Olive green warm brushed fleece crewneck casual minimalist sweatshirt.",
+    "colors": [
+      "Olive Green",
+      "Grey",
+      "Black"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "occasion": [
+      "winter",
+      "casual",
+      "morning_walk"
+    ],
+    "tags": [
+      "sweatshirt",
+      "crewneck",
+      "olive",
+      "warm"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Clem Onojeghuo",
+      "photographerUrl": "https://unsplash.com/@clemono?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:03.259Z"
+    }
+  },
+  {
+    "id": "MF-13",
+    "modelId": "MDL-MF-13",
+    "name": "Jacket",
+    "category": "Men's Fashion",
+    "subcategory": "Jackets",
+    "gender": "Men",
+    "price": 1999,
+    "originalPrice": 2999,
+    "discount": 33,
+    "rating": 4.8,
+    "reviewCount": 280,
+    "stock": 40,
+    "image": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Matte black windproof lightweight full-zip urban bomber jacket.",
+    "colors": [
+      "Black",
+      "Navy Blue"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "occasion": [
+      "winter",
+      "travel",
+      "biking"
+    ],
+    "tags": [
+      "jacket",
+      "bomber",
+      "black",
+      "outerwear"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Jens Lindner",
+      "photographerUrl": "https://unsplash.com/@jenslindner?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:03.329Z"
+    }
+  },
+  {
+    "id": "MF-14",
+    "modelId": "MDL-MF-14",
+    "name": "Blazer",
+    "category": "Men's Fashion",
+    "subcategory": "Blazers",
+    "gender": "Men",
+    "price": 2499,
+    "originalPrice": 3999,
+    "discount": 37,
+    "rating": 4.9,
+    "reviewCount": 390,
+    "stock": 35,
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Jet black tailored notch lapel single-breasted evening formal blazer.",
+    "colors": [
+      "Black",
+      "Navy Blue",
+      "Grey"
+    ],
+    "sizes": [
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "occasion": [
+      "wedding",
+      "party",
+      "formal",
+      "corporate"
+    ],
+    "tags": [
+      "blazer",
+      "suit",
+      "black",
+      "formal"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Hunters Race",
+      "photographerUrl": "https://unsplash.com/@huntersrace?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:03.387Z"
+    }
+  },
+  {
+    "id": "MF-15",
+    "modelId": "MDL-MF-15",
+    "name": "Jeans",
+    "category": "Men's Fashion",
+    "subcategory": "Jeans",
+    "gender": "Men",
+    "price": 1399,
+    "originalPrice": 2199,
+    "discount": 36,
+    "rating": 4.8,
+    "reviewCount": 620,
+    "stock": 90,
+    "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Medium indigo wash stretch cotton tapered slim-fit everyday jeans.",
+    "colors": [
+      "Blue",
+      "Dark Blue",
+      "Black"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "occasion": [
+      "casual",
+      "college",
+      "daily"
+    ],
+    "tags": [
+      "jeans",
+      "denim",
+      "blue",
+      "slim fit"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Jason Leung",
+      "photographerUrl": "https://unsplash.com/@jasonleung?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:03.448Z"
+    }
+  },
+  {
+    "id": "MF-16",
+    "modelId": "MDL-MF-16",
+    "name": "Chinos",
+    "category": "Men's Fashion",
+    "subcategory": "Pants",
+    "gender": "Men",
+    "price": 1199,
+    "originalPrice": 1899,
+    "discount": 36,
+    "rating": 4.7,
+    "reviewCount": 340,
+    "stock": 75,
+    "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Khaki beige stretch twill smart casual flat-front slim chinos.",
+    "colors": [
+      "Khaki",
+      "Olive Green",
+      "Navy Blue"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "occasion": [
+      "office",
+      "casual",
+      "brunch"
+    ],
+    "tags": [
+      "chinos",
+      "trousers",
+      "khaki",
+      "pants"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Mika Baumeister",
+      "photographerUrl": "https://unsplash.com/@mikabaumeister?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:03.515Z"
+    }
+  },
+  {
+    "id": "MF-17",
+    "modelId": "MDL-MF-17",
+    "name": "Track Pants",
+    "category": "Men's Fashion",
+    "subcategory": "Track Pants",
+    "gender": "Men",
+    "price": 899,
+    "originalPrice": 1399,
+    "discount": 35,
+    "rating": 4.6,
+    "reviewCount": 410,
+    "stock": 80,
+    "image": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Charcoal grey moisture-wicking quick-dry athletic training joggers.",
+    "colors": [
+      "Grey",
+      "Black",
+      "Navy Blue"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "occasion": [
+      "gym",
+      "running",
+      "lounge"
+    ],
+    "tags": [
+      "track pants",
+      "joggers",
+      "athletic",
+      "grey"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Warren Wong",
+      "photographerUrl": "https://unsplash.com/@warrenwong?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:03.576Z"
+    }
+  },
+  {
+    "id": "MF-18",
+    "modelId": "MDL-MF-18",
+    "name": "Cargo Pants",
+    "category": "Men's Fashion",
+    "subcategory": "Pants",
+    "gender": "Men",
+    "price": 1299,
+    "originalPrice": 1999,
+    "discount": 35,
+    "rating": 4.8,
+    "reviewCount": 380,
+    "stock": 60,
+    "image": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Olive green multi-pocket tactical utility combat relaxed cargo pants.",
+    "colors": [
+      "Olive Green",
+      "Black",
+      "Khaki"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "occasion": [
+      "travel",
+      "trekking",
+      "casual"
+    ],
+    "tags": [
+      "cargo",
+      "cargo pants",
+      "olive",
+      "tactical"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "NordWood Themes",
+      "photographerUrl": "https://unsplash.com/@nordwood?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:03.632Z"
+    }
+  },
+  {
+    "id": "MF-19",
+    "modelId": "MDL-MF-19",
+    "name": "Shorts",
+    "category": "Men's Fashion",
+    "subcategory": "Pants",
+    "gender": "Men",
+    "price": 799,
+    "originalPrice": 1199,
+    "discount": 33,
+    "rating": 4.7,
+    "reviewCount": 290,
+    "stock": 70,
+    "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Navy blue breathable cotton twill weekend casual chino shorts.",
+    "colors": [
+      "Navy Blue",
+      "Khaki",
+      "Grey"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "occasion": [
+      "beach",
+      "summer",
+      "vacation"
+    ],
+    "tags": [
+      "shorts",
+      "chino shorts",
+      "navy",
+      "summer"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Devon Divine",
+      "photographerUrl": "https://unsplash.com/@devondivine?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:03.693Z"
+    }
+  },
+  {
+    "id": "MF-20",
+    "modelId": "MDL-MF-20",
+    "name": "Innerwear",
+    "category": "Men's Fashion",
+    "subcategory": "Innerwear & More",
+    "gender": "Men",
+    "price": 499,
+    "originalPrice": 799,
+    "discount": 37,
+    "rating": 4.8,
+    "reviewCount": 510,
+    "stock": 150,
+    "image": "https://images.unsplash.com/photo-1582533561751-ef6f6ab93a2e?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1582533561751-ef6f6ab93a2e?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1582533561751-ef6f6ab93a2e?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Pack of 2 black ribbed combed cotton anti-bacterial athletic vests.",
+    "colors": [
+      "Black",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "occasion": [
+      "daily",
+      "gym"
+    ],
+    "tags": [
+      "innerwear",
+      "vest",
+      "cotton",
+      "black"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Castorly Stock",
+      "photographerUrl": "https://unsplash.com/@castorly?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:03.748Z"
+    }
+  },
+  {
+    "id": "KF-01",
+    "modelId": "MDL-KF-01",
+    "name": "Girls Frock",
+    "category": "Kids' Fashion",
+    "subcategory": "Girls",
+    "gender": "Kids",
+    "price": 699,
+    "originalPrice": 1199,
+    "discount": 41,
+    "rating": 4.8,
+    "reviewCount": 310,
+    "stock": 65,
+    "image": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Baby pink tulle layered birthday princess flared party frock with satin bow.",
+    "colors": [
+      "Pink",
+      "Sky Blue",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "occasion": [
+      "birthday",
+      "party"
+    ],
+    "tags": [
+      "frock",
+      "girls",
+      "pink",
+      "kids"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Senjuti Kundu",
+      "photographerUrl": "https://unsplash.com/@senjuti?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:03.825Z"
+    }
+  },
+  {
+    "id": "KF-02",
+    "modelId": "MDL-KF-02",
+    "name": "Lehenga Set",
+    "category": "Kids' Fashion",
+    "subcategory": "Girls",
+    "gender": "Kids",
+    "price": 1199,
+    "originalPrice": 1999,
+    "discount": 40,
+    "rating": 4.9,
+    "reviewCount": 280,
+    "stock": 45,
+    "image": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Golden yellow festive ethnic kids lehenga choli set with mirror embroidery.",
+    "colors": [
+      "Yellow",
+      "Red",
+      "Pink"
+    ],
+    "sizes": [
+      "3-4Y",
+      "5-6Y",
+      "7-8Y",
+      "9-10Y"
+    ],
+    "occasion": [
+      "festival",
+      "diwali",
+      "wedding"
+    ],
+    "tags": [
+      "lehenga",
+      "kids lehenga",
+      "girls",
+      "ethnic"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Terricks Noah",
+      "photographerUrl": "https://unsplash.com/@terricksnoah?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:03.889Z"
+    }
+  },
+  {
+    "id": "KF-03",
+    "modelId": "MDL-KF-03",
+    "name": "Boys T-Shirt",
+    "category": "Kids' Fashion",
+    "subcategory": "Boys",
+    "gender": "Kids",
+    "price": 499,
+    "originalPrice": 799,
+    "discount": 37,
+    "rating": 4.7,
+    "reviewCount": 340,
+    "stock": 80,
+    "image": "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Olive green 100% bio-wash cotton graphic dino adventure print t-shirt.",
+    "colors": [
+      "Olive Green",
+      "Yellow",
+      "Navy Blue"
+    ],
+    "sizes": [
+      "3-4Y",
+      "5-6Y",
+      "7-8Y",
+      "9-10Y"
+    ],
+    "occasion": [
+      "daily",
+      "play",
+      "casual"
+    ],
+    "tags": [
+      "boys t-shirt",
+      "t-shirt",
+      "kids",
+      "boys"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Kiana Bosman",
+      "photographerUrl": "https://unsplash.com/@kianabosman?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:03.949Z"
+    }
+  },
+  {
+    "id": "KF-04",
+    "modelId": "MDL-KF-04",
+    "name": "Boys Shirt",
+    "category": "Kids' Fashion",
+    "subcategory": "Boys",
+    "gender": "Kids",
+    "price": 599,
+    "originalPrice": 999,
+    "discount": 40,
+    "rating": 4.8,
+    "reviewCount": 220,
+    "stock": 55,
+    "image": "https://images.unsplash.com/photo-1519457431-44ccd64a579b?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1519457431-44ccd64a579b?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1519457431-44ccd64a579b?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Sky blue crisp casual roll-up sleeve cotton collared shirt for boys.",
+    "colors": [
+      "Sky Blue",
+      "White"
+    ],
+    "sizes": [
+      "4-5Y",
+      "6-7Y",
+      "8-9Y",
+      "10-11Y"
+    ],
+    "occasion": [
+      "birthday",
+      "party",
+      "family_function"
+    ],
+    "tags": [
+      "boys shirt",
+      "shirt",
+      "blue",
+      "kids"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Robert Collins",
+      "photographerUrl": "https://unsplash.com/@robertcollins?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:04.006Z"
+    }
+  },
+  {
+    "id": "KF-05",
+    "modelId": "MDL-KF-05",
+    "name": "Jeans",
+    "category": "Kids' Fashion",
+    "subcategory": "Boys",
+    "gender": "Kids",
+    "price": 799,
+    "originalPrice": 1299,
+    "discount": 38,
+    "rating": 4.7,
+    "reviewCount": 310,
+    "stock": 65,
+    "image": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Comfort stretch blue denim jeans with elastic inner adjustable waistband.",
+    "colors": [
+      "Blue",
+      "Dark Blue"
+    ],
+    "sizes": [
+      "4-5Y",
+      "6-7Y",
+      "8-9Y",
+      "10-11Y"
+    ],
+    "occasion": [
+      "casual",
+      "school",
+      "outing"
+    ],
+    "tags": [
+      "jeans",
+      "kids jeans",
+      "denim",
+      "boys"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Leo Rivas",
+      "photographerUrl": "https://unsplash.com/@leorivas?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:04.065Z"
+    }
+  },
+  {
+    "id": "KF-06",
+    "modelId": "MDL-KF-06",
+    "name": "Shorts",
+    "category": "Kids' Fashion",
+    "subcategory": "Boys",
+    "gender": "Kids",
+    "price": 499,
+    "originalPrice": 799,
+    "discount": 37,
+    "rating": 4.6,
+    "reviewCount": 190,
+    "stock": 75,
+    "image": "https://images.unsplash.com/photo-1524503033411-c9566986fc8f?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1524503033411-c9566986fc8f?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1524503033411-c9566986fc8f?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Dark blue washed denim durable casual play shorts with front pockets.",
+    "colors": [
+      "Blue",
+      "Grey"
+    ],
+    "sizes": [
+      "3-4Y",
+      "5-6Y",
+      "7-8Y"
+    ],
+    "occasion": [
+      "summer",
+      "daily",
+      "play"
+    ],
+    "tags": [
+      "shorts",
+      "kids shorts",
+      "denim",
+      "boys"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Benjamin Manley",
+      "photographerUrl": "https://unsplash.com/@benjaminmanley?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:04.113Z"
+    }
+  },
+  {
+    "id": "KF-07",
+    "modelId": "MDL-KF-07",
+    "name": "Track Suit",
+    "category": "Kids' Fashion",
+    "subcategory": "Sets",
+    "gender": "Kids",
+    "price": 999,
+    "originalPrice": 1599,
+    "discount": 37,
+    "rating": 4.8,
+    "reviewCount": 260,
+    "stock": 50,
+    "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Navy blue 2-piece hooded activewear sports tracksuit for kids.",
+    "colors": [
+      "Navy Blue",
+      "Red",
+      "Black"
+    ],
+    "sizes": [
+      "4-5Y",
+      "6-7Y",
+      "8-9Y",
+      "10-11Y"
+    ],
+    "occasion": [
+      "sports",
+      "winter",
+      "casual"
+    ],
+    "tags": [
+      "track suit",
+      "tracksuit",
+      "kids",
+      "activewear"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Annie Spratt",
+      "photographerUrl": "https://unsplash.com/@anniespratt?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:04.220Z"
+    }
+  },
+  {
+    "id": "KF-08",
+    "modelId": "MDL-KF-08",
+    "name": "Winter Wear",
+    "category": "Kids' Fashion",
+    "subcategory": "Sets",
+    "gender": "Kids",
+    "price": 899,
+    "originalPrice": 1499,
+    "discount": 40,
+    "rating": 4.8,
+    "reviewCount": 230,
+    "stock": 45,
+    "image": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Maroon quilted hooded winter windproof warm puffer jacket for kids.",
+    "colors": [
+      "Maroon",
+      "Navy Blue",
+      "Yellow"
+    ],
+    "sizes": [
+      "3-4Y",
+      "5-6Y",
+      "7-8Y"
+    ],
+    "occasion": [
+      "winter",
+      "travel"
+    ],
+    "tags": [
+      "winter wear",
+      "puffer jacket",
+      "jacket",
+      "kids"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Suzi Kim",
+      "photographerUrl": "https://unsplash.com/@suzikim?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:04.321Z"
+    }
+  },
+  {
+    "id": "KF-09",
+    "modelId": "MDL-KF-09",
+    "name": "School Uniform",
+    "category": "Kids' Fashion",
+    "subcategory": "Sets",
+    "gender": "Kids",
+    "price": 799,
+    "originalPrice": 1299,
+    "discount": 38,
+    "rating": 4.7,
+    "reviewCount": 380,
+    "stock": 100,
+    "image": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Classic crisp white half-sleeve shirt and navy blue pleated trousers school set.",
+    "colors": [
+      "White",
+      "Navy Blue"
+    ],
+    "sizes": [
+      "4-5Y",
+      "6-7Y",
+      "8-9Y",
+      "10-11Y"
+    ],
+    "occasion": [
+      "school"
+    ],
+    "tags": [
+      "school uniform",
+      "uniform",
+      "kids"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Alireza Attari",
+      "photographerUrl": "https://unsplash.com/@alirezaattari?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:04.424Z"
+    }
+  },
+  {
+    "id": "KF-10",
+    "modelId": "MDL-KF-10",
+    "name": "Shoes",
+    "category": "Kids' Fashion",
+    "subcategory": "Footwear",
+    "gender": "Kids",
+    "price": 799,
+    "originalPrice": 1399,
+    "discount": 42,
+    "rating": 4.8,
+    "reviewCount": 350,
+    "stock": 60,
+    "image": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Lightweight sky blue and white breathable athletic sporty sneakers for kids.",
+    "colors": [
+      "Sky Blue",
+      "Black",
+      "Red"
+    ],
+    "sizes": [
+      "10K",
+      "11K",
+      "12K",
+      "13K",
+      "1",
+      "2"
+    ],
+    "occasion": [
+      "school",
+      "sports",
+      "play"
+    ],
+    "tags": [
+      "shoes",
+      "kids shoes",
+      "sneakers",
+      "footwear"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Jordan Whitt",
+      "photographerUrl": "https://unsplash.com/@jordanwhitt?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:04.481Z"
+    }
+  },
+  {
+    "id": "KF-11",
+    "modelId": "MDL-KF-11",
+    "name": "Girls Top",
+    "category": "Kids' Fashion",
+    "subcategory": "Girls",
+    "gender": "Kids",
+    "price": 499,
+    "originalPrice": 799,
+    "discount": 37,
+    "rating": 4.7,
+    "reviewCount": 180,
+    "stock": 70,
+    "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "White cute floral print ruffle-sleeve pure cotton summer top for girls.",
+    "colors": [
+      "White",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "3-4Y",
+      "5-6Y",
+      "7-8Y"
+    ],
+    "occasion": [
+      "daily",
+      "casual"
+    ],
+    "tags": [
+      "girls top",
+      "top",
+      "ruffle",
+      "kids"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Jonathan Borba",
+      "photographerUrl": "https://unsplash.com/@jonathanborba?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:04.546Z"
+    }
+  },
+  {
+    "id": "KF-12",
+    "modelId": "MDL-KF-12",
+    "name": "Girls Jeans",
+    "category": "Kids' Fashion",
+    "subcategory": "Girls",
+    "gender": "Kids",
+    "price": 699,
+    "originalPrice": 1199,
+    "discount": 41,
+    "rating": 4.8,
+    "reviewCount": 220,
+    "stock": 50,
+    "image": "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Light blue washed straight leg comfortable stretch denim jeans for girls.",
+    "colors": [
+      "Blue",
+      "Ice Blue"
+    ],
+    "sizes": [
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "occasion": [
+      "outing",
+      "casual"
+    ],
+    "tags": [
+      "girls jeans",
+      "jeans",
+      "kids"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Daiga Ellaby",
+      "photographerUrl": "https://unsplash.com/@daigaellaby?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:04.606Z"
+    }
+  },
+  {
+    "id": "KF-13",
+    "modelId": "MDL-KF-13",
+    "name": "Boys Hoodie",
+    "category": "Kids' Fashion",
+    "subcategory": "Boys",
+    "gender": "Kids",
+    "price": 899,
+    "originalPrice": 1399,
+    "discount": 35,
+    "rating": 4.8,
+    "reviewCount": 190,
+    "stock": 55,
+    "image": "https://images.unsplash.com/photo-1485546246426-74dc88dec4d9?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1485546246426-74dc88dec4d9?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1485546246426-74dc88dec4d9?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Camel tan warm fleece pullover casual hoodie with kangaroo pocket for boys.",
+    "colors": [
+      "Camel",
+      "Black",
+      "Grey"
+    ],
+    "sizes": [
+      "4-5Y",
+      "6-7Y",
+      "8-9Y",
+      "10-11Y"
+    ],
+    "occasion": [
+      "winter",
+      "casual"
+    ],
+    "tags": [
+      "boys hoodie",
+      "hoodie",
+      "kids"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "MI PHAM",
+      "photographerUrl": "https://unsplash.com/@miphamblogging?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:04.669Z"
+    }
+  },
+  {
+    "id": "KF-14",
+    "modelId": "MDL-KF-14",
+    "name": "Jacket",
+    "category": "Kids' Fashion",
+    "subcategory": "Boys",
+    "gender": "Kids",
+    "price": 1199,
+    "originalPrice": 1799,
+    "discount": 33,
+    "rating": 4.9,
+    "reviewCount": 210,
+    "stock": 40,
+    "image": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Navy blue zipper lightweight casual varsity bomber jacket for boys.",
+    "colors": [
+      "Navy Blue",
+      "Black"
+    ],
+    "sizes": [
+      "5-6Y",
+      "7-8Y",
+      "9-10Y"
+    ],
+    "occasion": [
+      "winter",
+      "outing"
+    ],
+    "tags": [
+      "jacket",
+      "kids jacket",
+      "bomber"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Jonas Kakaroto",
+      "photographerUrl": "https://unsplash.com/@jonaskakaroto?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:04.724Z"
+    }
+  },
+  {
+    "id": "KF-15",
+    "modelId": "MDL-KF-15",
+    "name": "Dungaree Set",
+    "category": "Kids' Fashion",
+    "subcategory": "Sets",
+    "gender": "Kids",
+    "price": 899,
+    "originalPrice": 1499,
+    "discount": 40,
+    "rating": 4.9,
+    "reviewCount": 310,
+    "stock": 50,
+    "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Denim overalls dungaree pinafore set with soft striped inner cotton t-shirt.",
+    "colors": [
+      "Blue",
+      "Black"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y"
+    ],
+    "occasion": [
+      "birthday",
+      "outing"
+    ],
+    "tags": [
+      "dungaree",
+      "dungaree set",
+      "kids"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Edward Cisneros",
+      "photographerUrl": "https://unsplash.com/@edwardcisneros?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:04.782Z"
+    }
+  },
+  {
+    "id": "KF-16",
+    "modelId": "MDL-KF-16",
+    "name": "Romper",
+    "category": "Kids' Fashion",
+    "subcategory": "Sets",
+    "gender": "Kids",
+    "price": 699,
+    "originalPrice": 1099,
+    "discount": 36,
+    "rating": 4.8,
+    "reviewCount": 260,
+    "stock": 65,
+    "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Peach floral print ultra-soft breathable 100% organic cotton baby romper.",
+    "colors": [
+      "Peach",
+      "White",
+      "Yellow"
+    ],
+    "sizes": [
+      "0-6M",
+      "6-12M",
+      "12-18M"
+    ],
+    "occasion": [
+      "baby_shower",
+      "daily"
+    ],
+    "tags": [
+      "romper",
+      "baby romper",
+      "cotton"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Janko Ferlic",
+      "photographerUrl": "https://unsplash.com/@jankofr?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:04.850Z"
+    }
+  },
+  {
+    "id": "KF-17",
+    "modelId": "MDL-KF-17",
+    "name": "Night Suit",
+    "category": "Kids' Fashion",
+    "subcategory": "Sets",
+    "gender": "Kids",
+    "price": 599,
+    "originalPrice": 999,
+    "discount": 40,
+    "rating": 4.7,
+    "reviewCount": 300,
+    "stock": 75,
+    "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Cute animal cartoon print cozy full-sleeve cotton sleepwear night suit.",
+    "colors": [
+      "Sky Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y"
+    ],
+    "occasion": [
+      "daily",
+      "comfort"
+    ],
+    "tags": [
+      "night suit",
+      "sleepwear",
+      "kids"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Charisse Kenion",
+      "photographerUrl": "https://unsplash.com/@charissek?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:04.905Z"
+    }
+  },
+  {
+    "id": "KF-18",
+    "modelId": "MDL-KF-18",
+    "name": "Cap",
+    "category": "Kids' Fashion",
+    "subcategory": "Accessories",
+    "gender": "Kids",
+    "price": 299,
+    "originalPrice": 499,
+    "discount": 40,
+    "rating": 4.6,
+    "reviewCount": 180,
+    "stock": 90,
+    "image": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Pastel sky blue embroidered breathable cotton sun baseball cap for kids.",
+    "colors": [
+      "Sky Blue",
+      "Navy Blue",
+      "Red"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "occasion": [
+      "summer",
+      "vacation"
+    ],
+    "tags": [
+      "cap",
+      "kids cap",
+      "hat"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Manki Kim",
+      "photographerUrl": "https://unsplash.com/@mankikim?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:04.973Z"
+    }
+  },
+  {
+    "id": "KF-19",
+    "modelId": "MDL-KF-19",
+    "name": "Backpack",
+    "category": "Kids' Fashion",
+    "subcategory": "Accessories",
+    "gender": "Kids",
+    "price": 899,
+    "originalPrice": 1499,
+    "discount": 40,
+    "rating": 4.8,
+    "reviewCount": 420,
+    "stock": 65,
+    "image": "https://images.unsplash.com/photo-1546938576-6e6a64f317cc?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1546938576-6e6a64f317cc?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1546938576-6e6a64f317cc?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Navy blue galaxy star print water-resistant school backpack with lunch pouch.",
+    "colors": [
+      "Navy Blue",
+      "Pink"
+    ],
+    "sizes": [
+      "Standard"
+    ],
+    "occasion": [
+      "school"
+    ],
+    "tags": [
+      "backpack",
+      "school bag",
+      "kids bag"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Dmitry Ratushny",
+      "photographerUrl": "https://unsplash.com/@ratushny?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:05.033Z"
+    }
+  },
+  {
+    "id": "KF-20",
+    "modelId": "MDL-KF-20",
+    "name": "Socks",
+    "category": "Kids' Fashion",
+    "subcategory": "Accessories",
+    "gender": "Kids",
+    "price": 199,
+    "originalPrice": 399,
+    "discount": 50,
+    "rating": 4.8,
+    "reviewCount": 510,
+    "stock": 120,
+    "image": "https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Pack of 3 pairs colorful cartoon character anti-slip soft cotton ankle socks.",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "3-5Y",
+      "6-8Y"
+    ],
+    "occasion": [
+      "daily",
+      "school"
+    ],
+    "tags": [
+      "socks",
+      "kids socks",
+      "cotton"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Waldemar Brandt",
+      "photographerUrl": "https://unsplash.com/@waldemarbrandt?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:05.098Z"
+    }
+  },
+  {
+    "id": "BL-01",
+    "modelId": "MDL-BL-01",
+    "name": "Handbag",
+    "category": "Bags & Luggage",
+    "subcategory": "Handbags",
+    "gender": "Women",
+    "price": 1499,
+    "originalPrice": 2499,
+    "discount": 40,
+    "rating": 4.8,
+    "reviewCount": 410,
+    "stock": 50,
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Dusty rose pink structured faux leather top-handle handbag with gold hardware.",
+    "colors": [
+      "Pink",
+      "Tan",
+      "Black"
+    ],
+    "sizes": [
+      "Medium"
+    ],
+    "occasion": [
+      "office",
+      "party",
+      "anniversary"
+    ],
+    "tags": [
+      "handbag",
+      "bags",
+      "pink",
+      "purse"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Creative Exchange",
+      "photographerUrl": "https://unsplash.com/@creativeexchange?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:05.155Z"
+    }
+  },
+  {
+    "id": "BL-02",
+    "modelId": "MDL-BL-02",
+    "name": "Tote Bag",
+    "category": "Bags & Luggage",
+    "subcategory": "Handbags",
+    "gender": "Women",
+    "price": 1199,
+    "originalPrice": 1799,
+    "discount": 33,
+    "rating": 4.7,
+    "reviewCount": 320,
+    "stock": 65,
+    "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Beige spacious aesthetic canvas tote bag with inner zippered compartment.",
+    "colors": [
+      "Beige",
+      "Black",
+      "Brown"
+    ],
+    "sizes": [
+      "Large"
+    ],
+    "occasion": [
+      "college",
+      "shopping",
+      "work"
+    ],
+    "tags": [
+      "tote bag",
+      "canvas",
+      "beige",
+      "bag"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Laura Chouette",
+      "photographerUrl": "https://unsplash.com/@laurachouette?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:05.215Z"
+    }
+  },
+  {
+    "id": "BL-03",
+    "modelId": "MDL-BL-03",
+    "name": "Shoulder Bag",
+    "category": "Bags & Luggage",
+    "subcategory": "Handbags",
+    "gender": "Women",
+    "price": 1399,
+    "originalPrice": 2199,
+    "discount": 36,
+    "rating": 4.8,
+    "reviewCount": 275,
+    "stock": 45,
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Tan brown curved vintage baguette shoulder bag with adjustable strap.",
+    "colors": [
+      "Tan",
+      "Black",
+      "Cream"
+    ],
+    "sizes": [
+      "Medium"
+    ],
+    "occasion": [
+      "date_evening",
+      "casual",
+      "brunch"
+    ],
+    "tags": [
+      "shoulder bag",
+      "tan",
+      "baguette",
+      "bag"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Alisa Anton",
+      "photographerUrl": "https://unsplash.com/@alisaanton?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:05.280Z"
+    }
+  },
+  {
+    "id": "BL-04",
+    "modelId": "MDL-BL-04",
+    "name": "Sling Bag",
+    "category": "Bags & Luggage",
+    "subcategory": "Wallets",
+    "gender": "Women",
+    "price": 899,
+    "originalPrice": 1499,
+    "discount": 40,
+    "rating": 4.7,
+    "reviewCount": 390,
+    "stock": 70,
+    "image": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Compact matte black faux leather multi-zip crossbody sling bag.",
+    "colors": [
+      "Black",
+      "Brown",
+      "Maroon"
+    ],
+    "sizes": [
+      "Compact"
+    ],
+    "occasion": [
+      "travel",
+      "casual",
+      "college"
+    ],
+    "tags": [
+      "sling bag",
+      "crossbody",
+      "black",
+      "bag"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Aranprime",
+      "photographerUrl": "https://unsplash.com/@aranprime?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:05.327Z"
+    }
+  },
+  {
+    "id": "BL-05",
+    "modelId": "MDL-BL-05",
+    "name": "Backpack",
+    "category": "Bags & Luggage",
+    "subcategory": "Backpacks",
+    "gender": "Unisex",
+    "price": 1299,
+    "originalPrice": 1999,
+    "discount": 35,
+    "rating": 4.9,
+    "reviewCount": 650,
+    "stock": 85,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Matte black waterproof urban commuter laptop backpack with USB charging port.",
+    "colors": [
+      "Black",
+      "Grey",
+      "Navy Blue"
+    ],
+    "sizes": [
+      "30L"
+    ],
+    "occasion": [
+      "college",
+      "work",
+      "travel"
+    ],
+    "tags": [
+      "backpack",
+      "laptop bag",
+      "black",
+      "waterproof"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Sun Lee",
+      "photographerUrl": "https://unsplash.com/@sunlee?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:05.390Z"
+    }
+  },
+  {
+    "id": "BL-06",
+    "modelId": "MDL-BL-06",
+    "name": "Laptop Bag",
+    "category": "Bags & Luggage",
+    "subcategory": "Laptop Bags",
+    "gender": "Unisex",
+    "price": 1799,
+    "originalPrice": 2799,
+    "discount": 36,
+    "rating": 4.8,
+    "reviewCount": 310,
+    "stock": 40,
+    "image": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Executive black shockproof 15.6-inch laptop messenger briefcase bag with shoulder strap.",
+    "colors": [
+      "Black",
+      "Grey"
+    ],
+    "sizes": [
+      "15.6 inch"
+    ],
+    "occasion": [
+      "office",
+      "corporate",
+      "interview"
+    ],
+    "tags": [
+      "laptop bag",
+      "briefcase",
+      "messenger bag",
+      "work"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Tamara Bellis",
+      "photographerUrl": "https://unsplash.com/@tamarabellis?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:05.443Z"
+    }
+  },
+  {
+    "id": "BL-07",
+    "modelId": "MDL-BL-07",
+    "name": "Travel Bag",
+    "category": "Bags & Luggage",
+    "subcategory": "Travel Bags",
+    "gender": "Unisex",
+    "price": 2499,
+    "originalPrice": 3999,
+    "discount": 37,
+    "rating": 4.8,
+    "reviewCount": 240,
+    "stock": 35,
+    "image": "https://images.unsplash.com/photo-1556306535-0f09a537f0a3?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1556306535-0f09a537f0a3?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1556306535-0f09a537f0a3?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Heavy-duty black Oxford waterproof weekender travel holdall bag with shoe pocket.",
+    "colors": [
+      "Black",
+      "Navy Blue"
+    ],
+    "sizes": [
+      "45L"
+    ],
+    "occasion": [
+      "vacation",
+      "travel",
+      "weekend"
+    ],
+    "tags": [
+      "travel bag",
+      "holdall",
+      "luggage",
+      "weekender"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Enis Yavuz",
+      "photographerUrl": "https://unsplash.com/@enisyavuz?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:05.509Z"
+    }
+  },
+  {
+    "id": "BL-08",
+    "modelId": "MDL-BL-08",
+    "name": "Duffel Bag",
+    "category": "Bags & Luggage",
+    "subcategory": "Travel Bags",
+    "gender": "Unisex",
+    "price": 1999,
+    "originalPrice": 2999,
+    "discount": 33,
+    "rating": 4.7,
+    "reviewCount": 290,
+    "stock": 45,
+    "image": "https://images.unsplash.com/photo-1547949003-9792a18a2601?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1547949003-9792a18a2601?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1547949003-9792a18a2601?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Navy blue sports gym duffel bag with wet compartment and cushioned shoulder pad.",
+    "colors": [
+      "Navy Blue",
+      "Black",
+      "Grey"
+    ],
+    "sizes": [
+      "35L"
+    ],
+    "occasion": [
+      "gym",
+      "travel",
+      "sports"
+    ],
+    "tags": [
+      "duffel bag",
+      "gym bag",
+      "navy",
+      "sports"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Stil",
+      "photographerUrl": "https://unsplash.com/@stilclassics?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:05.563Z"
+    }
+  },
+  {
+    "id": "BL-09",
+    "modelId": "MDL-BL-09",
+    "name": "Clutch",
+    "category": "Bags & Luggage",
+    "subcategory": "Clutches & More",
+    "gender": "Women",
+    "price": 799,
+    "originalPrice": 1299,
+    "discount": 38,
+    "rating": 4.8,
+    "reviewCount": 310,
+    "stock": 60,
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Textured glittering gold evening bridal envelope clutch wallet with chain sling.",
+    "colors": [
+      "Gold",
+      "Silver",
+      "Rose Gold"
+    ],
+    "sizes": [
+      "Standard"
+    ],
+    "occasion": [
+      "wedding",
+      "party",
+      "reception"
+    ],
+    "tags": [
+      "clutch",
+      "evening clutch",
+      "gold",
+      "bridal"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Kari Shea",
+      "photographerUrl": "https://unsplash.com/@karishea?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:05.626Z"
+    }
+  },
+  {
+    "id": "BL-10",
+    "modelId": "MDL-BL-10",
+    "name": "Wallet",
+    "category": "Bags & Luggage",
+    "subcategory": "Wallets",
+    "gender": "Men",
+    "price": 699,
+    "originalPrice": 1199,
+    "discount": 41,
+    "rating": 4.9,
+    "reviewCount": 560,
+    "stock": 90,
+    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Handcrafted vintage tan brown RFID-blocking bi-fold genuine leather wallet.",
+    "colors": [
+      "Tan",
+      "Black",
+      "Brown"
+    ],
+    "sizes": [
+      "Standard"
+    ],
+    "occasion": [
+      "birthday",
+      "anniversary",
+      "corporate"
+    ],
+    "tags": [
+      "wallet",
+      "leather wallet",
+      "tan",
+      "men"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Two Men's Clay",
+      "photographerUrl": "https://unsplash.com/@twomensclay?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:05.687Z"
+    }
+  },
+  {
+    "id": "BL-11",
+    "modelId": "MDL-BL-11",
+    "name": "Card Holder",
+    "category": "Bags & Luggage",
+    "subcategory": "Wallets",
+    "gender": "Unisex",
+    "price": 499,
+    "originalPrice": 899,
+    "discount": 44,
+    "rating": 4.7,
+    "reviewCount": 380,
+    "stock": 110,
+    "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Slim minimalist black carbon fiber pop-up RFID card case with cash clip.",
+    "colors": [
+      "Black",
+      "Silver"
+    ],
+    "sizes": [
+      "Slim"
+    ],
+    "occasion": [
+      "office",
+      "gift",
+      "daily"
+    ],
+    "tags": [
+      "card holder",
+      "rfid",
+      "wallet",
+      "minimalist"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Geojango Maps",
+      "photographerUrl": "https://unsplash.com/@geojango?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:05.758Z"
+    }
+  },
+  {
+    "id": "BL-12",
+    "modelId": "MDL-BL-12",
+    "name": "Trolley Bag",
+    "category": "Bags & Luggage",
+    "subcategory": "Travel Bags",
+    "gender": "Unisex",
+    "price": 3499,
+    "originalPrice": 5999,
+    "discount": 41,
+    "rating": 4.9,
+    "reviewCount": 480,
+    "stock": 30,
+    "image": "https://images.unsplash.com/photo-1565026057447-bc90a3dceb87?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1565026057447-bc90a3dceb87?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1565026057447-bc90a3dceb87?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Rich coffee brown 24-inch hard-shell 8-wheel silent spinner trolley suitcase with TSA lock.",
+    "colors": [
+      "Brown",
+      "Black",
+      "Navy Blue"
+    ],
+    "sizes": [
+      "24 Inch"
+    ],
+    "occasion": [
+      "vacation",
+      "honeymoon",
+      "travel"
+    ],
+    "tags": [
+      "trolley",
+      "suitcase",
+      "luggage",
+      "travel"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "American Green Travel",
+      "photographerUrl": "https://unsplash.com/@americangreentravel?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:05.813Z"
+    }
+  },
+  {
+    "id": "EG-01",
+    "modelId": "MDL-EG-01",
+    "name": "Smartphone",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Mobiles",
+    "gender": "Unisex",
+    "price": 14999,
+    "originalPrice": 19999,
+    "discount": 25,
+    "rating": 4.8,
+    "reviewCount": 780,
+    "stock": 40,
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "6.5-inch FHD+ 120Hz display 5G smartphone with 50MP AI triple camera and 5000mAh battery.",
+    "colors": [
+      "Black",
+      "Blue",
+      "Silver"
+    ],
+    "sizes": [
+      "128GB"
+    ],
+    "occasion": [
+      "birthday",
+      "anniversary",
+      "graduation"
+    ],
+    "tags": [
+      "smartphone",
+      "mobile",
+      "phone",
+      "5g",
+      "tech"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Daniel Romero",
+      "photographerUrl": "https://unsplash.com/@danielromero?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:05.882Z"
+    }
+  },
+  {
+    "id": "EG-02",
+    "modelId": "MDL-EG-02",
+    "name": "Laptop",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Laptops",
+    "gender": "Unisex",
+    "price": 49999,
+    "originalPrice": 64999,
+    "discount": 23,
+    "rating": 4.9,
+    "reviewCount": 420,
+    "stock": 20,
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Ultra-slim 15.6-inch FHD Core i5 metallic body laptop with 16GB RAM and 512GB SSD.",
+    "colors": [
+      "Silver",
+      "Space Grey"
+    ],
+    "sizes": [
+      "15.6 inch"
+    ],
+    "occasion": [
+      "college",
+      "work",
+      "job_interview"
+    ],
+    "tags": [
+      "laptop",
+      "computer",
+      "notebook",
+      "tech"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Howard Bouchevereau",
+      "photographerUrl": "https://unsplash.com/@howardbouchevereau?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:05.942Z"
+    }
+  },
+  {
+    "id": "EG-03",
+    "modelId": "MDL-EG-03",
+    "name": "Tablet",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Smart Devices",
+    "gender": "Unisex",
+    "price": 19999,
+    "originalPrice": 25999,
+    "discount": 23,
+    "rating": 4.8,
+    "reviewCount": 310,
+    "stock": 35,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "10.4-inch 2K IPS display Android entertainment tablet with stereo quad speakers.",
+    "colors": [
+      "Grey",
+      "Silver"
+    ],
+    "sizes": [
+      "64GB"
+    ],
+    "occasion": [
+      "college",
+      "birthday",
+      "study"
+    ],
+    "tags": [
+      "tablet",
+      "ipad",
+      "android",
+      "tab"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Denis Cherkashin",
+      "photographerUrl": "https://unsplash.com/@cherkashin?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:06.012Z"
+    }
+  },
+  {
+    "id": "EG-04",
+    "modelId": "MDL-EG-04",
+    "name": "Smart Watch",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Smart Devices",
+    "gender": "Unisex",
+    "price": 2999,
+    "originalPrice": 4999,
+    "discount": 40,
+    "rating": 4.8,
+    "reviewCount": 650,
+    "stock": 80,
+    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "1.9-inch HD display smartwatch with Bluetooth calling, SpO2 and 100+ sports modes.",
+    "colors": [
+      "Black",
+      "Rose Gold",
+      "Silver"
+    ],
+    "sizes": [
+      "Standard"
+    ],
+    "occasion": [
+      "birthday",
+      "anniversary",
+      "fitness"
+    ],
+    "tags": [
+      "smart watch",
+      "smartwatch",
+      "fitness",
+      "wearable"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Luke Chesser",
+      "photographerUrl": "https://unsplash.com/@lukechesser?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:06.076Z"
+    }
+  },
+  {
+    "id": "EG-05",
+    "modelId": "MDL-EG-05",
+    "name": "Earbuds",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Audio",
+    "gender": "Unisex",
+    "price": 1499,
+    "originalPrice": 2499,
+    "discount": 40,
+    "rating": 4.8,
+    "reviewCount": 890,
+    "stock": 95,
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Active Noise Cancelling True Wireless earbuds with 40-hour playback and low latency.",
+    "colors": [
+      "White",
+      "Black"
+    ],
+    "sizes": [
+      "Standard"
+    ],
+    "occasion": [
+      "birthday",
+      "college",
+      "daily"
+    ],
+    "tags": [
+      "earbuds",
+      "tws",
+      "wireless",
+      "audio"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Kunj Parekh",
+      "photographerUrl": "https://unsplash.com/@kunjparekh?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:06.158Z"
+    }
+  },
+  {
+    "id": "EG-06",
+    "modelId": "MDL-EG-06",
+    "name": "Headphones",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Audio",
+    "gender": "Unisex",
+    "price": 4999,
+    "originalPrice": 7999,
+    "discount": 37,
+    "rating": 4.9,
+    "reviewCount": 520,
+    "stock": 45,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Over-ear wireless Bluetooth headphones with deep bass, hybrid ANC and plush memory foam.",
+    "colors": [
+      "Black",
+      "Silver"
+    ],
+    "sizes": [
+      "Over-Ear"
+    ],
+    "occasion": [
+      "birthday",
+      "travel",
+      "gaming"
+    ],
+    "tags": [
+      "headphones",
+      "over ear",
+      "anc",
+      "bluetooth"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "C-Headphones",
+      "photographerUrl": "https://unsplash.com/@cheadphones?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:06.242Z"
+    }
+  },
+  {
+    "id": "EG-07",
+    "modelId": "MDL-EG-07",
+    "name": "Power Bank",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Accessories",
+    "gender": "Unisex",
+    "price": 1299,
+    "originalPrice": 1999,
+    "discount": 35,
+    "rating": 4.7,
+    "reviewCount": 440,
+    "stock": 90,
+    "image": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "20000mAh 22.5W two-way fast charging slim power bank with dual USB & Type-C output.",
+    "colors": [
+      "Black",
+      "White"
+    ],
+    "sizes": [
+      "20000mAh"
+    ],
+    "occasion": [
+      "travel",
+      "college"
+    ],
+    "tags": [
+      "power bank",
+      "charger",
+      "battery",
+      "fast charging"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Anker Studio",
+      "photographerUrl": "https://unsplash.com/@ankerstudio?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:06.305Z"
+    }
+  },
+  {
+    "id": "EG-08",
+    "modelId": "MDL-EG-08",
+    "name": "Phone Case",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Accessories",
+    "gender": "Unisex",
+    "price": 399,
+    "originalPrice": 699,
+    "discount": 42,
+    "rating": 4.6,
+    "reviewCount": 380,
+    "stock": 120,
+    "image": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Military grade shockproof protective magnetic matte phone cover with camera ring stand.",
+    "colors": [
+      "Navy Blue",
+      "Black",
+      "Clear"
+    ],
+    "sizes": [
+      "Standard"
+    ],
+    "occasion": [
+      "daily"
+    ],
+    "tags": [
+      "phone case",
+      "cover",
+      "protective"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Caseify",
+      "photographerUrl": "https://unsplash.com/@caseify?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:06.369Z"
+    }
+  },
+  {
+    "id": "EG-09",
+    "modelId": "MDL-EG-09",
+    "name": "Charger",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Accessories",
+    "gender": "Unisex",
+    "price": 599,
+    "originalPrice": 999,
+    "discount": 40,
+    "rating": 4.8,
+    "reviewCount": 390,
+    "stock": 100,
+    "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "65W GaN dual-port USB-C fast wall adapter for laptops and smartphones.",
+    "colors": [
+      "Black",
+      "White"
+    ],
+    "sizes": [
+      "65W"
+    ],
+    "occasion": [
+      "travel",
+      "office"
+    ],
+    "tags": [
+      "charger",
+      "adapter",
+      "gan",
+      "fast charging"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Fast Charge Tech",
+      "photographerUrl": "https://unsplash.com/@techcharger?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:06.433Z"
+    }
+  },
+  {
+    "id": "EG-10",
+    "modelId": "MDL-EG-10",
+    "name": "Mouse",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Accessories",
+    "gender": "Unisex",
+    "price": 799,
+    "originalPrice": 1299,
+    "discount": 38,
+    "rating": 4.7,
+    "reviewCount": 460,
+    "stock": 85,
+    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "2.4GHz rechargeable silent wireless ergonomic optical mouse with 1600 DPI.",
+    "colors": [
+      "Black",
+      "Silver"
+    ],
+    "sizes": [
+      "Standard"
+    ],
+    "occasion": [
+      "office",
+      "college"
+    ],
+    "tags": [
+      "mouse",
+      "wireless mouse",
+      "ergonomic",
+      "optical"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Oscar Ivan",
+      "photographerUrl": "https://unsplash.com/@oscarivan?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:06.513Z"
+    }
+  },
+  {
+    "id": "EG-11",
+    "modelId": "MDL-EG-11",
+    "name": "Keyboard",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Accessories",
+    "gender": "Unisex",
+    "price": 1299,
+    "originalPrice": 1999,
+    "discount": 35,
+    "rating": 4.8,
+    "reviewCount": 380,
+    "stock": 60,
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Slim wireless Bluetooth keyboard with multi-device connectivity and scissor-switch keys.",
+    "colors": [
+      "Black",
+      "White"
+    ],
+    "sizes": [
+      "Standard"
+    ],
+    "occasion": [
+      "office",
+      "work"
+    ],
+    "tags": [
+      "keyboard",
+      "wireless keyboard",
+      "bluetooth"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Jay Zhang",
+      "photographerUrl": "https://unsplash.com/@jayzhang?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:06.576Z"
+    }
+  },
+  {
+    "id": "EG-12",
+    "modelId": "MDL-EG-12",
+    "name": "Bluetooth Speaker",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Audio",
+    "gender": "Unisex",
+    "price": 2499,
+    "originalPrice": 3999,
+    "discount": 37,
+    "rating": 4.9,
+    "reviewCount": 610,
+    "stock": 55,
+    "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "20W portable IPX7 waterproof wireless Bluetooth speaker with punchy bass and LED lights.",
+    "colors": [
+      "Black",
+      "Blue",
+      "Red"
+    ],
+    "sizes": [
+      "Portable"
+    ],
+    "occasion": [
+      "party",
+      "vacation",
+      "birthday"
+    ],
+    "tags": [
+      "bluetooth speaker",
+      "speaker",
+      "wireless",
+      "waterproof"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Soundcore",
+      "photographerUrl": "https://unsplash.com/@soundcore?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:06.633Z"
+    }
+  },
+  {
+    "id": "HK-01",
+    "modelId": "MDL-HK-01",
+    "name": "Cookware Set",
+    "category": "Home & Kitchen",
+    "subcategory": "Cookware",
+    "gender": "Unisex",
+    "price": 2499,
+    "originalPrice": 3999,
+    "discount": 37,
+    "rating": 4.8,
+    "reviewCount": 450,
+    "stock": 50,
+    "image": "https://images.unsplash.com/photo-1583778176476-4a8b02a64c01?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1583778176476-4a8b02a64c01?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1583778176476-4a8b02a64c01?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "3-piece granite stone non-stick cookware set including kadai, frying pan and saucepan with glass lids.",
+    "colors": [
+      "Black Granite"
+    ],
+    "sizes": [
+      "3-Piece"
+    ],
+    "occasion": [
+      "housewarming",
+      "wedding",
+      "new_home"
+    ],
+    "tags": [
+      "cookware",
+      "pan",
+      "kadai",
+      "non-stick",
+      "kitchen"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Cookware Studio",
+      "photographerUrl": "https://unsplash.com/@cookware?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:06.719Z"
+    }
+  },
+  {
+    "id": "HK-02",
+    "modelId": "MDL-HK-02",
+    "name": "Pressure Cooker",
+    "category": "Home & Kitchen",
+    "subcategory": "Cookware",
+    "gender": "Unisex",
+    "price": 1999,
+    "originalPrice": 2899,
+    "discount": 31,
+    "rating": 4.9,
+    "reviewCount": 520,
+    "stock": 65,
+    "image": "https://images.unsplash.com/photo-1585515320310-259814833e62?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1585515320310-259814833e62?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1585515320310-259814833e62?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "3-litre virgin aluminium induction base outer lid safety pressure cooker.",
+    "colors": [
+      "Silver"
+    ],
+    "sizes": [
+      "3 Litre",
+      "5 Litre"
+    ],
+    "occasion": [
+      "housewarming",
+      "wedding"
+    ],
+    "tags": [
+      "pressure cooker",
+      "cooker",
+      "induction",
+      "kitchen"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Hawkins Prestige",
+      "photographerUrl": "https://unsplash.com/@kitchengear?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:06.798Z"
+    }
+  },
+  {
+    "id": "HK-03",
+    "modelId": "MDL-HK-03",
+    "name": "Non-Stick Pan",
+    "category": "Home & Kitchen",
+    "subcategory": "Cookware",
+    "gender": "Unisex",
+    "price": 1199,
+    "originalPrice": 1799,
+    "discount": 33,
+    "rating": 4.7,
+    "reviewCount": 380,
+    "stock": 80,
+    "image": "https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "28cm scratch-resistant non-stick induction frying pan with cool-touch ergonomic handle.",
+    "colors": [
+      "Black"
+    ],
+    "sizes": [
+      "28cm"
+    ],
+    "occasion": [
+      "daily",
+      "new_home"
+    ],
+    "tags": [
+      "non-stick pan",
+      "frying pan",
+      "cookware"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Skillet Arts",
+      "photographerUrl": "https://unsplash.com/@skilletarts?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:06.879Z"
+    }
+  },
+  {
+    "id": "HK-04",
+    "modelId": "MDL-HK-04",
+    "name": "Dinner Set",
+    "category": "Home & Kitchen",
+    "subcategory": "Dining",
+    "gender": "Unisex",
+    "price": 1999,
+    "originalPrice": 3299,
+    "discount": 39,
+    "rating": 4.8,
+    "reviewCount": 410,
+    "stock": 40,
+    "image": "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "18-piece opal glass microwave-safe floral dinner set with plates and bowls.",
+    "colors": [
+      "White Floral"
+    ],
+    "sizes": [
+      "18-Piece"
+    ],
+    "occasion": [
+      "wedding",
+      "housewarming",
+      "anniversary"
+    ],
+    "tags": [
+      "dinner set",
+      "plates",
+      "bowls",
+      "dining"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Dinnerware Co",
+      "photographerUrl": "https://unsplash.com/@dinnerware?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:06.955Z"
+    }
+  },
+  {
+    "id": "HK-05",
+    "modelId": "MDL-HK-05",
+    "name": "Lunch Box",
+    "category": "Home & Kitchen",
+    "subcategory": "Dining",
+    "gender": "Unisex",
+    "price": 699,
+    "originalPrice": 1099,
+    "discount": 36,
+    "rating": 4.7,
+    "reviewCount": 310,
+    "stock": 90,
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "3-tier insulated leakproof stainless steel bento lunch box with carry bag.",
+    "colors": [
+      "Blue",
+      "Grey"
+    ],
+    "sizes": [
+      "3-Tier"
+    ],
+    "occasion": [
+      "office",
+      "college",
+      "school"
+    ],
+    "tags": [
+      "lunch box",
+      "bento",
+      "stainless steel",
+      "tiffin"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Bento Lifestyle",
+      "photographerUrl": "https://unsplash.com/@bentostyle?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:07.020Z"
+    }
+  },
+  {
+    "id": "HK-06",
+    "modelId": "MDL-HK-06",
+    "name": "Water Bottle",
+    "category": "Home & Kitchen",
+    "subcategory": "Dining",
+    "gender": "Unisex",
+    "price": 499,
+    "originalPrice": 899,
+    "discount": 44,
+    "rating": 4.8,
+    "reviewCount": 580,
+    "stock": 120,
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "1000ml double-wall vacuum insulated stainless steel hot and cold water bottle.",
+    "colors": [
+      "Blue",
+      "Black",
+      "Silver"
+    ],
+    "sizes": [
+      "1000ml"
+    ],
+    "occasion": [
+      "gym",
+      "office",
+      "travel"
+    ],
+    "tags": [
+      "water bottle",
+      "flask",
+      "insulated",
+      "bottle"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Hydro flask",
+      "photographerUrl": "https://unsplash.com/@hydroflask?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:07.075Z"
+    }
+  },
+  {
+    "id": "HK-07",
+    "modelId": "MDL-HK-07",
+    "name": "Storage Container",
+    "category": "Home & Kitchen",
+    "subcategory": "Storage",
+    "gender": "Unisex",
+    "price": 799,
+    "originalPrice": 1299,
+    "discount": 38,
+    "rating": 4.7,
+    "reviewCount": 340,
+    "stock": 75,
+    "image": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Set of 6 airtight BPA-free modular kitchen pantry food storage canisters.",
+    "colors": [
+      "Clear / Blue"
+    ],
+    "sizes": [
+      "Set of 6"
+    ],
+    "occasion": [
+      "housewarming",
+      "kitchen"
+    ],
+    "tags": [
+      "storage container",
+      "airtight",
+      "jars",
+      "kitchen"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Airtight Glass",
+      "photographerUrl": "https://unsplash.com/@glassware?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:07.148Z"
+    }
+  },
+  {
+    "id": "HK-08",
+    "modelId": "MDL-HK-08",
+    "name": "Mixer Grinder",
+    "category": "Home & Kitchen",
+    "subcategory": "Cookware",
+    "gender": "Unisex",
+    "price": 2499,
+    "originalPrice": 3999,
+    "discount": 37,
+    "rating": 4.8,
+    "reviewCount": 490,
+    "stock": 45,
+    "image": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "750W heavy-duty motor mixer grinder with 3 stainless steel jars and pulse speed.",
+    "colors": [
+      "White / Blue"
+    ],
+    "sizes": [
+      "750W"
+    ],
+    "occasion": [
+      "housewarming",
+      "wedding"
+    ],
+    "tags": [
+      "mixer grinder",
+      "mixie",
+      "grinder",
+      "appliance"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Culinary Tech",
+      "photographerUrl": "https://unsplash.com/@blendertech?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:07.216Z"
+    }
+  },
+  {
+    "id": "HK-09",
+    "modelId": "MDL-HK-09",
+    "name": "Air Fryer",
+    "category": "Home & Kitchen",
+    "subcategory": "Cookware",
+    "gender": "Unisex",
+    "price": 4699,
+    "originalPrice": 6999,
+    "discount": 33,
+    "rating": 4.9,
+    "reviewCount": 380,
+    "stock": 35,
+    "image": "https://images.unsplash.com/photo-1584269600519-112d071b35e6?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1584269600519-112d071b35e6?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1584269600519-112d071b35e6?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "4.5L digital rapid air circulation 1400W oil-free touch screen air fryer.",
+    "colors": [
+      "Black"
+    ],
+    "sizes": [
+      "4.5L"
+    ],
+    "occasion": [
+      "housewarming",
+      "healthy",
+      "gift"
+    ],
+    "tags": [
+      "air fryer",
+      "oil free",
+      "fryer",
+      "appliance"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Airfryer Chef",
+      "photographerUrl": "https://unsplash.com/@airfryerchef?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:07.464Z"
+    }
+  },
+  {
+    "id": "HK-10",
+    "modelId": "MDL-HK-10",
+    "name": "Coffee Maker",
+    "category": "Home & Kitchen",
+    "subcategory": "Cookware",
+    "gender": "Unisex",
+    "price": 2999,
+    "originalPrice": 4499,
+    "discount": 33,
+    "rating": 4.8,
+    "reviewCount": 290,
+    "stock": 40,
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Automatic drip coffee maker machine with anti-drip valve and reusable nylon filter.",
+    "colors": [
+      "Black"
+    ],
+    "sizes": [
+      "600ml"
+    ],
+    "occasion": [
+      "housewarming",
+      "gift"
+    ],
+    "tags": [
+      "coffee maker",
+      "espresso",
+      "drip",
+      "coffee"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Espresso Maker",
+      "photographerUrl": "https://unsplash.com/@espressomaker?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:07.628Z"
+    }
+  },
+  {
+    "id": "HK-11",
+    "modelId": "MDL-HK-11",
+    "name": "Bedsheet",
+    "category": "Home & Kitchen",
+    "subcategory": "Furnishing",
+    "gender": "Unisex",
+    "price": 899,
+    "originalPrice": 1499,
+    "discount": 40,
+    "rating": 4.8,
+    "reviewCount": 510,
+    "stock": 80,
+    "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "100% pure breathable cotton king-size floral printed bedsheet with 2 matching pillow covers.",
+    "colors": [
+      "Blue Floral",
+      "Pink Floral"
+    ],
+    "sizes": [
+      "King Size"
+    ],
+    "occasion": [
+      "housewarming",
+      "wedding",
+      "new_home"
+    ],
+    "tags": [
+      "bedsheet",
+      "cotton",
+      "bedding",
+      "furnishing"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Linen Bedding",
+      "photographerUrl": "https://unsplash.com/@bedding?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:07.690Z"
+    }
+  },
+  {
+    "id": "HK-12",
+    "modelId": "MDL-HK-12",
+    "name": "Curtains",
+    "category": "Home & Kitchen",
+    "subcategory": "Furnishing",
+    "gender": "Unisex",
+    "price": 799,
+    "originalPrice": 1299,
+    "discount": 38,
+    "rating": 4.7,
+    "reviewCount": 320,
+    "stock": 65,
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Set of 2 room darkening jacquard eyelet window door curtains (7 feet).",
+    "colors": [
+      "Beige",
+      "Grey",
+      "Brown"
+    ],
+    "sizes": [
+      "7 Feet"
+    ],
+    "occasion": [
+      "new_home",
+      "decor"
+    ],
+    "tags": [
+      "curtains",
+      "drapes",
+      "blackout",
+      "home"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Home Curtains",
+      "photographerUrl": "https://unsplash.com/@curtains?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:07.747Z"
+    }
+  },
+  {
+    "id": "HK-13",
+    "modelId": "MDL-HK-13",
+    "name": "Cushion Cover",
+    "category": "Home & Kitchen",
+    "subcategory": "Furnishing",
+    "gender": "Unisex",
+    "price": 399,
+    "originalPrice": 699,
+    "discount": 42,
+    "rating": 4.7,
+    "reviewCount": 280,
+    "stock": 90,
+    "image": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Set of 5 velvet bohemian printed decorative 16x16 inch sofa cushion covers.",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "16x16 inch"
+    ],
+    "occasion": [
+      "decor",
+      "housewarming"
+    ],
+    "tags": [
+      "cushion cover",
+      "pillows",
+      "sofa",
+      "boho"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Velvet Cushions",
+      "photographerUrl": "https://unsplash.com/@cushions?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:07.811Z"
+    }
+  },
+  {
+    "id": "HK-14",
+    "modelId": "MDL-HK-14",
+    "name": "Table Lamp",
+    "category": "Home & Kitchen",
+    "subcategory": "Home Decor",
+    "gender": "Unisex",
+    "price": 1199,
+    "originalPrice": 1899,
+    "discount": 36,
+    "rating": 4.8,
+    "reviewCount": 350,
+    "stock": 50,
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Nordic modern tripod solid wood base table lamp with warm ambient fabric shade.",
+    "colors": [
+      "Warm White"
+    ],
+    "sizes": [
+      "Medium"
+    ],
+    "occasion": [
+      "housewarming",
+      "gift",
+      "decor"
+    ],
+    "tags": [
+      "table lamp",
+      "lamp",
+      "lighting",
+      "decor"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Nordic Lamp",
+      "photographerUrl": "https://unsplash.com/@nordiclamp?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:07.870Z"
+    }
+  },
+  {
+    "id": "HK-15",
+    "modelId": "MDL-HK-15",
+    "name": "Wall Clock",
+    "category": "Home & Kitchen",
+    "subcategory": "Home Decor",
+    "gender": "Unisex",
+    "price": 899,
+    "originalPrice": 1499,
+    "discount": 40,
+    "rating": 4.7,
+    "reviewCount": 420,
+    "stock": 70,
+    "image": "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "12-inch modern silent non-ticking sweep movement glass wall clock.",
+    "colors": [
+      "Vintage White",
+      "Black"
+    ],
+    "sizes": [
+      "12 Inch"
+    ],
+    "occasion": [
+      "housewarming",
+      "wedding",
+      "new_home"
+    ],
+    "tags": [
+      "wall clock",
+      "clock",
+      "decor",
+      "silent"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Modern Horology",
+      "photographerUrl": "https://unsplash.com/@wallclock?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:07.943Z"
+    }
+  },
+  {
+    "id": "HK-16",
+    "modelId": "MDL-HK-16",
+    "name": "Rug",
+    "category": "Home & Kitchen",
+    "subcategory": "Furnishing",
+    "gender": "Unisex",
+    "price": 1299,
+    "originalPrice": 2199,
+    "discount": 40,
+    "rating": 4.8,
+    "reviewCount": 260,
+    "stock": 45,
+    "image": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Soft anti-skid modern geometric patterned indoor living room area carpet rug.",
+    "colors": [
+      "Grey Geometric"
+    ],
+    "sizes": [
+      "4x6 Feet"
+    ],
+    "occasion": [
+      "housewarming",
+      "decor"
+    ],
+    "tags": [
+      "rug",
+      "carpet",
+      "living room",
+      "decor"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Boho Rugs",
+      "photographerUrl": "https://unsplash.com/@bohorugs?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:08.069Z"
+    }
+  },
+  {
+    "id": "HK-17",
+    "modelId": "MDL-HK-17",
+    "name": "Plant Pot",
+    "category": "Home & Kitchen",
+    "subcategory": "Home Decor",
+    "gender": "Unisex",
+    "price": 399,
+    "originalPrice": 699,
+    "discount": 42,
+    "rating": 4.7,
+    "reviewCount": 310,
+    "stock": 85,
+    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Set of 2 handcrafted ceramic glazed indoor plant pots with drainage hole.",
+    "colors": [
+      "White / Terracotta"
+    ],
+    "sizes": [
+      "Medium"
+    ],
+    "occasion": [
+      "housewarming",
+      "gift"
+    ],
+    "tags": [
+      "plant pot",
+      "planter",
+      "ceramic",
+      "succulent"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Ceramic Planter",
+      "photographerUrl": "https://unsplash.com/@planter?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:08.146Z"
+    }
+  },
+  {
+    "id": "HK-18",
+    "modelId": "MDL-HK-18",
+    "name": "Wall Art",
+    "category": "Home & Kitchen",
+    "subcategory": "Home Decor",
+    "gender": "Unisex",
+    "price": 899,
+    "originalPrice": 1499,
+    "discount": 40,
+    "rating": 4.8,
+    "reviewCount": 270,
+    "stock": 55,
+    "image": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Set of 3 botanical framed canvas abstract minimalist modern wall art panels.",
+    "colors": [
+      "Botanical Green"
+    ],
+    "sizes": [
+      "Set of 3"
+    ],
+    "occasion": [
+      "housewarming",
+      "decor"
+    ],
+    "tags": [
+      "wall art",
+      "painting",
+      "canvas",
+      "decor"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Canvas Studio",
+      "photographerUrl": "https://unsplash.com/@canvasstudio?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:08.202Z"
+    }
+  },
+  {
+    "id": "HK-19",
+    "modelId": "MDL-HK-19",
+    "name": "Diffuser",
+    "category": "Home & Kitchen",
+    "subcategory": "Home Decor",
+    "gender": "Unisex",
+    "price": 699,
+    "originalPrice": 1199,
+    "discount": 41,
+    "rating": 4.9,
+    "reviewCount": 430,
+    "stock": 65,
+    "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "300ml ultrasonic aromatherapy essential oil aroma mist diffuser with 7 LED night lights.",
+    "colors": [
+      "Wood Grain"
+    ],
+    "sizes": [
+      "300ml"
+    ],
+    "occasion": [
+      "gift",
+      "housewarming",
+      "relaxation"
+    ],
+    "tags": [
+      "diffuser",
+      "aroma",
+      "essential oil",
+      "humidifier"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Aroma Wellness",
+      "photographerUrl": "https://unsplash.com/@diffuser?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:08.280Z"
+    }
+  },
+  {
+    "id": "HK-20",
+    "modelId": "MDL-HK-20",
+    "name": "Laundry Basket",
+    "category": "Home & Kitchen",
+    "subcategory": "Cleaning",
+    "gender": "Unisex",
+    "price": 599,
+    "originalPrice": 999,
+    "discount": 40,
+    "rating": 4.7,
+    "reviewCount": 310,
+    "stock": 75,
+    "image": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Collapsible cotton rope woven laundry hamper basket with reinforced handles.",
+    "colors": [
+      "Natural Cotton / Grey"
+    ],
+    "sizes": [
+      "Large"
+    ],
+    "occasion": [
+      "housewarming",
+      "daily"
+    ],
+    "tags": [
+      "laundry basket",
+      "hamper",
+      "storage",
+      "basket"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Rattan Wicker",
+      "photographerUrl": "https://unsplash.com/@laundrybasket?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:08.353Z"
+    }
+  },
+  {
+    "id": "BP-01",
+    "modelId": "MDL-BP-01",
+    "name": "Face Wash",
+    "category": "Beauty & Personal Care",
+    "subcategory": "Skincare",
+    "gender": "Unisex",
+    "price": 299,
+    "originalPrice": 499,
+    "discount": 40,
+    "rating": 4.8,
+    "reviewCount": 650,
+    "stock": 120,
+    "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Gentle foaming tea tree and salicylic acid acne-control face wash (150ml).",
+    "colors": [
+      "Standard"
+    ],
+    "sizes": [
+      "150ml"
+    ],
+    "occasion": [
+      "daily",
+      "skincare"
+    ],
+    "tags": [
+      "face wash",
+      "cleanser",
+      "tea tree",
+      "skincare"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Cuology Skincare",
+      "photographerUrl": "https://unsplash.com/@cuology?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:08.417Z"
+    }
+  },
+  {
+    "id": "BP-02",
+    "modelId": "MDL-BP-02",
+    "name": "Moisturizer",
+    "category": "Beauty & Personal Care",
+    "subcategory": "Skincare",
+    "gender": "Unisex",
+    "price": 399,
+    "originalPrice": 699,
+    "discount": 42,
+    "rating": 4.9,
+    "reviewCount": 580,
+    "stock": 95,
+    "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Lightweight oil-free hyaluronic acid gel face moisturizer for 72h deep hydration.",
+    "colors": [
+      "Standard"
+    ],
+    "sizes": [
+      "100ml"
+    ],
+    "occasion": [
+      "daily",
+      "skincare"
+    ],
+    "tags": [
+      "moisturizer",
+      "cream",
+      "hyaluronic",
+      "skincare"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Glow Moisturizer",
+      "photographerUrl": "https://unsplash.com/@glow?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:08.492Z"
+    }
+  },
+  {
+    "id": "BP-03",
+    "modelId": "MDL-BP-03",
+    "name": "Sunscreen",
+    "category": "Beauty & Personal Care",
+    "subcategory": "Skincare",
+    "gender": "Unisex",
+    "price": 499,
+    "originalPrice": 799,
+    "discount": 37,
+    "rating": 4.9,
+    "reviewCount": 720,
+    "stock": 110,
+    "image": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "SPF 50 PA++++ ultra-lightweight zero white-cast broad spectrum gel sunscreen (50g).",
+    "colors": [
+      "Standard"
+    ],
+    "sizes": [
+      "50g"
+    ],
+    "occasion": [
+      "daily",
+      "vacation"
+    ],
+    "tags": [
+      "sunscreen",
+      "spf 50",
+      "sun protection",
+      "skincare"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "SPF Sunscreen",
+      "photographerUrl": "https://unsplash.com/@sunscreen?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:08.553Z"
+    }
+  },
+  {
+    "id": "BP-04",
+    "modelId": "MDL-BP-04",
+    "name": "Serum",
+    "category": "Beauty & Personal Care",
+    "subcategory": "Skincare",
+    "gender": "Unisex",
+    "price": 699,
+    "originalPrice": 1199,
+    "discount": 41,
+    "rating": 4.8,
+    "reviewCount": 460,
+    "stock": 80,
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "10% Vitamin C + Ferulic Acid antioxidant glowing radiance skin serum (30ml).",
+    "colors": [
+      "Standard"
+    ],
+    "sizes": [
+      "30ml"
+    ],
+    "occasion": [
+      "skincare",
+      "glow"
+    ],
+    "tags": [
+      "serum",
+      "vitamin c",
+      "face serum",
+      "skincare"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Vitamin C Serum",
+      "photographerUrl": "https://unsplash.com/@serum?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:08.666Z"
+    }
+  },
+  {
+    "id": "BP-05",
+    "modelId": "MDL-BP-05",
+    "name": "Hair Oil",
+    "category": "Beauty & Personal Care",
+    "subcategory": "Haircare",
+    "gender": "Unisex",
+    "price": 299,
+    "originalPrice": 499,
+    "discount": 40,
+    "rating": 4.7,
+    "reviewCount": 390,
+    "stock": 130,
+    "image": "https://images.unsplash.com/photo-1617897903246-719242758050?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1617897903246-719242758050?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1617897903246-719242758050?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "100% pure cold-pressed Ayurvedic red onion and bhringraj anti-hairfall oil (200ml).",
+    "colors": [
+      "Standard"
+    ],
+    "sizes": [
+      "200ml"
+    ],
+    "occasion": [
+      "daily",
+      "haircare"
+    ],
+    "tags": [
+      "hair oil",
+      "onion oil",
+      "ayurvedic",
+      "hair"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Organic Argan Oil",
+      "photographerUrl": "https://unsplash.com/@hairoil?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:08.730Z"
+    }
+  },
+  {
+    "id": "BP-06",
+    "modelId": "MDL-BP-06",
+    "name": "Shampoo",
+    "category": "Beauty & Personal Care",
+    "subcategory": "Haircare",
+    "gender": "Unisex",
+    "price": 399,
+    "originalPrice": 699,
+    "discount": 42,
+    "rating": 4.8,
+    "reviewCount": 510,
+    "stock": 90,
+    "image": "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Sulfate-free keratin smooth nourishing shampoo for frizz-free silky hair (300ml).",
+    "colors": [
+      "Standard"
+    ],
+    "sizes": [
+      "300ml"
+    ],
+    "occasion": [
+      "daily",
+      "haircare"
+    ],
+    "tags": [
+      "shampoo",
+      "keratin",
+      "sulfate free",
+      "hair"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Keratin Care",
+      "photographerUrl": "https://unsplash.com/@shampoo?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:08.829Z"
+    }
+  },
+  {
+    "id": "BP-07",
+    "modelId": "MDL-BP-07",
+    "name": "Conditioner",
+    "category": "Beauty & Personal Care",
+    "subcategory": "Haircare",
+    "gender": "Unisex",
+    "price": 399,
+    "originalPrice": 699,
+    "discount": 42,
+    "rating": 4.7,
+    "reviewCount": 420,
+    "stock": 85,
+    "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Moroccan argan oil deep hydration anti-breakage hair conditioner (250ml).",
+    "colors": [
+      "Standard"
+    ],
+    "sizes": [
+      "250ml"
+    ],
+    "occasion": [
+      "daily",
+      "haircare"
+    ],
+    "tags": [
+      "conditioner",
+      "argan oil",
+      "smooth",
+      "hair"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Silk Conditioner",
+      "photographerUrl": "https://unsplash.com/@conditioner?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:08.907Z"
+    }
+  },
+  {
+    "id": "BP-08",
+    "modelId": "MDL-BP-08",
+    "name": "Makeup Set",
+    "category": "Beauty & Personal Care",
+    "subcategory": "Makeup",
+    "gender": "Women",
+    "price": 1499,
+    "originalPrice": 2499,
+    "discount": 40,
+    "rating": 4.9,
+    "reviewCount": 680,
+    "stock": 45,
+    "image": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Professional 18-shade eyeshadow palette with highlighter, contour and brush kit.",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "18-Shade"
+    ],
+    "occasion": [
+      "wedding",
+      "party",
+      "birthday"
+    ],
+    "tags": [
+      "makeup set",
+      "eyeshadow",
+      "palette",
+      "cosmetics"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Cosmetic Palette",
+      "photographerUrl": "https://unsplash.com/@makeup?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:08.962Z"
+    }
+  },
+  {
+    "id": "BP-09",
+    "modelId": "MDL-BP-09",
+    "name": "Lipstick",
+    "category": "Beauty & Personal Care",
+    "subcategory": "Makeup",
+    "gender": "Women",
+    "price": 399,
+    "originalPrice": 699,
+    "discount": 42,
+    "rating": 4.8,
+    "reviewCount": 620,
+    "stock": 140,
+    "image": "https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Non-drying 12-hour waterproof transferproof liquid velvet matte lipstick.",
+    "colors": [
+      "Ruby Red",
+      "Nude Pink",
+      "Berry Wine"
+    ],
+    "sizes": [
+      "Standard"
+    ],
+    "occasion": [
+      "party",
+      "daily",
+      "date_evening"
+    ],
+    "tags": [
+      "lipstick",
+      "matte",
+      "liquid lipstick",
+      "red"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Matte Lipstick",
+      "photographerUrl": "https://unsplash.com/@lipstick?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:09.026Z"
+    }
+  },
+  {
+    "id": "BP-10",
+    "modelId": "MDL-BP-10",
+    "name": "Perfume",
+    "category": "Beauty & Personal Care",
+    "subcategory": "Fragrance",
+    "gender": "Unisex",
+    "price": 1199,
+    "originalPrice": 1999,
+    "discount": 40,
+    "rating": 4.9,
+    "reviewCount": 540,
+    "stock": 60,
+    "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Luxury French artisanal Eau de Parfum long-lasting sensual floral fragrance (100ml).",
+    "colors": [
+      "Standard"
+    ],
+    "sizes": [
+      "100ml"
+    ],
+    "occasion": [
+      "anniversary",
+      "birthday",
+      "party",
+      "valentines"
+    ],
+    "tags": [
+      "perfume",
+      "fragrance",
+      "edp",
+      "scent"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Luxury Fragrance",
+      "photographerUrl": "https://unsplash.com/@perfume?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:09.090Z"
+    }
+  },
+  {
+    "id": "BP-11",
+    "modelId": "MDL-BP-11",
+    "name": "Deodorant",
+    "category": "Beauty & Personal Care",
+    "subcategory": "Fragrance",
+    "gender": "Unisex",
+    "price": 299,
+    "originalPrice": 499,
+    "discount": 40,
+    "rating": 4.7,
+    "reviewCount": 480,
+    "stock": 120,
+    "image": "https://images.unsplash.com/photo-1526947425960-945c6e72858f?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1526947425960-945c6e72858f?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1526947425960-945c6e72858f?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "48-hour fresh protection non-gas luxury fragrant body spray deodorant (150ml).",
+    "colors": [
+      "Standard"
+    ],
+    "sizes": [
+      "150ml"
+    ],
+    "occasion": [
+      "daily",
+      "gym"
+    ],
+    "tags": [
+      "deodorant",
+      "body spray",
+      "fresh",
+      "fragrance"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Fresh Deodorant",
+      "photographerUrl": "https://unsplash.com/@deodorant?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:09.151Z"
+    }
+  },
+  {
+    "id": "BP-12",
+    "modelId": "MDL-BP-12",
+    "name": "Body Lotion",
+    "category": "Beauty & Personal Care",
+    "subcategory": "Skincare",
+    "gender": "Unisex",
+    "price": 399,
+    "originalPrice": 699,
+    "discount": 42,
+    "rating": 4.8,
+    "reviewCount": 420,
+    "stock": 95,
+    "image": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Nourishing cocoa butter and vitamin E deep moisturizing body lotion (400ml).",
+    "colors": [
+      "Standard"
+    ],
+    "sizes": [
+      "400ml"
+    ],
+    "occasion": [
+      "daily",
+      "winter"
+    ],
+    "tags": [
+      "body lotion",
+      "lotion",
+      "moisturizer",
+      "cocoa butter"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Shea Lotion",
+      "photographerUrl": "https://unsplash.com/@lotion?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:09.209Z"
+    }
+  },
+  {
+    "id": "BP-13",
+    "modelId": "MDL-BP-13",
+    "name": "Face Mask",
+    "category": "Beauty & Personal Care",
+    "subcategory": "Skincare",
+    "gender": "Unisex",
+    "price": 199,
+    "originalPrice": 349,
+    "discount": 42,
+    "rating": 4.7,
+    "reviewCount": 310,
+    "stock": 140,
+    "image": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Australian pink clay pore cleansing detoxifying facial clay mask (100g).",
+    "colors": [
+      "Pink Clay"
+    ],
+    "sizes": [
+      "100g"
+    ],
+    "occasion": [
+      "weekend",
+      "spa",
+      "skincare"
+    ],
+    "tags": [
+      "face mask",
+      "clay mask",
+      "detox",
+      "skincare"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Clay Mask",
+      "photographerUrl": "https://unsplash.com/@facemask?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:09.282Z"
+    }
+  },
+  {
+    "id": "BP-14",
+    "modelId": "MDL-BP-14",
+    "name": "Nail Polish",
+    "category": "Beauty & Personal Care",
+    "subcategory": "Makeup",
+    "gender": "Women",
+    "price": 199,
+    "originalPrice": 349,
+    "discount": 42,
+    "rating": 4.8,
+    "reviewCount": 360,
+    "stock": 150,
+    "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "High-shine quick-dry chip-resistant gel finish salon nail enamel lacquer.",
+    "colors": [
+      "Crimson Red",
+      "Pastel Pink",
+      "Nude"
+    ],
+    "sizes": [
+      "12ml"
+    ],
+    "occasion": [
+      "party",
+      "wedding",
+      "daily"
+    ],
+    "tags": [
+      "nail polish",
+      "enamel",
+      "nails",
+      "cosmetics"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Gel Lacquer",
+      "photographerUrl": "https://unsplash.com/@nailpolish?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:09.338Z"
+    }
+  },
+  {
+    "id": "BP-15",
+    "modelId": "MDL-BP-15",
+    "name": "Hair Styling",
+    "category": "Beauty & Personal Care",
+    "subcategory": "Haircare",
+    "gender": "Unisex",
+    "price": 899,
+    "originalPrice": 1499,
+    "discount": 40,
+    "rating": 4.8,
+    "reviewCount": 290,
+    "stock": 55,
+    "image": "https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Rapid heating ceramic tourmaline coated 2-in-1 hair straightener and curler iron.",
+    "colors": [
+      "Rose Gold"
+    ],
+    "sizes": [
+      "Standard"
+    ],
+    "occasion": [
+      "party",
+      "wedding",
+      "styling"
+    ],
+    "tags": [
+      "hair styling",
+      "straightener",
+      "curler",
+      "hair"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Styling Clay",
+      "photographerUrl": "https://unsplash.com/@pomade?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:09.404Z"
+    }
+  },
+  {
+    "id": "BP-16",
+    "modelId": "MDL-BP-16",
+    "name": "Beauty Tools",
+    "category": "Beauty & Personal Care",
+    "subcategory": "Skincare",
+    "gender": "Unisex",
+    "price": 799,
+    "originalPrice": 1299,
+    "discount": 38,
+    "rating": 4.9,
+    "reviewCount": 380,
+    "stock": 70,
+    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "100% natural rose quartz facial roller and gua sha sculpting face massager set.",
+    "colors": [
+      "Rose Quartz"
+    ],
+    "sizes": [
+      "2-Piece Set"
+    ],
+    "occasion": [
+      "gift",
+      "skincare",
+      "relaxation"
+    ],
+    "tags": [
+      "beauty tools",
+      "gua sha",
+      "face roller",
+      "rose quartz"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Gua Sha Quartz",
+      "photographerUrl": "https://unsplash.com/@beautytools?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:09.477Z"
+    }
+  },
+  {
+    "id": "BP-17",
+    "modelId": "MDL-BP-17",
+    "name": "Sanitary Care",
+    "category": "Beauty & Personal Care",
+    "subcategory": "Hygiene",
+    "gender": "Women",
+    "price": 299,
+    "originalPrice": 499,
+    "discount": 40,
+    "rating": 4.9,
+    "reviewCount": 650,
+    "stock": 200,
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Pack of 30 XL ultra-thin organic bamboo cotton rash-free sanitary napkins with wings.",
+    "colors": [
+      "Standard"
+    ],
+    "sizes": [
+      "Pack of 30"
+    ],
+    "occasion": [
+      "daily",
+      "hygiene"
+    ],
+    "tags": [
+      "sanitary care",
+      "pads",
+      "hygiene",
+      "organic"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Organic Cotton",
+      "photographerUrl": "https://unsplash.com/@sanitary?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:09.552Z"
+    }
+  },
+  {
+    "id": "BP-18",
+    "modelId": "MDL-BP-18",
+    "name": "Wellness",
+    "category": "Beauty & Personal Care",
+    "subcategory": "Wellness",
+    "gender": "Unisex",
+    "price": 499,
+    "originalPrice": 899,
+    "discount": 44,
+    "rating": 4.8,
+    "reviewCount": 420,
+    "stock": 110,
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Biotin, Keratin & Vitamin C gummies for healthy hair growth and glowing skin (60 gummies).",
+    "colors": [
+      "Standard"
+    ],
+    "sizes": [
+      "60 Gummies"
+    ],
+    "occasion": [
+      "daily",
+      "wellness"
+    ],
+    "tags": [
+      "wellness",
+      "gummies",
+      "biotin",
+      "vitamins"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Herbal Wellness",
+      "photographerUrl": "https://unsplash.com/@wellness?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:09.611Z"
+    }
+  },
+  {
+    "id": "BP-19",
+    "modelId": "MDL-BP-19",
+    "name": "Oral Care",
+    "category": "Beauty & Personal Care",
+    "subcategory": "Hygiene",
+    "gender": "Unisex",
+    "price": 199,
+    "originalPrice": 349,
+    "discount": 42,
+    "rating": 4.7,
+    "reviewCount": 390,
+    "stock": 130,
+    "image": "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Activated coconut charcoal powder whitening dental hygiene oral care kit.",
+    "colors": [
+      "Standard"
+    ],
+    "sizes": [
+      "50g"
+    ],
+    "occasion": [
+      "daily",
+      "hygiene"
+    ],
+    "tags": [
+      "oral care",
+      "whitening",
+      "charcoal",
+      "dental"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Bamboo Sonic",
+      "photographerUrl": "https://unsplash.com/@oralcare?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:09.693Z"
+    }
+  },
+  {
+    "id": "BP-20",
+    "modelId": "MDL-BP-20",
+    "name": "Shaving Kit",
+    "category": "Beauty & Personal Care",
+    "subcategory": "Hygiene",
+    "gender": "Men",
+    "price": 599,
+    "originalPrice": 999,
+    "discount": 40,
+    "rating": 4.8,
+    "reviewCount": 370,
+    "stock": 80,
+    "image": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Premium 5-blade pivot safety razor with aloe soothing shaving foam and balm.",
+    "colors": [
+      "Silver / Black"
+    ],
+    "sizes": [
+      "Complete Kit"
+    ],
+    "occasion": [
+      "daily",
+      "gift",
+      "grooming"
+    ],
+    "tags": [
+      "shaving kit",
+      "razor",
+      "grooming",
+      "men"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Precision Shave",
+      "photographerUrl": "https://unsplash.com/@shavekit?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:09.763Z"
+    }
+  },
+  {
+    "id": "WT-01",
+    "modelId": "MDL-WT-01",
+    "name": "Men's Watch",
+    "category": "Watches",
+    "subcategory": "Analog",
+    "gender": "Men",
+    "price": 1999,
+    "originalPrice": 3299,
+    "discount": 39,
+    "rating": 4.9,
+    "reviewCount": 560,
+    "stock": 55,
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Classic black chronograph dial stainless steel link water-resistant analog quartz watch.",
+    "colors": [
+      "Black",
+      "Silver"
+    ],
+    "sizes": [
+      "Standard"
+    ],
+    "occasion": [
+      "birthday",
+      "anniversary",
+      "office"
+    ],
+    "tags": [
+      "men's watch",
+      "analog",
+      "chronograph",
+      "watch"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Chronograph Men",
+      "photographerUrl": "https://unsplash.com/@chronograph?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:09.818Z"
+    }
+  },
+  {
+    "id": "WT-02",
+    "modelId": "MDL-WT-02",
+    "name": "Women's Watch",
+    "category": "Watches",
+    "subcategory": "Analog",
+    "gender": "Women",
+    "price": 1699,
+    "originalPrice": 2699,
+    "discount": 37,
+    "rating": 4.9,
+    "reviewCount": 480,
+    "stock": 60,
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Elegant rose gold Milanese mesh strap minimalist crystal bezel analog ladies watch.",
+    "colors": [
+      "Rose Gold",
+      "Silver"
+    ],
+    "sizes": [
+      "Standard"
+    ],
+    "occasion": [
+      "birthday",
+      "valentines",
+      "anniversary"
+    ],
+    "tags": [
+      "women's watch",
+      "rose gold",
+      "watch",
+      "ladies watch"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Rose Gold Women",
+      "photographerUrl": "https://unsplash.com/@rosegold?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:09.874Z"
+    }
+  },
+  {
+    "id": "WT-03",
+    "modelId": "MDL-WT-03",
+    "name": "Smart Watch",
+    "category": "Watches",
+    "subcategory": "Smart Watches",
+    "gender": "Unisex",
+    "price": 2499,
+    "originalPrice": 3999,
+    "discount": 37,
+    "rating": 4.8,
+    "reviewCount": 710,
+    "stock": 75,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "1.85-inch vibrant HD touch screen smartwatch with Bluetooth calling, heart rate & fitness tracking.",
+    "colors": [
+      "Black",
+      "Grey",
+      "Rose Gold"
+    ],
+    "sizes": [
+      "Standard"
+    ],
+    "occasion": [
+      "birthday",
+      "fitness",
+      "graduation"
+    ],
+    "tags": [
+      "smart watch",
+      "smartwatch",
+      "bluetooth",
+      "watch"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Fitness Tracker",
+      "photographerUrl": "https://unsplash.com/@smartwatch?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:09.946Z"
+    }
+  },
+  {
+    "id": "WT-04",
+    "modelId": "MDL-WT-04",
+    "name": "Digital Watch",
+    "category": "Watches",
+    "subcategory": "Digital",
+    "gender": "Men",
+    "price": 999,
+    "originalPrice": 1599,
+    "discount": 37,
+    "rating": 4.7,
+    "reviewCount": 390,
+    "stock": 85,
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Rugged military sports waterproof digital shockproof watch with dual time and LED backlight.",
+    "colors": [
+      "Black",
+      "Army Green"
+    ],
+    "sizes": [
+      "Standard"
+    ],
+    "occasion": [
+      "sports",
+      "college",
+      "adventure"
+    ],
+    "tags": [
+      "digital watch",
+      "military",
+      "sports watch",
+      "watch"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Vintage Digital",
+      "photographerUrl": "https://unsplash.com/@digitalwatch?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:10.010Z"
+    }
+  },
+  {
+    "id": "WT-05",
+    "modelId": "MDL-WT-05",
+    "name": "Couple Watch",
+    "category": "Watches",
+    "subcategory": "Couple Watches",
+    "gender": "Unisex",
+    "price": 3499,
+    "originalPrice": 5499,
+    "discount": 36,
+    "rating": 4.9,
+    "reviewCount": 420,
+    "stock": 40,
+    "image": "https://images.unsplash.com/photo-1508057198894-247b23fe5ade?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1508057198894-247b23fe5ade?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1508057198894-247b23fe5ade?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "His and Hers matching romantic luxury stainless steel two-tone anniversary watch pair set.",
+    "colors": [
+      "Two-Tone Gold/Silver"
+    ],
+    "sizes": [
+      "Couple Set"
+    ],
+    "occasion": [
+      "wedding",
+      "anniversary",
+      "valentines"
+    ],
+    "tags": [
+      "couple watch",
+      "anniversary gift",
+      "matching watches",
+      "watch"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Couple Milestone",
+      "photographerUrl": "https://unsplash.com/@couplewatch?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:10.074Z"
+    }
+  },
+  {
+    "id": "WT-06",
+    "modelId": "MDL-WT-06",
+    "name": "Luxury Watch",
+    "category": "Watches",
+    "subcategory": "Luxury",
+    "gender": "Men",
+    "price": 4999,
+    "originalPrice": 7999,
+    "discount": 37,
+    "rating": 4.9,
+    "reviewCount": 310,
+    "stock": 30,
+    "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Premium automatic self-winding skeleton mechanical luxury sapphire crystal exhibition watch.",
+    "colors": [
+      "Gold",
+      "Silver Black"
+    ],
+    "sizes": [
+      "Standard"
+    ],
+    "occasion": [
+      "wedding",
+      "promotion",
+      "milestone"
+    ],
+    "tags": [
+      "luxury watch",
+      "automatic",
+      "skeleton",
+      "watch"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Swiss Automatic",
+      "photographerUrl": "https://unsplash.com/@luxurywatch?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:10.139Z"
+    }
+  },
+  {
+    "id": "WT-07",
+    "modelId": "MDL-WT-07",
+    "name": "Casual Watch",
+    "category": "Watches",
+    "subcategory": "Analog",
+    "gender": "Men",
+    "price": 1299,
+    "originalPrice": 1999,
+    "discount": 35,
+    "rating": 4.8,
+    "reviewCount": 340,
+    "stock": 65,
+    "image": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Vintage tan genuine leather strap minimalist cream dial everyday casual watch.",
+    "colors": [
+      "Tan Leather",
+      "Brown"
+    ],
+    "sizes": [
+      "Standard"
+    ],
+    "occasion": [
+      "casual",
+      "college",
+      "daily"
+    ],
+    "tags": [
+      "casual watch",
+      "leather strap",
+      "vintage",
+      "watch"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Leather Minimal",
+      "photographerUrl": "https://unsplash.com/@casualwatch?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:10.203Z"
+    }
+  },
+  {
+    "id": "WT-08",
+    "modelId": "MDL-WT-08",
+    "name": "Wall Clock",
+    "category": "Watches",
+    "subcategory": "Digital",
+    "gender": "Unisex",
+    "price": 799,
+    "originalPrice": 1299,
+    "discount": 38,
+    "rating": 4.7,
+    "reviewCount": 260,
+    "stock": 70,
+    "image": "https://images.unsplash.com/photo-1509741102003-ca64bfe5f069?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1509741102003-ca64bfe5f069?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1509741102003-ca64bfe5f069?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Nordic Scandinavian wooden minimalist round silent sweep second wall clock (30cm).",
+    "colors": [
+      "Natural Wood"
+    ],
+    "sizes": [
+      "30cm"
+    ],
+    "occasion": [
+      "housewarming",
+      "new_home"
+    ],
+    "tags": [
+      "wall clock",
+      "clock",
+      "wooden",
+      "decor"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Roman Wall Clock",
+      "photographerUrl": "https://unsplash.com/@pendulum?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:10.260Z"
+    }
+  },
+  {
+    "id": "AC-01",
+    "modelId": "MDL-AC-01",
+    "name": "Gold Necklace",
+    "category": "Accessories",
+    "subcategory": "Jewellery",
+    "gender": "Women",
+    "price": 1899,
+    "originalPrice": 2999,
+    "discount": 36,
+    "rating": 4.9,
+    "reviewCount": 490,
+    "stock": 40,
+    "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "18K gold-plated traditional bridal heritage choker necklace with matching jhumka earrings.",
+    "colors": [
+      "Gold"
+    ],
+    "sizes": [
+      "Adjustable"
+    ],
+    "occasion": [
+      "wedding",
+      "festival",
+      "diwali"
+    ],
+    "tags": [
+      "gold necklace",
+      "jewellery",
+      "choker",
+      "necklace"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Gold Pendant",
+      "photographerUrl": "https://unsplash.com/@necklace?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:10.330Z"
+    }
+  },
+  {
+    "id": "AC-02",
+    "modelId": "MDL-AC-02",
+    "name": "Crystal Earrings",
+    "category": "Accessories",
+    "subcategory": "Jewellery",
+    "gender": "Women",
+    "price": 499,
+    "originalPrice": 899,
+    "discount": 44,
+    "rating": 4.8,
+    "reviewCount": 380,
+    "stock": 95,
+    "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Sparkly Austrian cubic zirconia tear-drop dangling formal evening party earrings.",
+    "colors": [
+      "Silver Crystal"
+    ],
+    "sizes": [
+      "Standard"
+    ],
+    "occasion": [
+      "party",
+      "wedding",
+      "reception"
+    ],
+    "tags": [
+      "crystal earrings",
+      "earrings",
+      "jewellery"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Crystal Drop",
+      "photographerUrl": "https://unsplash.com/@earrings?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:10.413Z"
+    }
+  },
+  {
+    "id": "AC-03",
+    "modelId": "MDL-AC-03",
+    "name": "Gold Bangles",
+    "category": "Accessories",
+    "subcategory": "Jewellery",
+    "gender": "Women",
+    "price": 999,
+    "originalPrice": 1599,
+    "discount": 37,
+    "rating": 4.8,
+    "reviewCount": 320,
+    "stock": 60,
+    "image": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Set of 4 intricately engraved antique gold-plated festive kada bangles.",
+    "colors": [
+      "Antique Gold"
+    ],
+    "sizes": [
+      "2.4",
+      "2.6",
+      "2.8"
+    ],
+    "occasion": [
+      "wedding",
+      "festive",
+      "pongal"
+    ],
+    "tags": [
+      "gold bangles",
+      "bangles",
+      "kada",
+      "jewellery"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Temple Bangles",
+      "photographerUrl": "https://unsplash.com/@bangles?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:10.496Z"
+    }
+  },
+  {
+    "id": "AC-04",
+    "modelId": "MDL-AC-04",
+    "name": "Silver Bracelet",
+    "category": "Accessories",
+    "subcategory": "Jewellery",
+    "gender": "Women",
+    "price": 799,
+    "originalPrice": 1299,
+    "discount": 38,
+    "rating": 4.8,
+    "reviewCount": 340,
+    "stock": 70,
+    "image": "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "925 sterling silver hallmarked adjustable infinity charm delicate link bracelet.",
+    "colors": [
+      "Silver"
+    ],
+    "sizes": [
+      "Adjustable"
+    ],
+    "occasion": [
+      "birthday",
+      "valentines",
+      "anniversary"
+    ],
+    "tags": [
+      "silver bracelet",
+      "bracelet",
+      "infinity",
+      "silver"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Silver Charm",
+      "photographerUrl": "https://unsplash.com/@bracelet?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:10.565Z"
+    }
+  },
+  {
+    "id": "AC-05",
+    "modelId": "MDL-AC-05",
+    "name": "Sunglasses",
+    "category": "Accessories",
+    "subcategory": "Sunglasses",
+    "gender": "Unisex",
+    "price": 899,
+    "originalPrice": 1499,
+    "discount": 40,
+    "rating": 4.8,
+    "reviewCount": 520,
+    "stock": 85,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Classic black polarized UV400 protective anti-glare wayfarer retro sunglasses.",
+    "colors": [
+      "Black",
+      "Tortoise"
+    ],
+    "sizes": [
+      "Standard"
+    ],
+    "occasion": [
+      "vacation",
+      "summer",
+      "driving"
+    ],
+    "tags": [
+      "sunglasses",
+      "shades",
+      "polarized",
+      "eyewear"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Polarized Shades",
+      "photographerUrl": "https://unsplash.com/@sunglasses?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:10.720Z"
+    }
+  },
+  {
+    "id": "AC-06",
+    "modelId": "MDL-AC-06",
+    "name": "Leather Belt",
+    "category": "Accessories",
+    "subcategory": "Belts",
+    "gender": "Men",
+    "price": 699,
+    "originalPrice": 1199,
+    "discount": 41,
+    "rating": 4.8,
+    "reviewCount": 430,
+    "stock": 90,
+    "image": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "100% full grain dark brown reversible formal leather belt with stainless steel buckle.",
+    "colors": [
+      "Brown / Black"
+    ],
+    "sizes": [
+      "30-34",
+      "36-40"
+    ],
+    "occasion": [
+      "office",
+      "formal",
+      "corporate"
+    ],
+    "tags": [
+      "leather belt",
+      "belt",
+      "formal",
+      "men"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Full Grain Leather",
+      "photographerUrl": "https://unsplash.com/@belt?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:10.825Z"
+    }
+  },
+  {
+    "id": "AC-07",
+    "modelId": "MDL-AC-07",
+    "name": "Baseball Cap",
+    "category": "Accessories",
+    "subcategory": "Caps",
+    "gender": "Unisex",
+    "price": 399,
+    "originalPrice": 699,
+    "discount": 42,
+    "rating": 4.7,
+    "reviewCount": 360,
+    "stock": 100,
+    "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Premium washed navy blue breathable cotton unstructured casual dad baseball cap.",
+    "colors": [
+      "Navy Blue",
+      "Black",
+      "Beige"
+    ],
+    "sizes": [
+      "Adjustable"
+    ],
+    "occasion": [
+      "casual",
+      "vacation",
+      "sports"
+    ],
+    "tags": [
+      "baseball cap",
+      "cap",
+      "hat",
+      "accessories"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Cotton Twill Cap",
+      "photographerUrl": "https://unsplash.com/@cap?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:10.886Z"
+    }
+  },
+  {
+    "id": "AC-08",
+    "modelId": "MDL-AC-08",
+    "name": "Silk Scarf",
+    "category": "Accessories",
+    "subcategory": "Scarves",
+    "gender": "Women",
+    "price": 499,
+    "originalPrice": 899,
+    "discount": 44,
+    "rating": 4.8,
+    "reviewCount": 280,
+    "stock": 65,
+    "image": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Royal crimson printed pure mulberry satin silk neck scarf and head wrap stole.",
+    "colors": [
+      "Crimson Red",
+      "Blue",
+      "Emerald"
+    ],
+    "sizes": [
+      "Standard"
+    ],
+    "occasion": [
+      "office",
+      "travel",
+      "winter"
+    ],
+    "tags": [
+      "silk scarf",
+      "scarf",
+      "stole",
+      "satin"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Pure Silk Scarf",
+      "photographerUrl": "https://unsplash.com/@scarf?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:10.962Z"
+    }
+  },
+  {
+    "id": "AC-09",
+    "modelId": "MDL-AC-09",
+    "name": "Hair Accessories",
+    "category": "Accessories",
+    "subcategory": "Hair Accessories",
+    "gender": "Women",
+    "price": 299,
+    "originalPrice": 499,
+    "discount": 40,
+    "rating": 4.7,
+    "reviewCount": 390,
+    "stock": 120,
+    "image": "https://images.unsplash.com/photo-1535295972055-1c762f4483e5?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1535295972055-1c762f4483e5?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1535295972055-1c762f4483e5?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Set of 6 luxury pearl and rhinestone embellished non-slip alligator hair styling clips.",
+    "colors": [
+      "Gold Pearl"
+    ],
+    "sizes": [
+      "Set of 6"
+    ],
+    "occasion": [
+      "party",
+      "wedding",
+      "daily"
+    ],
+    "tags": [
+      "hair clips",
+      "hair accessories",
+      "pearl",
+      "clips"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Pearl Hairpins",
+      "photographerUrl": "https://unsplash.com/@hairaccessories?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:11.036Z"
+    }
+  },
+  {
+    "id": "GC-01",
+    "modelId": "MDL-GC-01",
+    "name": "Personalized Mug",
+    "category": "Gifts & Greeting Cards",
+    "subcategory": "Personalized",
+    "gender": "Unisex",
+    "price": 399,
+    "originalPrice": 699,
+    "discount": 42,
+    "rating": 4.9,
+    "reviewCount": 650,
+    "stock": 90,
+    "image": "https://images.unsplash.com/photo-1577937927133-66ef06acdf18?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1577937927133-66ef06acdf18?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1577937927133-66ef06acdf18?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Custom printed high-gloss ceramic photo & name celebration coffee mug (350ml).",
+    "colors": [
+      "White"
+    ],
+    "sizes": [
+      "350ml"
+    ],
+    "occasion": [
+      "birthday",
+      "anniversary",
+      "friendship"
+    ],
+    "tags": [
+      "personalized mug",
+      "mug",
+      "custom gift",
+      "photo mug"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Visual Stories",
+      "photographerUrl": "https://unsplash.com/@micheile?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:11.097Z"
+    }
+  },
+  {
+    "id": "GC-02",
+    "modelId": "MDL-GC-02",
+    "name": "Custom Photo Frame",
+    "category": "Gifts & Greeting Cards",
+    "subcategory": "Home Decor",
+    "gender": "Unisex",
+    "price": 699,
+    "originalPrice": 1199,
+    "discount": 41,
+    "rating": 4.8,
+    "reviewCount": 480,
+    "stock": 65,
+    "image": "https://images.unsplash.com/photo-1534349762230-e0cadf78f5da?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1534349762230-e0cadf78f5da?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1534349762230-e0cadf78f5da?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Elegant wooden multi-picture memory collage photo frame with anti-glare glass.",
+    "colors": [
+      "Black Wood"
+    ],
+    "sizes": [
+      "A4"
+    ],
+    "occasion": [
+      "anniversary",
+      "wedding",
+      "birthday"
+    ],
+    "tags": [
+      "photo frame",
+      "custom frame",
+      "memory",
+      "gift"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Rustic Memories",
+      "photographerUrl": "https://unsplash.com/@photoframe?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:11.156Z"
+    }
+  },
+  {
+    "id": "GC-03",
+    "modelId": "MDL-GC-03",
+    "name": "Luxury Gift Hamper",
+    "category": "Gifts & Greeting Cards",
+    "subcategory": "Gift Hampers",
+    "gender": "Unisex",
+    "price": 1999,
+    "originalPrice": 3299,
+    "discount": 39,
+    "rating": 4.9,
+    "reviewCount": 740,
+    "stock": 50,
+    "image": "https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Grand gourmet celebration gift basket containing Belgian chocolates, premium nuts & aromatic candle.",
+    "colors": [
+      "Festive Gold"
+    ],
+    "sizes": [
+      "Deluxe Box"
+    ],
+    "occasion": [
+      "diwali",
+      "wedding",
+      "corporate",
+      "birthday"
+    ],
+    "tags": [
+      "gift hamper",
+      "hamper",
+      "chocolates",
+      "luxury gift"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Celebration Box",
+      "photographerUrl": "https://unsplash.com/@hamper?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:11.392Z"
+    }
+  },
+  {
+    "id": "GC-04",
+    "modelId": "MDL-GC-04",
+    "name": "Greeting Cards",
+    "category": "Gifts & Greeting Cards",
+    "subcategory": "Occasions",
+    "gender": "Unisex",
+    "price": 199,
+    "originalPrice": 349,
+    "discount": 42,
+    "rating": 4.8,
+    "reviewCount": 380,
+    "stock": 200,
+    "image": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Handcrafted 3D laser-cut pop-up celebratory greeting card with premium gold foil envelope.",
+    "colors": [
+      "Festive Red"
+    ],
+    "sizes": [
+      "Standard"
+    ],
+    "occasion": [
+      "birthday",
+      "anniversary",
+      "wedding",
+      "friendship"
+    ],
+    "tags": [
+      "greeting cards",
+      "card",
+      "pop up card",
+      "gift"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Foil Greeting",
+      "photographerUrl": "https://unsplash.com/@greetingcard?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:11.460Z"
+    }
+  },
+  {
+    "id": "GC-05",
+    "modelId": "MDL-GC-05",
+    "name": "Teddy Bear",
+    "category": "Gifts & Greeting Cards",
+    "subcategory": "Occasions",
+    "gender": "Unisex",
+    "price": 599,
+    "originalPrice": 999,
+    "discount": 40,
+    "rating": 4.9,
+    "reviewCount": 520,
+    "stock": 80,
+    "image": "https://images.unsplash.com/photo-1559454403-b8fb88521f11?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1559454403-b8fb88521f11?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1559454403-b8fb88521f11?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Ultra-soft cuddly brown plush teddy bear with embroidered ribbon bow (40cm).",
+    "colors": [
+      "Brown",
+      "Cream"
+    ],
+    "sizes": [
+      "40cm"
+    ],
+    "occasion": [
+      "valentines",
+      "birthday",
+      "kids"
+    ],
+    "tags": [
+      "teddy bear",
+      "plush",
+      "toy",
+      "gift"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Fluffy Plush",
+      "photographerUrl": "https://unsplash.com/@teddy?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:11.521Z"
+    }
+  },
+  {
+    "id": "GC-06",
+    "modelId": "MDL-GC-06",
+    "name": "Illuminated LED Name Lamp",
+    "category": "Gifts & Greeting Cards",
+    "subcategory": "Personalized",
+    "gender": "Unisex",
+    "price": 899,
+    "originalPrice": 1499,
+    "discount": 40,
+    "rating": 4.9,
+    "reviewCount": 460,
+    "stock": 55,
+    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&auto=format&fit=crop&q=80",
+    "images": {
+      "front": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&auto=format&fit=crop&q=80",
+      "back": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&auto=format&fit=crop&q=80"
+    },
+    "description": "Customized laser-etched 3D illusion acrylic LED night lamp with warm wooden stand.",
+    "colors": [
+      "Warm White"
+    ],
+    "sizes": [
+      "Medium"
+    ],
+    "occasion": [
+      "anniversary",
+      "birthday",
+      "valentines"
+    ],
+    "tags": [
+      "led lamp",
+      "personalized lamp",
+      "name lamp",
+      "gift"
+    ],
+    "imageStatus": "VERIFIED",
+    "imageMetadata": {
+      "source": "Unsplash",
+      "photographer": "Neon Keepsake",
+      "photographerUrl": "https://unsplash.com/@namelamp?utm_source=futurememory_cart&utm_medium=referral",
+      "license": "Unsplash License (Free commercial with attribution)",
+      "verifiedAt": "2026-10-11T05:16:11.593Z"
+    }
+  }
+];

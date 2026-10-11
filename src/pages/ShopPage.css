@@ -1,0 +1,281 @@
+.fm-shop-page {
+  padding-bottom: 50px;
+}
+
+.fm-shop-layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.fm-shop-sidebar {
+  position: sticky;
+  top: 90px;
+}
+
+.fm-sidebar-card {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.fm-filter-heading {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.fm-filter-reset-btn {
+  background: none;
+  border: none;
+  font-size: 0.78rem;
+  color: #ef4444;
+  font-weight: 600;
+  cursor: pointer;
+}
+.fm-filter-reset-btn:hover {
+  text-decoration: underline;
+}
+
+.fm-filter-group {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.fm-filter-title {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #334155;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.fm-filter-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.fm-filter-pill {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #475569;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.fm-filter-pill:hover {
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
+.fm-filter-pill.active {
+  background: var(--primary-color);
+  color: #ffffff;
+  border-color: var(--primary-color);
+}
+
+/* Modern Occasion Select Dropdown */
+.fm-occasion-select {
+  width: 100%;
+  padding: 10px 14px;
+  background: #f8fafc;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #0f172a;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2364748b'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px;
+}
+
+.fm-occasion-select:focus {
+  border-color: var(--primary-color);
+  background-color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(114, 47, 55, 0.15);
+}
+
+.fm-quick-occasions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.fm-quick-pill {
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #475569;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.fm-quick-pill:hover {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+.fm-quick-pill.active {
+  background: var(--primary-color);
+  color: #ffffff;
+  border-color: var(--primary-color);
+}
+
+/* Price Tier Grid */
+.fm-price-tier-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 6px;
+}
+
+.fm-tier-btn {
+  background: #f8fafc;
+  border: 1.5px solid #e2e8f0;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #334155;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.15s ease;
+}
+
+.fm-tier-btn:hover {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+}
+
+.fm-tier-btn.active {
+  background: #eef2ff;
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  font-weight: 700;
+  box-shadow: 0 1px 3px rgba(114, 47, 55, 0.1);
+}
+
+
+.fm-range-slider {
+  width: 100%;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.fm-price-slider-val {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.fm-shop-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fm-shop-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  background: #ffffff;
+  padding: 14px 20px;
+  border-radius: 14px;
+  border: 1px solid #e2e8f0;
+  flex-wrap: wrap;
+}
+
+.fm-shop-search-wrap {
+  flex: 1;
+  min-width: 260px;
+}
+
+.fm-shop-sort-wrap {
+  width: 220px;
+}
+
+.fm-active-filters-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 0.825rem;
+  color: #64748b;
+}
+
+.active-chip {
+  background: #eef2ff;
+  color: var(--primary-color);
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .fm-shop-layout {
+    grid-template-columns: 1fr;
+  }
+  .fm-shop-sidebar {
+    position: static;
+  }
+}
+
+.occ-scrollable-list {
+  max-height: 220px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.fm-sidebar-trust-box {
+  margin-top: 20px;
+  padding: 12px;
+  background: rgba(22, 163, 74, 0.08);
+  border: 1px solid rgba(22, 163, 74, 0.2);
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.fm-sidebar-trust-box .trust-icon {
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+
+.fm-sidebar-trust-box strong {
+  font-size: 0.82rem;
+  color: #16a34a;
+  display: block;
+}
+
+.fm-sidebar-trust-box p {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin: 0;
+  line-height: 1.4;
+}

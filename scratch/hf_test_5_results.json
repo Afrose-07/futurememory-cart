@@ -1,0 +1,50 @@
+[
+  {
+    "id": "MF-01",
+    "name": "Formal Shirt",
+    "category": "Men's Fashion",
+    "subcategory": "Shirts",
+    "status": "GENERATED_AND_PERSISTED",
+    "imageUrl": "/generated-products/MF-01_flux_commercial_1791703194098.jpg",
+    "model": "FLUX.1-schnell",
+    "httpStatus": 200,
+    "sizeKb": "26.5"
+  },
+  {
+    "id": "WF-05",
+    "name": "Designer Bridal Lehenga",
+    "category": "Women's Fashion",
+    "subcategory": "Ethnic",
+    "status": "VERIFIED_AUTHENTIC",
+    "imageUrl": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=800&auto=format&fit=crop&q=80",
+    "note": "Replaced mismatched coat-suit image with authentic Indian bridal lehenga photography.",
+    "httpStatus": 200
+  },
+  {
+    "id": "GC-01",
+    "name": "Personalized Mug",
+    "category": "Gifts & Greeting Cards",
+    "subcategory": "Personalized",
+    "status": "VERIFIED_AUTHENTIC",
+    "imageUrl": "https://images.unsplash.com/photo-1577937927133-66ef06acdf18?w=800&auto=format&fit=crop&q=80",
+    "httpStatus": 200
+  },
+  {
+    "id": "WT-01",
+    "name": "Men's Watch",
+    "category": "Watches",
+    "subcategory": "Analog",
+    "status": "VERIFIED_AUTHENTIC",
+    "imageUrl": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=800&auto=format&fit=crop&q=80",
+    "httpStatus": 200
+  },
+  {
+    "id": "EG-01",
+    "name": "Smartphone",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Mobiles",
+    "status": "VERIFIED_AUTHENTIC",
+    "imageUrl": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=800&auto=format&fit=crop&q=80",
+    "httpStatus": 200
+  }
+]

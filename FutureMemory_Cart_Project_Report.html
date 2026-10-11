@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FutureMemory Cart - Project Report</title>
+<style>
+  @page {
+    size: A4;
+    margin: 20mm 20mm 20mm 20mm;
+  }
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    line-height: 1.6;
+    color: #111;
+    margin: 0;
+    padding: 40px;
+    background: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 17pt;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 13.5pt;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 4px;
+  }
+  h3 {
+    font-size: 12pt;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  p {
+    text-align: justify;
+    margin-bottom: 12px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0 25px 0;
+    font-size: 10.5pt;
+  }
+  th, td {
+    border: 1px solid #333;
+    padding: 6px 10px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  pre {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    padding: 12px;
+    font-size: 9pt;
+    font-family: Consolas, monospace;
+    overflow-x: auto;
+  }
+  ul, ol {
+    margin-bottom: 12px;
+  }
+  li {
+    margin-bottom: 4px;
+  }
+  hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 25px 0;
+  }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #2563eb;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+  }
+  @media print {
+    body { padding: 0; max-width: 100%; }
+    .print-btn { display: none; }
+  }
+</style>
+</head>
+<body>
+<button class="print-btn" onclick="window.print()">🖨️ Print / Save as PDF</button>
+<h1>FUTUREMEMORY CART – A PERSONALIZED E-COMMERCE PLATFORM</h1>
+<p><strong>23CS54C – MODERN WEB TECHNOLOGIES</strong></p>
+<h3>Submitted by</h3>
+<p><strong>GANGADEVI P (2403957610422103)</strong></p>
+<p><em>In partial fulfillment for the award of the degree of</em></p>
+<p><strong>BACHELOR OF ENGINEERING</strong></p>
+<p><em>in</em></p>
+<p><strong>COMPUTER SCIENCE AND ENGINEERING</strong></p>
+<hr>
+<h3>NATIONAL ENGINEERING COLLEGE</h3>
+<p><em>(An Autonomous Institution affiliated to Anna University, Chennai)</em></p>
+<p><strong>K.R. NAGAR, KOVILPATTI – 628503</strong></p>
+<p><strong>OCTOBER – 2026</strong></p>
+<hr>
+<div style="page-break-after: always;"></div>
+<h1>NATIONAL ENGINEERING COLLEGE</h1>
+<p><em>(An Autonomous Institution affiliated to Anna University, Chennai)</em></p>
+<p><strong>K.R. NAGAR, KOVILPATTI – 628503</strong></p>
+<h3>BONAFIDE CERTIFICATE</h3>
+<p>This is to certify that this project report, <strong>“FutureMemory Cart: A Personalized E-Commerce Platform”</strong>, is the bonafide work of <strong>GANGADEVI P (2403957610422103)</strong> who carried out the project work under my supervision.</p>
+<p><br><br><br></p>
+<p><strong>Course Instructor / Guide</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Head of the Department</strong></p>
+<p><br><br></p>
+<p>Submitted to the <strong>23CS54C – MODERN WEB TECHNOLOGIES</strong> Viva-Voce examination held at National Engineering College, K.R. Nagar, Kovilpatti on ___________________</p>
+<p><br><br></p>
+<p><strong>Internal Examiner</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>External Examiner</strong></p>
+<hr>
+<div style="page-break-after: always;"></div>
+<h1>TABLE OF CONTENTS</h1>
+<table>
+<tr><th>CH NO</th><th>TITLE</th><th>PAGE NO</th></tr>
+<tr><td>**1**</td><td>**INTRODUCTION**</td><td>3</td></tr>
+<tr><td>**2**</td><td>**OBJECTIVES**</td><td>4</td></tr>
+<tr><td>**3**</td><td>**DESCRIPTION**</td><td>5</td></tr>
+<tr><td>**4**</td><td>**CLASS DIAGRAM**</td><td>7</td></tr>
+<tr><td>**5**</td><td>**TABLE STRUCTURES**</td><td>8</td></tr>
+<tr><td>**6**</td><td>**ENTITY RELATIONSHIP (ER) DIAGRAM**</td><td>16</td></tr>
+<tr><td>**7**</td><td>**TECH STACK & ARCHITECTURE**</td><td>18</td></tr>
+<tr><td>**8**</td><td>**MODULES**</td><td>20</td></tr>
+<tr><td></td><td>8.1 User Authentication & Access Control</td><td>21</td></tr>
+<tr><td></td><td>8.2 Occasion-Based Catalog & Discovery</td><td>25</td></tr>
+<tr><td></td><td>8.3 Memory Cart & Scheduled Future Delivery</td><td>30</td></tr>
+<tr><td></td><td>8.4 Shopping Cart, Checkout & Simulated Payment</td><td>34</td></tr>
+<tr><td></td><td>8.5 Multi-Channel Notification & Chatbot Assistant</td><td>38</td></tr>
+<tr><td></td><td>8.6 Reviews, Ratings & Multilingual Personalization</td><td>42</td></tr>
+<tr><td></td><td>8.7 Admin Console, Catalog Management & Analytics</td><td>46</td></tr>
+<tr><td>**9**</td><td>**CONCLUSION & FUTURE WORK**</td><td>52</td></tr>
+</table>
+<hr>
+<div style="page-break-after: always;"></div>
+<h1>CHAPTER 1: INTRODUCTION</h1>
+<p>Modern e-commerce platforms excel at immediate, impulse-driven purchases. However, they neglect a critical aspect of thoughtful human gifting: recurring annual occasions, advance milestone planning, and scheduled future fulfillment. Customers frequently forget birthdays, anniversaries, annual festivals, and professional milestones until the last minute, leading to rushed deliveries, out-of-stock items, and elevated stress.</p>
+<p>Traditional e-commerce carts are transient by nature; when a session ends or items are cleared, the customer’s intent is lost. Moreover, standard catalogs categorize items strictly by utilitarian taxonomies (e.g., Electronics, Footwear) rather than contextual, emotional occasions (e.g., Housewarming, Retirement, Pongal, Convocation).</p>
+<p><strong>FutureMemory Cart</strong> is a personalized, occasion-driven e-commerce platform designed to bridge the gap between human sentiment and automated shopping fulfillment. It introduces the proprietary <strong>Memory Cart</strong> paradigm, enabling shoppers to bookmark, schedule, and automate gift deliveries for future dates and recurring annual milestones. With an integrated notification engine spanning real-time WhatsApp Web dispatch and Nodemailer SMTP emails, automated reminders notify customers well ahead of the milestone, ensuring zero missed celebrations.</p>
+<p>The platform is designed as a responsive, modern single-page application built on React 18 (Vite) and powered by an Express.js backend. It features an expansive, curated catalog of <strong>34 specialized occasions</strong> across four master categories (Celebrations & Gifts, Festivals & Cultural Events, College & Career, and Lifestyle & Special Moments), featuring <strong>1,020 verified, non-food physical gift items</strong> with high-resolution retail imagery, authentic pricing, and real-time inventory tracking.</p>
+<p>This project report documents the requirements specification, architectural design, database schemas, API contracts, entity relationships, module implementations, and operational outcomes of the FutureMemory Cart platform.</p>
+<hr>
+<div style="page-break-after: always;"></div>
+<h1>CHAPTER 2: OBJECTIVES</h1>
+<p>The core objectives of the FutureMemory Cart platform are:</p>
+<p>1. <strong>Automate Future & Recurring Gifting</strong>: Enable customers to schedule gift orders weeks or months in advance, with automatic reminder triggers and recurring annual calendar execution.</p>
+<p>2. <strong>Contextual Occasion Discovery</strong>: Organize product browsing around 34 real-world cultural and personal occasions rather than plain product departments, making gift selection intuitive and fast.</p>
+<p>3. <strong>Multi-Channel Notification Dispatch</strong>: Keep customers informed through automated WhatsApp messages and Nodemailer HTML emails when milestone reminders, order updates, or price changes occur.</p>
+<p>4. <strong>Interactive AI Shopping Assistance</strong>: Provide an embedded, bilingual (English & Tamil) AI shopping concierge (“MemoryBot”) that assists users in picking gifts based on budget, recipient, and occasion.</p>
+<p>5. <strong>Secure Authentication & Account Safety</strong>: Implement industry-standard authentication using bcrypt password hashing, signed JSON Web Tokens (JWT), Google OAuth simulation, and 6-digit OTP email verification for password recovery.</p>
+<p>6. <strong>Seamless Order & Simulated Checkout</strong>: Offer a frictionless checkout flow supporting UPI QR generation, credit/debit card processing, NetBanking, and Cash on Delivery with downloadable digital receipts.</p>
+<p>7. <strong>Comprehensive Administrative Governance</strong>: Provide store administrators with a real-time analytics dashboard, full user management, dynamic product catalog CRUD controls, and end-to-end order status tracking.</p>
+<p>8. <strong>Universal Accessibility & Multilingual Support</strong>: Support instant runtime language switching (English, Tamil, Hindi) and color theme switching (Emerald Mint, Sunset Amber, Ocean Slate, Dark Obsidian) without page reloads.</p>
+<hr>
+<div style="page-break-after: always;"></div>
+<h1>CHAPTER 3: DESCRIPTION</h1>
+<h3>3.1 Overview</h3>
+<p>FutureMemory Cart is a full-stack, enterprise-grade e-commerce application. A visitor lands on the high-conversion storefront, explores trending gift collections by occasion, and signs in to unlock personalized features. The customer’s personal suite provides access to:</p>
+<li>**Shop Catalog**: Filter by 34 occasions, subcategories, price tiers, colors, and ratings.</li>
+<li>**Memory Cart**: Dedicated scheduling hub for future milestone deliveries with reminder offsets (1 day, 3 days, 1 week before).</li>
+<li>**Standard Cart & Wishlist**: Real-time shopping basket with quantity management, coupon application, and tax calculation.</li>
+<li>**Order History & Tracker**: Live status tracker (Order Confirmed → Processing → Shipped → Out for Delivery → Delivered) with downloadable PDF/HTML receipts.</li>
+<li>**Customer Profile**: Personal details, saved addresses, biometric login simulation, and delivery preferences.</li>
+<li>**MemoryBot AI Assistant**: Floating widget available across all screens for instant gift recommendations.</li>
+<h3>3.2 System Roles & Access Control</h3>
+<p>The application enforces strict Role-Based Access Control (RBAC):</p>
+<li>**Customer / Member**: Can browse catalog, manage wishlist, add products to standard or Memory Cart, configure reminders, checkout, track orders, leave reviews, and update their profile.</li>
+<li>**Store Administrator**: Accessed through a dedicated administrative portal (`/admin`). Admins possess elevated privileges to oversee total platform GMV, manage active users, update order statuses, add/edit/delete catalog items, and view system health metrics.</li>
+<h3>3.3 Operating Modes & Resilience</h3>
+<p>FutureMemory Cart is built for high availability:</p>
+<li>**Offline & Local Resilience**: The client-side application utilizes synchronized state management via React Context API backed by persistent LocalStorage. Essential catalog data (1,020 items across 34 occasions) loads instantly with zero cold-start delay.</li>
+<li>**Live REST API Services**: When the Node.js/Express backend is connected, state changes synchronize with server-side routes (`/api/auth`, `/api/orders`, `/api/products`, `/api/notifications`).</li>
+<li>**Simulated Payment Gateway**: The checkout module features a realistic payment modal simulating UPI Intent, QR scanning, and Card authorization with transaction references (e.g., `TXN-89410294`).</li>
+<hr>
+<div style="page-break-after: always;"></div>
+<h1>CHAPTER 4: CLASS DIAGRAM</h1>
+<p>The class diagram below depicts the core domain entities of FutureMemory Cart, showing attributes, controller methods, and structural associations:</p>
+<pre>
+classDiagram
+    class User {
+        +String id
+        +String name
+        +String email
+        +String password
+        +String phone
+        +String address
+        +String role
+        +String status
+        +register(req, res)
+        +login(req, res)
+        +sendOtp(req, res)
+        +resetPassword(req, res)
+        +updateProfile(req, res)
+    }
+
+    class Product {
+        +String id
+        +String modelId
+        +String name
+        +String category
+        +String subcategory
+        +String brand
+        +Number price
+        +Number originalPrice
+        +Number discount
+        +Object images
+        +Array colors
+        +Array sizes
+        +Number rating
+        +Number reviewCount
+        +Number stock
+        +Array occasion
+        +Array tags
+        +getAllProducts()
+        +getProductById(id)
+        +createProduct(data)
+        +updateProduct(id, data)
+        +deleteProduct(id)
+    }
+
+    class Occasion {
+        +String id
+        +String name
+        +String group
+        +String icon
+        +String description
+        +String image
+        +String prefix
+        +getOccasions()
+    }
+
+    class MemoryCartItem {
+        +String id
+        +String userId
+        +String productId
+        +Date targetDeliveryDate
+        +String occasionType
+        +Number reminderDaysBefore
+        +String recipientName
+        +String recipientPhone
+        +String recipientAddress
+        +String status
+        +scheduleMemory(req, res)
+        +cancelMemory(id)
+    }
+
+    class Order {
+        +String id
+        +String orderNumber
+        +String userId
+        +Array items
+        +Number subtotal
+        +Number discount
+        +Number tax
+        +Number shippingFee
+        +Number totalAmount
+        +String paymentMethod
+        +String paymentStatus
+        +String transactionId
+        +String orderStatus
+        +Array timeline
+        +createOrder(req, res)
+        +updateStatus(id, status)
+        +getOrderReceipt(id)
+    }
+
+    class Notification {
+        +String id
+        +String userId
+        +String type
+        +String channel
+        +String title
+        +String message
+        +Boolean isRead
+        +Date timestamp
+        +dispatchNotification()
+        +markAsRead(id)
+    }
+
+    class Review {
+        +String id
+        +String productId
+        +String userId
+        +String userName
+        +Number rating
+        +String comment
+        +Date date
+        +addReview(req, res)
+        +getProductReviews(productId)
+    }
+
+    User "1" --&gt; "0..*" Order : places
+    User "1" --&gt; "0..*" MemoryCartItem : schedules
+    User "1" --&gt; "0..*" Notification : receives
+    User "1" --&gt; "0..*" Review : authors
+    Product "1" --&gt; "0..*" Review : receives
+    Occasion "1" --&gt; "0..*" Product : classifies
+    Order "1" --&gt; "1..*" Product : contains
+    MemoryCartItem "1" --&gt; "1" Product : targets
+</pre>
+<hr>
+<div style="page-break-after: always;"></div>
+<h1>CHAPTER 5: TABLE STRUCTURES</h1>
+<p>The data architecture of FutureMemory Cart is structured into nine relational/document entities:</p>
+<h3>5.1 USERS Collection (`users`)</h3>
+<p>Stores customer accounts, authentication credentials, and address profiles.</p>
+<table>
+<tr><th>Field</th><th>Type</th><th>Required</th><th>Key</th><th>Default / Notes</th></tr>
+<tr><td>`_id`</td><td>ObjectId</td><td>Yes</td><td>PRI</td><td>System auto-generated</td></tr>
+<tr><td>`id`</td><td>String</td><td>Yes</td><td>UNI</td><td>`USR-1001` format</td></tr>
+<tr><td>`name`</td><td>String (trim)</td><td>Yes</td><td></td><td>Customer full name</td></tr>
+<tr><td>`email`</td><td>String (lowercase)</td><td>Yes</td><td>UNI</td><td>Unique login email</td></tr>
+<tr><td>`password`</td><td>String</td><td>Yes</td><td></td><td>Salted bcrypt hash</td></tr>
+<tr><td>`phone`</td><td>String</td><td>No</td><td></td><td>`+91 98401 23456`</td></tr>
+<tr><td>`address`</td><td>String</td><td>No</td><td></td><td>Shipping destination</td></tr>
+<tr><td>`role`</td><td>enum(user, admin)</td><td>Yes</td><td></td><td>`user`</td></tr>
+<tr><td>`status`</td><td>enum(Active, Suspended)</td><td>Yes</td><td></td><td>`Active`</td></tr>
+<tr><td>`avatar`</td><td>String (URL)</td><td>No</td><td></td><td>Profile avatar image</td></tr>
+<tr><td>`preferences`</td><td>Object</td><td>No</td><td></td><td>`{ theme, language }`</td></tr>
+<tr><td>`createdAt`</td><td>Date</td><td>Yes</td><td></td><td>Registration timestamp</td></tr>
+</table>
+<h3>5.2 PRODUCTS Collection (`products`)</h3>
+<p>Stores the catalog of 1,020 physical gift items across 34 occasions.</p>
+<table>
+<tr><th>Field</th><th>Type</th><th>Required</th><th>Key</th><th>Default / Notes</th></tr>
+<tr><td>`_id`</td><td>ObjectId</td><td>Yes</td><td>PRI</td><td>System auto-generated</td></tr>
+<tr><td>`id`</td><td>String</td><td>Yes</td><td>UNI</td><td>e.g., `BDY-01`, `WED-15`</td></tr>
+<tr><td>`modelId`</td><td>String</td><td>Yes</td><td></td><td>`MDL-BDY-01`</td></tr>
+<tr><td>`name`</td><td>String</td><td>Yes</td><td></td><td>Product display title</td></tr>
+<tr><td>`category`</td><td>String</td><td>Yes</td><td>FK</td><td>Master category</td></tr>
+<tr><td>`subcategory`</td><td>String</td><td>Yes</td><td></td><td>Granular department</td></tr>
+<tr><td>`brand`</td><td>String</td><td>Yes</td><td></td><td>Brand / artisan label</td></tr>
+<tr><td>`description`</td><td>String</td><td>Yes</td><td></td><td>Full specifications</td></tr>
+<tr><td>`price`</td><td>Number</td><td>Yes</td><td></td><td>Selling price in INR</td></tr>
+<tr><td>`originalPrice`</td><td>Number</td><td>Yes</td><td></td><td>MRP in INR</td></tr>
+<tr><td>`discount`</td><td>Number</td><td>Yes</td><td></td><td>Discount percentage</td></tr>
+<tr><td>`images`</td><td>Object</td><td>Yes</td><td></td><td>`{ front, back, side, design }`</td></tr>
+<tr><td>`colors`</td><td>Array of Strings</td><td>Yes</td><td></td><td>`['Black', 'Gold', ...]`</td></tr>
+<tr><td>`sizes`</td><td>Array of Strings</td><td>Yes</td><td></td><td>`['Standard', 'XL', ...]`</td></tr>
+<tr><td>`rating`</td><td>Number</td><td>Yes</td><td></td><td>e.g., `4.8` (1.0 to 5.0)</td></tr>
+<tr><td>`reviewCount`</td><td>Number</td><td>Yes</td><td></td><td>Total customer reviews</td></tr>
+<tr><td>`stock`</td><td>Number</td><td>Yes</td><td></td><td>Available physical inventory</td></tr>
+<tr><td>`occasion`</td><td>Array of Strings</td><td>Yes</td><td>FK</td><td>`['birthday', 'anniversary']`</td></tr>
+<tr><td>`tags`</td><td>Array of Strings</td><td>Yes</td><td></td><td>Search keyword tokens</td></tr>
+</table>
+<h3>5.3 OCCASIONS Collection (`occasions`)</h3>
+<p>Master catalog of 34 curated cultural, milestone, and celebratory occasions.</p>
+<table>
+<tr><th>Field</th><th>Type</th><th>Required</th><th>Key</th><th>Default / Notes</th></tr>
+<tr><td>`_id`</td><td>ObjectId</td><td>Yes</td><td>PRI</td><td>System auto-generated</td></tr>
+<tr><td>`id`</td><td>String</td><td>Yes</td><td>UNI</td><td>e.g., `birthday`, `pongal`</td></tr>
+<tr><td>`name`</td><td>String</td><td>Yes</td><td></td><td>Display name (e.g., `Birthdays`)</td></tr>
+<tr><td>`group`</td><td>String</td><td>Yes</td><td></td><td>Master category group</td></tr>
+<tr><td>`icon`</td><td>String</td><td>Yes</td><td></td><td>Visual identifier symbol</td></tr>
+<tr><td>`description`</td><td>String</td><td>Yes</td><td></td><td>Occasion gift theme description</td></tr>
+<tr><td>`image`</td><td>String (URL)</td><td>Yes</td><td></td><td>Unsplash verified header banner</td></tr>
+<tr><td>`prefix`</td><td>String</td><td>Yes</td><td></td><td>SKU code prefix (e.g., `BDY`)</td></tr>
+</table>
+<h3>5.4 MEMORY_CART Collection (`memory_cart`)</h3>
+<p>Houses future delivery bookings, calendar triggers, and automated notification offsets.</p>
+<table>
+<tr><th>Field</th><th>Type</th><th>Required</th><th>Key</th><th>Default / Notes</th></tr>
+<tr><td>`_id`</td><td>ObjectId</td><td>Yes</td><td>PRI</td><td>System auto-generated</td></tr>
+<tr><td>`id`</td><td>String</td><td>Yes</td><td>UNI</td><td>`MEM-90214`</td></tr>
+<tr><td>`userId`</td><td>String</td><td>Yes</td><td>FK</td><td>User reference</td></tr>
+<tr><td>`productId`</td><td>String</td><td>Yes</td><td>FK</td><td>Product reference</td></tr>
+<tr><td>`targetDeliveryDate`</td><td>Date</td><td>Yes</td><td></td><td>Scheduled arrival date</td></tr>
+<tr><td>`occasionType`</td><td>String</td><td>Yes</td><td>FK</td><td>Linked occasion identifier</td></tr>
+<tr><td>`reminderOffsetDays`</td><td>Number</td><td>Yes</td><td></td><td>`1`, `3`, or `7` days before</td></tr>
+<tr><td>`recipientName`</td><td>String</td><td>Yes</td><td></td><td>Gifting recipient</td></tr>
+<tr><td>`recipientPhone`</td><td>String</td><td>Yes</td><td></td><td>Recipient WhatsApp contact</td></tr>
+<tr><td>`recipientAddress`</td><td>String</td><td>Yes</td><td></td><td>Delivery location</td></tr>
+<tr><td>`status`</td><td>enum(Scheduled, Triggered, Dispatched, Cancelled)</td><td>Yes</td><td></td><td>`Scheduled`</td></tr>
+<tr><td>`isRecurringAnnual`</td><td>Boolean</td><td>Yes</td><td></td><td>`false` (annual repeat flag)</td></tr>
+</table>
+<h3>5.5 ORDERS Collection (`orders`)</h3>
+<p>Complete lifecycle tracking for standard and executed future orders.</p>
+<table>
+<tr><th>Field</th><th>Type</th><th>Required</th><th>Key</th><th>Default / Notes</th></tr>
+<tr><td>`_id`</td><td>ObjectId</td><td>Yes</td><td>PRI</td><td>System auto-generated</td></tr>
+<tr><td>`id`</td><td>String</td><td>Yes</td><td>UNI</td><td>`ORD-2026-10492`</td></tr>
+<tr><td>`userId`</td><td>String</td><td>Yes</td><td>FK</td><td>User identifier</td></tr>
+<tr><td>`items`</td><td>Array of Objects</td><td>Yes</td><td></td><td>`[{ productId, qty, price, size, color }]`</td></tr>
+<tr><td>`subtotal`</td><td>Number</td><td>Yes</td><td></td><td>Items total amount</td></tr>
+<tr><td>`discountAmount`</td><td>Number</td><td>Yes</td><td></td><td>Coupon deduction</td></tr>
+<tr><td>`taxAmount`</td><td>Number</td><td>Yes</td><td></td><td>18% GST calculation</td></tr>
+<tr><td>`shippingAmount`</td><td>Number</td><td>Yes</td><td></td><td>Standard shipping fee</td></tr>
+<tr><td>`totalAmount`</td><td>Number</td><td>Yes</td><td></td><td>Net payable INR</td></tr>
+<tr><td>`paymentMethod`</td><td>enum(UPI, Card, NetBanking, COD)</td><td>Yes</td><td></td><td>Selected gateway mode</td></tr>
+<tr><td>`paymentStatus`</td><td>enum(Paid, Pending, Failed)</td><td>Yes</td><td></td><td>`Paid`</td></tr>
+<tr><td>`transactionId`</td><td>String</td><td>Yes</td><td></td><td>`TXN-8491024`</td></tr>
+<tr><td>`orderStatus`</td><td>enum(Confirmed, Processing, Shipped, OutForDelivery, Delivered, Cancelled)</td><td>Yes</td><td></td><td>`Confirmed`</td></tr>
+<tr><td>`timeline`</td><td>Array of Objects</td><td>Yes</td><td></td><td>`[{ step, timestamp, note }]`</td></tr>
+</table>
+<h3>5.6 NOTIFICATIONS Collection (`notifications`)</h3>
+<p>Stores dispatched alerts across WhatsApp, Email, and In-App channels.</p>
+<table>
+<tr><th>Field</th><th>Type</th><th>Required</th><th>Key</th><th>Default / Notes</th></tr>
+<tr><td>`_id`</td><td>ObjectId</td><td>Yes</td><td>PRI</td><td>System auto-generated</td></tr>
+<tr><td>`id`</td><td>String</td><td>Yes</td><td>UNI</td><td>`NOTIF-501`</td></tr>
+<tr><td>`userId`</td><td>String</td><td>Yes</td><td>FK</td><td>Recipient user ID</td></tr>
+<tr><td>`channel`</td><td>enum(InApp, WhatsApp, Email)</td><td>Yes</td><td></td><td>Communication mode</td></tr>
+<tr><td>`type`</td><td>enum(OrderUpdate, MilestoneReminder, PriceAlert, Security)</td><td>Yes</td><td></td><td>Alert classification</td></tr>
+<tr><td>`title`</td><td>String</td><td>Yes</td><td></td><td>Short header</td></tr>
+<tr><td>`message`</td><td>String</td><td>Yes</td><td></td><td>Full notification body</td></tr>
+<tr><td>`isRead`</td><td>Boolean</td><td>Yes</td><td></td><td>`false`</td></tr>
+<tr><td>`timestamp`</td><td>Date</td><td>Yes</td><td></td><td>Dispatch time</td></tr>
+</table>
+<h3>5.7 WISHLISTS Collection (`wishlists`)</h3>
+<p>Stores user-bookmarked items for rapid future access.</p>
+<table>
+<tr><th>Field</th><th>Type</th><th>Required</th><th>Key</th><th>Default / Notes</th></tr>
+<tr><td>`_id`</td><td>ObjectId</td><td>Yes</td><td>PRI</td><td>System auto-generated</td></tr>
+<tr><td>`userId`</td><td>String</td><td>Yes</td><td>UNI</td><td>Unique per user</td></tr>
+<tr><td>`productIds`</td><td>Array of Strings</td><td>Yes</td><td>FK</td><td>List of saved product IDs</td></tr>
+<tr><td>`updatedAt`</td><td>Date</td><td>Yes</td><td></td><td>Last modified timestamp</td></tr>
+</table>
+<h3>5.8 REVIEWS Collection (`reviews`)</h3>
+<p>Customer ratings, written testimonials, and verification status.</p>
+<table>
+<tr><th>Field</th><th>Type</th><th>Required</th><th>Key</th><th>Default / Notes</th></tr>
+<tr><td>`_id`</td><td>ObjectId</td><td>Yes</td><td>PRI</td><td>System auto-generated</td></tr>
+<tr><td>`id`</td><td>String</td><td>Yes</td><td>UNI</td><td>`REV-301`</td></tr>
+<tr><td>`productId`</td><td>String</td><td>Yes</td><td>FK</td><td>Target product ID</td></tr>
+<tr><td>`userId`</td><td>String</td><td>Yes</td><td>FK</td><td>Reviewer ID</td></tr>
+<tr><td>`userName`</td><td>String</td><td>Yes</td><td></td><td>Reviewer display name</td></tr>
+<tr><td>`rating`</td><td>Number</td><td>Yes</td><td></td><td>Score from `1` to `5`</td></tr>
+<tr><td>`comment`</td><td>String</td><td>Yes</td><td></td><td>Written evaluation</td></tr>
+<tr><td>`isVerifiedPurchase`</td><td>Boolean</td><td>Yes</td><td></td><td>`true`</td></tr>
+<tr><td>`createdAt`</td><td>Date</td><td>Yes</td><td></td><td>Submission date</td></tr>
+</table>
+<h3>5.9 ADMINS Collection (`admins`)</h3>
+<p>Dedicated administration credentials and role permissions.</p>
+<table>
+<tr><th>Field</th><th>Type</th><th>Required</th><th>Key</th><th>Default / Notes</th></tr>
+<tr><td>`_id`</td><td>ObjectId</td><td>Yes</td><td>PRI</td><td>System auto-generated</td></tr>
+<tr><td>`id`</td><td>String</td><td>Yes</td><td>UNI</td><td>`ADM-01`</td></tr>
+<tr><td>`name`</td><td>String</td><td>Yes</td><td></td><td>Admin full name</td></tr>
+<tr><td>`email`</td><td>String</td><td>Yes</td><td>UNI</td><td>`admin@futurememory.com`</td></tr>
+<tr><td>`password`</td><td>String</td><td>Yes</td><td></td><td>Salted bcrypt hash</td></tr>
+<tr><td>`role`</td><td>String</td><td>Yes</td><td></td><td>`SuperAdmin`</td></tr>
+<tr><td>`lastLogin`</td><td>Date</td><td>No</td><td></td><td>Audit login tracker</td></tr>
+</table>
+<hr>
+<div style="page-break-after: always;"></div>
+<h1>CHAPTER 6: ENTITY RELATIONSHIP (ER) DIAGRAM</h1>
+<p>The ER diagram illustrates how entities relate across the FutureMemory Cart platform:</p>
+<pre>
+erDiagram
+    USERS ||--o{ ORDERS : places
+    USERS ||--o{ MEMORY_CART : schedules
+    USERS ||--o{ NOTIFICATIONS : receives
+    USERS ||--o{ REVIEWS : writes
+    USERS ||--|| WISHLISTS : owns
+    
+    OCCASIONS ||--o{ PRODUCTS : categorizes
+    PRODUCTS ||--o{ REVIEWS : receives
+    PRODUCTS ||--o{ MEMORY_CART : targeted_by
+    PRODUCTS ||--o{ ORDERS : contained_in
+    
+    ADMINS ||--o{ PRODUCTS : manages
+    ADMINS ||--o{ OCCASIONS : configures
+    ADMINS ||--o{ ORDERS : supervises
+
+    USERS {
+        string id PK
+        string email UK
+        string name
+        string role
+        string phone
+    }
+
+    PRODUCTS {
+        string id PK
+        string name
+        string category
+        number price
+        number stock
+    }
+
+    OCCASIONS {
+        string id PK
+        string name
+        string group
+        string prefix
+    }
+
+    MEMORY_CART {
+        string id PK
+        string userId FK
+        string productId FK
+        date targetDeliveryDate
+        string status
+    }
+
+    ORDERS {
+        string id PK
+        string userId FK
+        number totalAmount
+        string paymentStatus
+        string orderStatus
+    }
+</pre>
+<h3>Cardinality Summary</h3>
+<li>**USERS to ORDERS** (`1 : N`): A user can place multiple orders over time.</li>
+<li>**USERS to MEMORY_CART** (`1 : N`): A user can schedule multiple future gifts.</li>
+<li>**OCCASIONS to PRODUCTS** (`1 : N`): Each occasion features 30 curated product gifts.</li>
+<li>**PRODUCTS to REVIEWS** (`1 : N`): Each product accumulates reviews from multiple buyers.</li>
+<li>**USERS to WISHLISTS** (`1 : 1`): Each registered customer holds exactly one active wishlist.</li>
+<hr>
+<div style="page-break-after: always;"></div>
+<h1>CHAPTER 7: TECH STACK & ARCHITECTURE</h1>
+<h3>7.1 Technology Stack Summary</h3>
+<table>
+<tr><th>Layer</th><th>Technology</th><th>Version</th><th>Purpose / Responsibility</th></tr>
+<tr><td>**Frontend UI**</td><td>React.js</td><td>18.2</td><td>Component-driven single-page application</td></tr>
+<tr><td>**Build Tool**</td><td>Vite</td><td>4.5.14</td><td>Ultra-fast bundling, HMR, and build optimization</td></tr>
+<tr><td>**Routing**</td><td>React Router DOM</td><td>6.18</td><td>Client-side page navigation with protected guards</td></tr>
+<tr><td>**State Management**</td><td>Context API</td><td>Built-in</td><td>Decentralized global state (Cart, Memory, Auth, Lang)</td></tr>
+<tr><td>**Icons & Media**</td><td>Lucide React</td><td>0.292</td><td>Modern feather-inspired SVG icon system</td></tr>
+<tr><td>**Backend Server**</td><td>Node.js / Express</td><td>20.x / 4.18</td><td>RESTful routing, middleware pipelines, and API services</td></tr>
+<tr><td>**Security & Auth**</td><td>JSON Web Tokens</td><td>9.0</td><td>Stateless signed authorization bearer tokens</td></tr>
+<tr><td>**Hashing**</td><td>bcryptjs</td><td>2.4.3</td><td>Salted password encryption</td></tr>
+<tr><td>**Email Dispatch**</td><td>Nodemailer</td><td>6.9</td><td>SMTP automation for OTP reset & order confirmations</td></tr>
+<tr><td>**WhatsApp Engine**</td><td>WhatsApp Web JS</td><td>1.23</td><td>Automated direct customer notification dispatch</td></tr>
+<tr><td>**Database**</td><td>MongoDB / SQLite</td><td>Latest</td><td>High-performance document & relational storage</td></tr>
+<tr><td>**Styling**</td><td>Vanilla CSS3</td><td>Standard</td><td>Custom CSS variables supporting 4 runtime themes</td></tr>
+</table>
+<h3>7.2 Architecture Overview (MVC Pattern)</h3>
+<p>FutureMemory Cart is implemented following the Model-View-Controller (MVC) architectural pattern:</p>
+<li>**Model**: Defined schemas governing users, products, memory cart, and orders.</li>
+<li>**View**: Responsive React components (`ProductCard`, `MemoryModal`, `CheckoutSummary`, `Navbar`).</li>
+<li>**Controller**: Node.js route controllers (`authController`, `orderController`, `memoryController`).</li>
+<hr>
+<div style="page-break-after: always;"></div>
+<h1>CHAPTER 8: MODULES</h1>
+<p>The application is structured into seven distinct functional modules:</p>
+<pre>
+FutureMemory Cart Modules:
+├── 8.1 User Authentication &amp; Access Control
+├── 8.2 Occasion-Based Catalog &amp; Discovery (34 Occasions, 1,020 Products)
+├── 8.3 Memory Cart &amp; Scheduled Future Delivery
+├── 8.4 Shopping Cart, Checkout &amp; Simulated Payment
+├── 8.5 Multi-Channel Notification &amp; Chatbot Assistant
+├── 8.6 Reviews, Ratings &amp; Multilingual Personalization
+└── 8.7 Admin Console, Catalog Management &amp; Real-time Analytics
+</pre>
+<hr>
+<h2>8.1 USER AUTHENTICATION & ACCESS CONTROL</h2>
+<h3>Purpose & Scope</h3>
+<p>Provides account registration, user sign-in, session maintenance, profile updates, and role-based access control. Implements 6-digit OTP verification via Nodemailer for forgotten password recovery, biometric sign-in simulation, and JWT authentication.</p>
+<h3>Functional Requirements</h3>
+<li>**Account Creation**: Users sign up with name, email, phone, shipping address, and password.</li>
+<li>**Secure Sign-in**: Authenticates credentials using salted bcrypt hashing and issues a signed JWT.</li>
+<li>**Quick Demo Login**: Provides pre-seeded customer accounts for instant evaluation.</li>
+<li>**OTP Password Recovery**: Sends a time-sensitive 6-digit verification code to the user's email.</li>
+<li>**Protected Routing**: Restricts checkout, memory cart, profile, and admin dashboard to authorized sessions.</li>
+<h3>Non-Functional Requirements</h3>
+<li>**Security**: Passwords are never stored in plain text; JWT tokens expire after 7 days.</li>
+<li>**Performance**: Login verification completes within `< 300ms`.</li>
+<li>**Validation**: Strict email regex and password minimum length (6+ characters).</li>
+<h3>API Design</h3>
+<table>
+<tr><th>Method</th><th>Endpoint</th><th>Purpose / Request Payload</th></tr>
+<tr><td>`POST`</td><td>`/api/auth/register`</td><td>Body: `{ name, email, password, phone, address }`</td></tr>
+<tr><td>`POST`</td><td>`/api/auth/login`</td><td>Body: `{ email, password }` $\rightarrow$ Returns JWT & user object</td></tr>
+<tr><td>`POST`</td><td>`/api/auth/send-otp`</td><td>Body: `{ email }` $\rightarrow$ Dispatches 6-digit code via Nodemailer</td></tr>
+<tr><td>`POST`</td><td>`/api/auth/reset-password`</td><td>Body: `{ email, otp, newPassword }` $\rightarrow$ Updates bcrypt hash</td></tr>
+<tr><td>`GET`</td><td>`/api/auth/me`</td><td>Header: `Bearer <token>` $\rightarrow$ Returns current session profile</td></tr>
+</table>
+<h3>Database Design</h3>
+<p>Utilizes the `users` collection:</p>
+<li>Keys: `_id`, `id` (Unique), `email` (Unique Index).</li>
+<li>Fields: `name`, `email`, `password`, `phone`, `address`, `role`, `status`.</li>
+<hr>
+<h2>8.2 OCCASION-BASED CATALOG & DISCOVERY</h2>
+<h3>Purpose & Scope</h3>
+<p>Provides an intuitive product discovery interface organized around <strong>34 curated cultural, milestone, and celebration occasions</strong>. Features 1,020 verified physical gift items (30 items per occasion) with high-resolution imagery, detailed specifications, price tiering, and zero food/drink items.</p>
+<h3>Functional Requirements</h3>
+<li>**34 Occasions Dropdown**: Organized into 4 categories:</li>
+<p>1. <em>Celebrations & Gifts</em>: Birthdays, Weddings, Anniversaries, Engagements, Valentine's Day, etc.</p>
+<p>2. <em>Festivals & Cultural Events</em>: Pongal, Diwali, Tamil New Year, Christmas, Eid, Onam, Holi, etc.</p>
+<p>3. <em>College & Career</em>: College Joining, Convocation, Freshers' Day, Promotion, Work Anniversary, etc.</p>
+<p>4. <em>Lifestyle & Special Moments</em>: Travel, Fitness Goals, New Home, New Car, Pet Birthday, etc.</p>
+<li>**Multi-Faceted Filtering**: Filter by Occasion, Price Range, Color Hex, Size, Rating, and Category.</li>
+<li>**Search Engine**: Real-time keyword filtering across product names, brands, and tags.</li>
+<li>**Zero Food/Drink Policy**: 100% tangible physical products (Watches, Hampers, Lamps, Jewelry, Wallets, Tech).</li>
+<h3>API Design</h3>
+<table>
+<tr><th>Method</th><th>Endpoint</th><th>Purpose / Contract</th></tr>
+<tr><td>`GET`</td><td>`/api/products`</td><td>Query: `?occasion=diwali&category=all&search=lamp`</td></tr>
+<tr><td>`GET`</td><td>`/api/products/:id`</td><td>Returns single product details, multi-angle images & reviews</td></tr>
+<tr><td>`GET`</td><td>`/api/occasions`</td><td>Returns master list of 34 occasions with metadata & icons</td></tr>
+</table>
+<hr>
+<h2>8.3 MEMORY CART & SCHEDULED FUTURE DELIVERY</h2>
+<h3>Purpose & Scope</h3>
+<p>The flagship innovation of FutureMemory Cart: enables shoppers to schedule gift orders for exact future milestone dates. Automates order triggers, sends reminder alerts before the milestone, and supports recurring annual schedules.</p>
+<h3>Functional Requirements</h3>
+<li>**Future Scheduling Modal**: Select target delivery date, occasion type, recipient name, phone, and delivery address.</li>
+<li>**Reminder Offsets**: Customers choose reminder notification offsets: 1 day, 3 days, or 1 week before the event.</li>
+<li>**Annual Recurrence**: Checkbox to automatically repeat delivery for annual events (Birthdays, Anniversaries).</li>
+<li>**Dedicated Memory Dashboard**: View all scheduled gifts with countdown timers, edit addresses, or cancel future bookings.</li>
+<h3>API Design</h3>
+<table>
+<tr><th>Method</th><th>Endpoint</th><th>Purpose / Request Payload</th></tr>
+<tr><td>`POST`</td><td>`/api/memory-cart`</td><td>Body: `{ productId, targetDeliveryDate, occasionType, recipientName, reminderDaysBefore }`</td></tr>
+<tr><td>`GET`</td><td>`/api/memory-cart`</td><td>Retrieves all active future milestone bookings for the authenticated user</td></tr>
+<tr><td>`DELETE`</td><td>`/api/memory-cart/:id`</td><td>Cancels a scheduled future delivery</td></tr>
+</table>
+<hr>
+<h2>8.4 SHOPPING CART, CHECKOUT & SIMULATED PAYMENT</h2>
+<h3>Purpose & Scope</h3>
+<p>Manages current purchasing operations, cart quantity updates, discount coupon calculations, simulated multi-mode payment, and order receipt generation.</p>
+<h3>Functional Requirements</h3>
+<li>**Cart Management**: Add to cart, adjust quantities, select size/color variants, and clear cart.</li>
+<li>**Order Calculation**: Live breakdown of subtotal, coupon savings, 18% GST, and shipping fees.</li>
+<li>**Simulated Payment Gateway**: Supports UPI QR Code generation, Credit/Debit Cards, NetBanking, and COD.</li>
+<li>**Instant Digital Receipt**: Generates a printable, downloadable payment receipt with transaction ID.</li>
+<h3>API Design</h3>
+<table>
+<tr><th>Method</th><th>Endpoint</th><th>Purpose / Contract</th></tr>
+<tr><td>`POST`</td><td>`/api/orders`</td><td>Body: `{ items, shippingAddress, paymentMethod }` $\rightarrow$ Creates order</td></tr>
+<tr><td>`GET`</td><td>`/api/orders`</td><td>Retrieves authenticated customer's order history</td></tr>
+<tr><td>`GET`</td><td>`/api/orders/:id/receipt`</td><td>Returns printable order receipt details</td></tr>
+</table>
+<hr>
+<h2>8.5 MULTI-CHANNEL NOTIFICATION & CHATBOT ASSISTANT</h2>
+<h3>Purpose & Scope</h3>
+<p>Delivers real-time customer communications through in-app notification toasts, Nodemailer email dispatches, WhatsApp Web direct notifications, and an embedded bilingual AI concierge ("MemoryBot").</p>
+<h3>Functional Requirements</h3>
+<li>**Automated WhatsApp Alerts**: Direct WhatsApp dispatch for milestone reminders and order confirmations.</li>
+<li>**Transactional Emails**: Nodemailer HTML emails for OTP verification, invoice delivery, and welcome messages.</li>
+<li>**Bilingual MemoryBot**: Floating AI shopping assistant answering user queries in English and Tamil.</li>
+<li>**In-App Notification Center**: Notification bell dropdown with unread badge counter and "Mark as Read".</li>
+<hr>
+<h2>8.6 REVIEWS, RATINGS & MULTILINGUAL PERSONALIZATION</h2>
+<h3>Purpose & Scope</h3>
+<p>Builds buyer trust through verified product reviews and delivers an inclusive shopping experience with real-time language and theme customization.</p>
+<h3>Functional Requirements</h3>
+<li>**Product Reviews**: 5-star rating breakdown, verified purchase badge, and customer testimonials.</li>
+<li>**Runtime Language Switcher**: Toggle interface dynamically between English, Tamil (தமிழ்), and Hindi (हिन्दी).</li>
+<li>**Runtime Theme Switcher**: Instant switching across 4 curated themes:</li>
+<li>`Emerald Mint` (Default Fresh Theme)</li>
+<li>`Sunset Amber` (Warm Golden Theme)</li>
+<li>`Ocean Slate` (Professional Blue Theme)</li>
+<li>`Dark Obsidian` (Sleek Dark Mode)</li>
+<hr>
+<h2>8.7 ADMIN CONSOLE, CATALOG MANAGEMENT & ANALYTICS</h2>
+<h3>Purpose & Scope</h3>
+<p>Gives store administrators centralized control over catalog inventory, user status, order workflows, and revenue analytics.</p>
+<h3>Functional Requirements</h3>
+<li>**Executive Analytics Dashboard**: Real-time KPI summary (Total Sales, Total Orders, Active Users, Scheduled Deliveries).</li>
+<li>**Order Pipeline Manager**: Update order status along the fulfillment lifecycle (Confirmed $\rightarrow$ Shipped $\rightarrow$ Delivered).</li>
+<li>**Catalog CRUD Controller**: Add new gift items, update pricing/stock, and manage occasion assignments.</li>
+<li>**User Management**: Monitor user activity, review customer registrations, and toggle account statuses.</li>
+<hr>
+<div style="page-break-after: always;"></div>
+<h1>CHAPTER 9: CONCLUSION & FUTURE WORK</h1>
+<h3>9.1 Conclusion</h3>
+<p>FutureMemory Cart introduces a paradigm shift in e-commerce by transforming standard transactional carts into relationship-oriented, scheduled memory vaults. By combining a comprehensive catalog of <strong>34 occasions and 1,020 physical gift items</strong> with automated future delivery scheduling, the platform eliminates the stress of forgotten celebrations.</p>
+<p>The modular architecture adheres to high software engineering standards: React 18 single-page application performance, clean Express.js REST API design, multi-theme customization, bilingual accessibility (English & Tamil), and multi-channel notifications (WhatsApp & Email). The project demonstrates how modern web technologies can elevate everyday e-commerce into a thoughtful, personalized experience.</p>
+<h3>9.2 Future Work</h3>
+<li>**Live Payment Gateway Integration**: Connect production payment gateways (Razorpay, Stripe) with automated webhook settlement.</li>
+<li>**Machine Learning Recommendations**: Implement collaborative filtering algorithms to predict upcoming user milestones based on past purchase history.</li>
+<li>**Native Mobile Applications**: Package the frontend using React Native or Capacitor for Android and iOS app store distribution.</li>
+<li>**Augmented Reality Gift Preview**: Implement WebXR 3D gift box previews allowing customers to inspect physical gift items before scheduling.</li></body></html>

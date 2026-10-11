@@ -1,0 +1,255 @@
+.fm-google-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10001;
+  padding: 16px;
+  animation: fmFadeIn 0.2s ease-out;
+}
+
+.fm-google-modal {
+  background: #ffffff;
+  color: #202124;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 440px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", sans-serif;
+  animation: fmScaleUp 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.fm-google-header {
+  padding: 24px 24px 16px 24px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  border-bottom: 1px solid #e8eaed;
+}
+
+.google-g-logo {
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.fm-google-titles h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #202124;
+  margin: 0 0 4px 0;
+}
+
+.fm-google-titles p {
+  font-size: 0.85rem;
+  color: #5f6368;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.fm-google-close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  background: transparent;
+  border: none;
+  font-size: 1.1rem;
+  color: #5f6368;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fm-google-close:hover {
+  background: #f1f3f4;
+  color: #202124;
+}
+
+.fm-google-body {
+  padding: 16px 24px 24px 24px;
+}
+
+.fm-google-accounts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.fm-google-account-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 14px;
+  border: 1px solid #dadce0;
+  border-radius: 10px;
+  background: #ffffff;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.15s ease-in-out;
+}
+
+.fm-google-account-row:hover {
+  background: #f8f9fa;
+  border-color: #1a73e8;
+  box-shadow: 0 1px 3px rgba(60, 64, 67, 0.15);
+}
+
+.google-user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.google-user-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.google-user-name {
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: #202124;
+}
+
+.google-user-email {
+  font-size: 0.78rem;
+  color: #5f6368;
+}
+
+.google-auth-badge {
+  font-size: 0.68rem;
+  color: #188038;
+  background: #e6f4ea;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.fm-google-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 16px 0;
+  color: #80868b;
+  font-size: 0.8rem;
+}
+
+.fm-google-divider::before,
+.fm-google-divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #dadce0;
+}
+
+.fm-google-divider span {
+  padding: 0 10px;
+}
+
+.fm-google-another-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: #ffffff;
+  border: 1px dashed #dadce0;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #1a73e8;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.fm-google-another-btn:hover {
+  background: #f4f8ff;
+  border-color: #1a73e8;
+}
+
+.google-add-icon {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+/* Custom form */
+.fm-google-custom-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.fm-google-custom-form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.fm-google-custom-form label {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: #3c4043;
+}
+
+.fm-google-custom-form input {
+  padding: 10px 14px;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  font-size: 0.92rem;
+  outline: none;
+}
+
+.fm-google-custom-form input:focus {
+  border-color: #1a73e8;
+  box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.2);
+}
+
+.fm-google-custom-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.google-btn-back {
+  padding: 9px 16px;
+  background: #ffffff;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  color: #5f6368;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.google-btn-submit {
+  padding: 9px 20px;
+  background: #1a73e8;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.google-btn-submit:hover {
+  background: #1557b0;
+}
+
+.fm-google-footer {
+  background: #f8f9fa;
+  padding: 12px 24px;
+  border-top: 1px solid #e8eaed;
+  font-size: 0.75rem;
+  color: #5f6368;
+  text-align: center;
+}
