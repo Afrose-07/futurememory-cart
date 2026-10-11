@@ -4,23 +4,9 @@
     "app": {
       "root": ".",
       "framework": "vite"
-    },
-    "next-app": {
-      "root": "next-app",
-      "framework": "nextjs"
-    },
-    "server": {
-      "root": "server",
-      "framework": "express"
     }
   },
   "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": {
-        "service": "server"
-      }
-    },
     {
       "source": "/(.*)",
       "destination": {

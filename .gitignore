@@ -45,3 +45,5 @@ next-app/.env.local
 .wwebjs_cache/
 *.zip
 .vercel
+
+.vercel
